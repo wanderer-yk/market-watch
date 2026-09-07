@@ -1642,19 +1642,19 @@
     {
       "week": "2026-W31",
       "date_range": "07-27 ~ 08-02",
-      "total_reasons": 200,
+      "total_reasons": 201,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 75
+          "count": 76
         },
         {
           "concept": "算力",
-          "count": 46
+          "count": 47
         },
         {
           "concept": "PCB",
-          "count": 24
+          "count": 25
         },
         {
           "concept": "存储芯片",
@@ -1688,7 +1688,7 @@
       "emerging": [
         {
           "concept": "PCB",
-          "count": 24,
+          "count": 25,
           "prev_count": 0
         },
         {
@@ -1748,7 +1748,7 @@
     {
       "week": "2026-W32",
       "date_range": "08-03 ~ 08-09",
-      "total_reasons": 217,
+      "total_reasons": 220,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1760,15 +1760,15 @@
         },
         {
           "concept": "PCB",
-          "count": 21
+          "count": 22
+        },
+        {
+          "concept": "通信",
+          "count": 18
         },
         {
           "concept": "创新药",
           "count": 18
-        },
-        {
-          "concept": "通信",
-          "count": 17
         },
         {
           "concept": "CPO",
@@ -1859,18 +1859,18 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 71,
+      "total_reasons": 72,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 16
-        },
-        {
-          "concept": "医疗器械",
-          "count": 6
+          "count": 17
         },
         {
           "concept": "算力",
+          "count": 7
+        },
+        {
+          "concept": "医疗器械",
           "count": 6
         },
         {
@@ -1883,6 +1883,10 @@
         },
         {
           "concept": "CPO",
+          "count": 5
+        },
+        {
+          "concept": "光模块",
           "count": 4
         },
         {
@@ -1891,10 +1895,6 @@
         },
         {
           "concept": "医疗服务",
-          "count": 3
-        },
-        {
-          "concept": "光模块",
           "count": 3
         },
         {
@@ -1910,20 +1910,20 @@
         },
         {
           "concept": "光模块",
-          "count": 3,
+          "count": 4,
           "prev_count": 1
         }
       ],
       "fading": [
         {
-          "concept": "创新药",
-          "count": 0,
+          "concept": "通信",
+          "count": 1,
           "prev_count": 18
         },
         {
-          "concept": "通信",
-          "count": 1,
-          "prev_count": 17
+          "concept": "创新药",
+          "count": 0,
+          "prev_count": 18
         },
         {
           "concept": "半导体设备",
@@ -1955,7 +1955,7 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 84,
+      "total_reasons": 87,
       "top_concepts": [
         {
           "concept": "银行",
@@ -2024,16 +2024,16 @@
         {
           "concept": "AI",
           "count": 0,
-          "prev_count": 16
-        },
-        {
-          "concept": "医疗器械",
-          "count": 1,
-          "prev_count": 6
+          "prev_count": 17
         },
         {
           "concept": "算力",
           "count": 0,
+          "prev_count": 7
+        },
+        {
+          "concept": "医疗器械",
+          "count": 1,
           "prev_count": 6
         },
         {
@@ -2047,6 +2047,11 @@
           "prev_count": 5
         },
         {
+          "concept": "光模块",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
           "concept": "汽车零部件",
           "count": 0,
           "prev_count": 3
@@ -2055,22 +2060,17 @@
           "concept": "医疗服务",
           "count": 0,
           "prev_count": 3
-        },
-        {
-          "concept": "光模块",
-          "count": 0,
-          "prev_count": 3
         }
       ]
     },
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 99,
+      "total_reasons": 103,
       "top_concepts": [
         {
           "concept": "PCB",
-          "count": 7
+          "count": 8
         },
         {
           "concept": "算力",
@@ -2167,15 +2167,15 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 85,
+      "total_reasons": 99,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 15
+          "count": 17
         },
         {
           "concept": "证券",
-          "count": 4
+          "count": 5
         },
         {
           "concept": "白酒",
@@ -2183,6 +2183,10 @@
         },
         {
           "concept": "军工",
+          "count": 4
+        },
+        {
+          "concept": "机器人",
           "count": 4
         },
         {
@@ -2203,10 +2207,6 @@
         },
         {
           "concept": "覆铜板",
-          "count": 2
-        },
-        {
-          "concept": "计算机",
           "count": 2
         }
       ],
@@ -2254,7 +2254,72 @@
           "prev_count": 3
         }
       ]
+    },
+    {
+      "week": "2026-W37",
+      "date_range": "09-07 ~ 09-13",
+      "total_reasons": 6,
+      "top_concepts": [
+        {
+          "concept": "AI",
+          "count": 2
+        },
+        {
+          "concept": "光模块",
+          "count": 1
+        },
+        {
+          "concept": "算力",
+          "count": 1
+        },
+        {
+          "concept": "人形机器人",
+          "count": 1
+        },
+        {
+          "concept": "机器人",
+          "count": 1
+        }
+      ],
+      "emerging": [],
+      "fading": [
+        {
+          "concept": "证券",
+          "count": 0,
+          "prev_count": 5
+        },
+        {
+          "concept": "白酒",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "军工",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "机器人",
+          "count": 1,
+          "prev_count": 4
+        },
+        {
+          "concept": "房地产",
+          "count": 0,
+          "prev_count": 3
+        },
+        {
+          "concept": "算力",
+          "count": 1,
+          "prev_count": 3
+        },
+        {
+          "concept": "银行",
+          "count": 0,
+          "prev_count": 3
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-04T19:44:34.066Z"
+  "generated_at": "2026-09-07T19:44:06.447Z"
 }

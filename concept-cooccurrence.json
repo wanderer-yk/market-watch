@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-03",
-  "total_reasons": 3956,
+  "date_range": "2026-03-05 ~ 2026-09-06",
+  "total_reasons": 3988,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 475,
+      "count": 481,
       "type": "technology"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "PCB",
-      "count": 249,
+      "count": 252,
       "type": "technology"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "算力",
-      "count": 183,
+      "count": 186,
       "type": "sector"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "机器人",
-      "count": 126,
+      "count": 129,
       "type": "sector"
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "id": "通信",
-      "count": 60,
+      "count": 61,
       "type": "sector"
     },
     {
@@ -86,7 +86,7 @@
     },
     {
       "id": "人形机器人",
-      "count": 51,
+      "count": 52,
       "type": "sector"
     },
     {
@@ -95,14 +95,19 @@
       "type": "sector"
     },
     {
+      "id": "光模块",
+      "count": 49,
+      "type": "sector"
+    },
+    {
       "id": "专用设备",
       "count": 49,
       "type": "sector"
     },
     {
-      "id": "光模块",
-      "count": 47,
-      "type": "sector"
+      "id": "CPO",
+      "count": 48,
+      "type": "technology"
     },
     {
       "id": "先进封装",
@@ -110,22 +115,17 @@
       "type": "sector"
     },
     {
-      "id": "CPO",
-      "count": 47,
-      "type": "technology"
-    },
-    {
       "id": "覆铜板",
       "count": 46,
       "type": "sector"
     },
     {
-      "id": "军工",
-      "count": 45,
+      "id": "证券",
+      "count": 46,
       "type": "sector"
     },
     {
-      "id": "证券",
+      "id": "军工",
       "count": 45,
       "type": "sector"
     },
@@ -372,14 +372,14 @@
       "weight": 192
     },
     {
+      "source": "AI",
+      "target": "算力",
+      "weight": 133
+    },
+    {
       "source": "半导体",
       "target": "半导体材料",
       "weight": 131
-    },
-    {
-      "source": "AI",
-      "target": "算力",
-      "weight": 130
     },
     {
       "source": "半导体",
@@ -399,12 +399,12 @@
     {
       "source": "AI",
       "target": "PCB",
-      "weight": 65
+      "weight": 66
     },
     {
       "source": "人形机器人",
       "target": "机器人",
-      "weight": 51
+      "weight": 52
     },
     {
       "source": "光学光电子",
@@ -414,7 +414,7 @@
     {
       "source": "PCB",
       "target": "算力",
-      "weight": 34
+      "weight": 35
     },
     {
       "source": "PCB",
@@ -532,6 +532,16 @@
       "weight": 16
     },
     {
+      "source": "AI",
+      "target": "CPO",
+      "weight": 16
+    },
+    {
+      "source": "CPO",
+      "target": "算力",
+      "weight": 16
+    },
+    {
       "source": "PCB",
       "target": "半导体",
       "weight": 15
@@ -542,16 +552,6 @@
       "weight": 15
     },
     {
-      "source": "AI",
-      "target": "CPO",
-      "weight": 15
-    },
-    {
-      "source": "CPO",
-      "target": "算力",
-      "weight": 15
-    },
-    {
       "source": "光学光电子",
       "target": "半导体",
       "weight": 14
@@ -559,6 +559,11 @@
     {
       "source": "半导体",
       "target": "氟化工",
+      "weight": 14
+    },
+    {
+      "source": "AI",
+      "target": "光模块",
       "weight": 14
     },
     {
@@ -589,11 +594,6 @@
     {
       "source": "PFA",
       "target": "半导体",
-      "weight": 12
-    },
-    {
-      "source": "AI",
-      "target": "光模块",
       "weight": 12
     },
     {
@@ -654,6 +654,11 @@
     {
       "source": "军工",
       "target": "半导体设备",
+      "weight": 9
+    },
+    {
+      "source": "光模块",
+      "target": "算力",
       "weight": 9
     },
     {
@@ -732,13 +737,13 @@
       "weight": 7
     },
     {
-      "source": "光模块",
+      "source": "存储芯片",
       "target": "算力",
       "weight": 7
     },
     {
-      "source": "存储芯片",
-      "target": "算力",
+      "source": "PCB",
+      "target": "通信",
       "weight": 7
     },
     {
@@ -812,8 +817,8 @@
       "weight": 6
     },
     {
-      "source": "PCB",
-      "target": "通信",
+      "source": "CPO",
+      "target": "光模块",
       "weight": 6
     },
     {
@@ -844,11 +849,6 @@
     {
       "source": "电子化学品",
       "target": "通信",
-      "weight": 5
-    },
-    {
-      "source": "CPO",
-      "target": "光模块",
       "weight": 5
     },
     {

@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-07",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ000892",
+      "name": "欢瑞世纪",
+      "streak": 4,
+      "first_date": "2026-09-01",
+      "last_date": "2026-09-07",
+      "total_pct": 56.68
+    },
+    {
+      "ticker": "SH600865",
+      "name": "百大集团",
+      "streak": 4,
+      "first_date": "2026-09-01",
+      "last_date": "2026-09-07",
+      "total_pct": 42.09
+    },
+    {
+      "ticker": "SH605398",
+      "name": "新炬网络",
+      "streak": 4,
+      "first_date": "2026-09-02",
+      "last_date": "2026-09-07",
+      "total_pct": 37.81
+    },
+    {
+      "ticker": "SH603668",
+      "name": "天马科技",
+      "streak": 4,
+      "first_date": "2026-09-01",
+      "last_date": "2026-09-07",
+      "total_pct": 31.33
+    },
+    {
+      "ticker": "SZ002789",
+      "name": "*ST建艺",
+      "streak": 4,
+      "first_date": "2026-08-31",
+      "last_date": "2026-09-07",
+      "total_pct": 27.09
+    },
+    {
+      "ticker": "SZ300860",
+      "name": "锋尚文化",
+      "streak": 4,
+      "first_date": "2026-08-31",
+      "last_date": "2026-09-07",
+      "total_pct": 19.85
+    },
+    {
+      "ticker": "SH603150",
+      "name": "万朗磁塑",
+      "streak": 3,
+      "first_date": "2026-09-03",
+      "last_date": "2026-09-07",
+      "total_pct": 36.74
+    }
+  ]
+}

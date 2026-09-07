@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-07",
   "lookback_days": 10,
   "anomalies": [
     {
-      "type": "sector_surge",
-      "label": "银行",
-      "today": 4,
-      "avg": 1.4,
-      "deviation": 1.91,
+      "type": "density_shift",
+      "label": "异动密度",
+      "today": 42,
+      "avg": 61,
+      "deviation": -0.31,
       "severity": "medium"
     }
   ]
