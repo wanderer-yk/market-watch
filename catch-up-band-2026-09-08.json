@@ -1,0 +1,411 @@
+{
+  "date": "2026-09-08",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688293",
+      "name": "奥浦迈",
+      "pct": 20,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688039",
+      "name": "当虹科技",
+      "pct": 12.48,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300505",
+      "name": "川金诺",
+      "pct": 11.69,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300381",
+      "name": "溢多利",
+      "pct": 10.22,
+      "concepts": [
+        "化学制药",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH600792",
+      "name": "云煤能源",
+      "pct": 10.1,
+      "concepts": [
+        "煤炭"
+      ]
+    },
+    {
+      "ticker": "SZ002194",
+      "name": "武汉凡谷",
+      "pct": 10.03,
+      "concepts": [
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ002295",
+      "name": "精艺股份",
+      "pct": 10.03,
+      "concepts": [
+        "工业金属"
+      ]
+    },
+    {
+      "ticker": "SZ000833",
+      "name": "粤桂股份",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002093",
+      "name": "国脉科技",
+      "pct": 10.01,
+      "concepts": [
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ002312",
+      "name": "川发龙蟒",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000759",
+      "name": "中百集团",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002286",
+      "name": "保龄宝",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600737",
+      "name": "中粮糖业",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH601595",
+      "name": "上海电影",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603619",
+      "name": "中曼石油",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000011",
+      "name": "深物业A",
+      "pct": 9.97,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SZ000560",
+      "name": "我爱我家",
+      "pct": 9.9,
+      "concepts": [
+        "房地产"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 46,
+      "active_days": 11,
+      "heat_score": 506,
+      "leaders": [
+        {
+          "ticker": "SH688293",
+          "name": "奥浦迈",
+          "pct": 20,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688039",
+          "name": "当虹科技",
+          "pct": 12.48,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300381",
+          "name": "溢多利",
+          "pct": 10.22,
+          "concepts": [
+            "化学制药",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 12,
+      "active_days": 6,
+      "heat_score": 72,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 11,
+      "active_days": 6,
+      "heat_score": 66,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 11,
+      "active_days": 4,
+      "heat_score": 44,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": [
+        {
+          "ticker": "SZ002194",
+          "name": "武汉凡谷",
+          "pct": 10.03,
+          "concepts": [
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ002093",
+          "name": "国脉科技",
+          "pct": 10.01,
+          "concepts": [
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 8,
+      "active_days": 3,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "化学制药",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SZ300381",
+          "name": "溢多利",
+          "pct": 10.22,
+          "concepts": [
+            "化学制药",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ000011",
+          "name": "深物业A",
+          "pct": 9.97,
+          "concepts": [
+            "房地产"
+          ]
+        },
+        {
+          "ticker": "SZ000560",
+          "name": "我爱我家",
+          "pct": 9.9,
+          "concepts": [
+            "房地产"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "工业金属",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SZ002295",
+          "name": "精艺股份",
+          "pct": 10.03,
+          "concepts": [
+            "工业金属"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH600792",
+          "name": "云煤能源",
+          "pct": 10.1,
+          "concepts": [
+            "煤炭"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "PTFE",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SH600256",
+      "name": "广汇能源",
+      "last_seen": "2026-09-08",
+      "shared_concepts": [
+        "煤炭"
+      ],
+      "trend_pct": 17.24,
+      "trend_days": 13
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     {
       "concept": "人形机器人",
       "stage": "升温",
-      "current_freq": 1,
+      "current_freq": 2,
       "peak_freq": 20,
       "peak_week": "2026-W27",
       "weeks_active": 9,
@@ -35,7 +35,7 @@
         0,
         2,
         0,
-        1
+        2
       ],
       "weeks": [
         "2026-W10",
@@ -226,7 +226,7 @@
         17,
         0,
         5,
-        17,
+        18,
         2
       ],
       "weeks": [
@@ -261,7 +261,7 @@
     {
       "concept": "机器人",
       "stage": "降温",
-      "current_freq": 1,
+      "current_freq": 2,
       "peak_freq": 65,
       "peak_week": "2026-W27",
       "weeks_active": 13,
@@ -290,8 +290,8 @@
         5,
         0,
         4,
-        4,
-        1
+        6,
+        2
       ],
       "weeks": [
         "2026-W10",
@@ -482,7 +482,7 @@
         0,
         2,
         1,
-        4,
+        5,
         0
       ],
       "weeks": [
@@ -710,7 +710,7 @@
       "concept": "银行",
       "stage": "降温",
       "current_freq": 0,
-      "peak_freq": 8,
+      "peak_freq": 9,
       "peak_week": "2026-W34",
       "weeks_active": 6,
       "freq_series": [
@@ -736,7 +736,7 @@
         0,
         0,
         0,
-        8,
+        9,
         0,
         3,
         0
@@ -1029,10 +1029,10 @@
     {
       "concept": "煤炭",
       "stage": "降温",
-      "current_freq": 0,
+      "current_freq": 1,
       "peak_freq": 3,
       "peak_week": "2026-W29",
-      "weeks_active": 4,
+      "weeks_active": 5,
       "freq_series": [
         0,
         0,
@@ -1059,7 +1059,7 @@
         0,
         0,
         2,
-        0
+        1
       ],
       "weeks": [
         "2026-W10",
@@ -1158,7 +1158,7 @@
       "concept": "创新药",
       "stage": "退潮",
       "current_freq": 0,
-      "peak_freq": 193,
+      "peak_freq": 194,
       "peak_week": "2026-W27",
       "weeks_active": 10,
       "freq_series": [
@@ -1177,7 +1177,7 @@
         0,
         14,
         29,
-        193,
+        194,
         15,
         9,
         8,
@@ -1185,7 +1185,7 @@
         18,
         0,
         4,
-        4,
+        5,
         0,
         0
       ],
@@ -1478,7 +1478,7 @@
       "concept": "中药",
       "stage": "退潮",
       "current_freq": 0,
-      "peak_freq": 34,
+      "peak_freq": 35,
       "peak_week": "2026-W27",
       "weeks_active": 5,
       "freq_series": [
@@ -1497,7 +1497,7 @@
         0,
         1,
         2,
-        34,
+        35,
         0,
         10,
         0,
@@ -1505,7 +1505,7 @@
         0,
         0,
         0,
-        3,
+        4,
         0,
         0
       ],

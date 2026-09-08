@@ -1249,11 +1249,11 @@
     {
       "week": "2026-W27",
       "date_range": "06-29 ~ 07-05",
-      "total_reasons": 628,
+      "total_reasons": 629,
       "top_concepts": [
         {
           "concept": "创新药",
-          "count": 193
+          "count": 194
         },
         {
           "concept": "机器人",
@@ -1269,7 +1269,7 @@
         },
         {
           "concept": "中药",
-          "count": 34
+          "count": 35
         },
         {
           "concept": "电子",
@@ -1375,7 +1375,7 @@
     {
       "week": "2026-W28",
       "date_range": "07-06 ~ 07-12",
-      "total_reasons": 85,
+      "total_reasons": 87,
       "top_concepts": [
         {
           "concept": "创新药",
@@ -1433,7 +1433,7 @@
         {
           "concept": "中药",
           "count": 0,
-          "prev_count": 34
+          "prev_count": 35
         },
         {
           "concept": "电子",
@@ -1859,7 +1859,7 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 72,
+      "total_reasons": 73,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1955,11 +1955,11 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 87,
+      "total_reasons": 92,
       "top_concepts": [
         {
           "concept": "银行",
-          "count": 8
+          "count": 9
         },
         {
           "concept": "电子",
@@ -2001,7 +2001,7 @@
       "emerging": [
         {
           "concept": "银行",
-          "count": 8,
+          "count": 9,
           "prev_count": 0
         },
         {
@@ -2066,7 +2066,7 @@
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 103,
+      "total_reasons": 108,
       "top_concepts": [
         {
           "concept": "PCB",
@@ -2085,6 +2085,10 @@
           "count": 5
         },
         {
+          "concept": "创新药",
+          "count": 5
+        },
+        {
           "concept": "房地产",
           "count": 5
         },
@@ -2097,15 +2101,11 @@
           "count": 4
         },
         {
-          "concept": "创新药",
+          "concept": "中药",
           "count": 4
         },
         {
           "concept": "PTFE",
-          "count": 3
-        },
-        {
-          "concept": "电子",
           "count": 3
         }
       ],
@@ -2141,12 +2141,12 @@
           "prev_count": 1
         },
         {
-          "concept": "PTFE",
-          "count": 3,
+          "concept": "中药",
+          "count": 4,
           "prev_count": 0
         },
         {
-          "concept": "中药",
+          "concept": "PTFE",
           "count": 3,
           "prev_count": 0
         }
@@ -2155,7 +2155,7 @@
         {
           "concept": "银行",
           "count": 0,
-          "prev_count": 8
+          "prev_count": 9
         },
         {
           "concept": "先进封装",
@@ -2167,26 +2167,26 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 99,
+      "total_reasons": 108,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 17
+          "count": 18
+        },
+        {
+          "concept": "机器人",
+          "count": 6
         },
         {
           "concept": "证券",
           "count": 5
         },
         {
-          "concept": "白酒",
-          "count": 4
-        },
-        {
           "concept": "军工",
-          "count": 4
+          "count": 5
         },
         {
-          "concept": "机器人",
+          "concept": "白酒",
           "count": 4
         },
         {
@@ -2212,14 +2212,14 @@
       ],
       "emerging": [
         {
+          "concept": "军工",
+          "count": 5,
+          "prev_count": 1
+        },
+        {
           "concept": "白酒",
           "count": 4,
           "prev_count": 0
-        },
-        {
-          "concept": "军工",
-          "count": 4,
-          "prev_count": 1
         },
         {
           "concept": "银行",
@@ -2236,6 +2236,11 @@
         {
           "concept": "创新药",
           "count": 0,
+          "prev_count": 5
+        },
+        {
+          "concept": "中药",
+          "count": 0,
           "prev_count": 4
         },
         {
@@ -2247,21 +2252,24 @@
           "concept": "电子",
           "count": 1,
           "prev_count": 3
-        },
-        {
-          "concept": "中药",
-          "count": 0,
-          "prev_count": 3
         }
       ]
     },
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 6,
+      "total_reasons": 16,
       "top_concepts": [
         {
           "concept": "AI",
+          "count": 2
+        },
+        {
+          "concept": "人形机器人",
+          "count": 2
+        },
+        {
+          "concept": "机器人",
           "count": 2
         },
         {
@@ -2273,11 +2281,7 @@
           "count": 1
         },
         {
-          "concept": "人形机器人",
-          "count": 1
-        },
-        {
-          "concept": "机器人",
+          "concept": "煤炭",
           "count": 1
         }
       ],
@@ -2289,18 +2293,13 @@
           "prev_count": 5
         },
         {
-          "concept": "白酒",
-          "count": 0,
-          "prev_count": 4
-        },
-        {
           "concept": "军工",
           "count": 0,
-          "prev_count": 4
+          "prev_count": 5
         },
         {
-          "concept": "机器人",
-          "count": 1,
+          "concept": "白酒",
+          "count": 0,
           "prev_count": 4
         },
         {
@@ -2321,5 +2320,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-07T19:44:06.447Z"
+  "generated_at": "2026-09-08T19:43:54.170Z"
 }

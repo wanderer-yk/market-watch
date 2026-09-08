@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-06",
-  "total_reasons": 3988,
+  "date_range": "2026-03-05 ~ 2026-09-07",
+  "total_reasons": 4021,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 481,
+      "count": 482,
       "type": "technology"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": "创新药",
-      "count": 298,
+      "count": 300,
       "type": "sector"
     },
     {
@@ -40,13 +40,13 @@
       "type": "sector"
     },
     {
-      "id": "半导体材料",
-      "count": 131,
+      "id": "机器人",
+      "count": 132,
       "type": "sector"
     },
     {
-      "id": "机器人",
-      "count": 129,
+      "id": "半导体材料",
+      "count": 131,
       "type": "sector"
     },
     {
@@ -86,12 +86,12 @@
     },
     {
       "id": "人形机器人",
-      "count": 52,
+      "count": 53,
       "type": "sector"
     },
     {
       "id": "中药",
-      "count": 50,
+      "count": 52,
       "type": "sector"
     },
     {
@@ -120,13 +120,13 @@
       "type": "sector"
     },
     {
-      "id": "证券",
+      "id": "军工",
       "count": 46,
       "type": "sector"
     },
     {
-      "id": "军工",
-      "count": 45,
+      "id": "证券",
+      "count": 46,
       "type": "sector"
     },
     {
@@ -225,12 +225,12 @@
       "type": "sector"
     },
     {
-      "id": "自动化设备",
-      "count": 18,
+      "id": "银行",
+      "count": 19,
       "type": "sector"
     },
     {
-      "id": "银行",
+      "id": "自动化设备",
       "count": 18,
       "type": "sector"
     },
@@ -295,6 +295,11 @@
       "type": "technology"
     },
     {
+      "id": "煤炭",
+      "count": 9,
+      "type": "sector"
+    },
+    {
       "id": "GPU",
       "count": 8,
       "type": "technology"
@@ -316,11 +321,6 @@
     },
     {
       "id": "半导体靶材",
-      "count": 8,
-      "type": "sector"
-    },
-    {
-      "id": "煤炭",
       "count": 8,
       "type": "sector"
     },
@@ -404,7 +404,7 @@
     {
       "source": "人形机器人",
       "target": "机器人",
-      "weight": 52
+      "weight": 53
     },
     {
       "source": "光学光电子",
@@ -487,6 +487,11 @@
       "weight": 20
     },
     {
+      "source": "中药",
+      "target": "创新药",
+      "weight": 20
+    },
+    {
       "source": "半导体",
       "target": "半导体硅片",
       "weight": 19
@@ -499,11 +504,6 @@
     {
       "source": "CPO",
       "target": "通信",
-      "weight": 19
-    },
-    {
-      "source": "中药",
-      "target": "创新药",
       "weight": 19
     },
     {

@@ -1,13 +1,29 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "lookback_days": 10,
   "anomalies": [
     {
-      "type": "density_shift",
-      "label": "异动密度",
-      "today": 42,
-      "avg": 61,
-      "deviation": -0.31,
+      "type": "sector_surge",
+      "label": "农林牧渔",
+      "today": 14,
+      "avg": 4.9,
+      "deviation": 1.86,
+      "severity": "medium"
+    },
+    {
+      "type": "sector_surge",
+      "label": "电子",
+      "today": 8,
+      "avg": 3.4,
+      "deviation": 1.32,
+      "severity": "medium"
+    },
+    {
+      "type": "sector_surge",
+      "label": "食品饮料",
+      "today": 4,
+      "avg": 1.8,
+      "deviation": 1.25,
       "severity": "medium"
     }
   ]

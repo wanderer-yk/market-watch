@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-08",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SH600865",
+      "name": "百大集团",
+      "streak": 5,
+      "first_date": "2026-09-01",
+      "last_date": "2026-09-08",
+      "total_pct": 55.25
+    },
+    {
+      "ticker": "SZ002789",
+      "name": "*ST建艺",
+      "streak": 5,
+      "first_date": "2026-08-31",
+      "last_date": "2026-09-08",
+      "total_pct": 33.99
+    },
+    {
+      "ticker": "SZ000592",
+      "name": "平潭发展",
+      "streak": 3,
+      "first_date": "2026-09-04",
+      "last_date": "2026-09-08",
+      "total_pct": 27.63
+    }
+  ]
+}
