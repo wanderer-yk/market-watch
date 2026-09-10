@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-10",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 4,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-10",
+      "total_pct": 23.47
+    },
+    {
+      "ticker": "SH603322",
+      "name": "超讯科技",
+      "streak": 4,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-10",
+      "total_pct": 22.11
+    },
+    {
+      "ticker": "SZ000759",
+      "name": "中百集团",
+      "streak": 3,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-10",
+      "total_pct": 41.99
+    },
+    {
+      "ticker": "SH688135",
+      "name": "利扬芯片",
+      "streak": 3,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-10",
+      "total_pct": 36.3
+    },
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "streak": 3,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-10",
+      "total_pct": 26.04
+    }
+  ]
+}

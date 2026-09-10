@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-08",
-  "total_reasons": 4053,
+  "date_range": "2026-03-05 ~ 2026-09-09",
+  "total_reasons": 4079,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -26,7 +26,7 @@
     },
     {
       "id": "PCB",
-      "count": 252,
+      "count": 253,
       "type": "technology"
     },
     {
@@ -105,6 +105,11 @@
       "type": "sector"
     },
     {
+      "id": "覆铜板",
+      "count": 48,
+      "type": "sector"
+    },
+    {
       "id": "军工",
       "count": 48,
       "type": "sector"
@@ -117,11 +122,6 @@
     {
       "id": "先进封装",
       "count": 47,
-      "type": "sector"
-    },
-    {
-      "id": "覆铜板",
-      "count": 46,
       "type": "sector"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "id": "电网设备",
-      "count": 30,
+      "count": 31,
       "type": "sector"
     },
     {
@@ -165,12 +165,12 @@
       "type": "sector"
     },
     {
-      "id": "氟化工",
-      "count": 28,
+      "id": "新能源",
+      "count": 29,
       "type": "sector"
     },
     {
-      "id": "新能源",
+      "id": "氟化工",
       "count": 28,
       "type": "sector"
     },
@@ -205,6 +205,11 @@
       "type": "sector"
     },
     {
+      "id": "银行",
+      "count": 22,
+      "type": "sector"
+    },
+    {
       "id": "医疗服务",
       "count": 21,
       "type": "sector"
@@ -225,12 +230,12 @@
       "type": "sector"
     },
     {
-      "id": "银行",
-      "count": 19,
+      "id": "自动化设备",
+      "count": 18,
       "type": "sector"
     },
     {
-      "id": "自动化设备",
+      "id": "工业金属",
       "count": 18,
       "type": "sector"
     },
@@ -241,11 +246,6 @@
     },
     {
       "id": "有色金属",
-      "count": 17,
-      "type": "sector"
-    },
-    {
-      "id": "工业金属",
       "count": 17,
       "type": "sector"
     },
@@ -270,6 +270,11 @@
       "type": "technology"
     },
     {
+      "id": "煤炭",
+      "count": 14,
+      "type": "sector"
+    },
+    {
       "id": "化学制药",
       "count": 13,
       "type": "sector"
@@ -278,11 +283,6 @@
       "id": "PFA",
       "count": 12,
       "type": "technology"
-    },
-    {
-      "id": "煤炭",
-      "count": 12,
-      "type": "sector"
     },
     {
       "id": "大金融",
@@ -454,7 +454,7 @@
     {
       "source": "PCB",
       "target": "覆铜板",
-      "weight": 24
+      "weight": 25
     },
     {
       "source": "消费电子",

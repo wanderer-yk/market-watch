@@ -1955,11 +1955,11 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 96,
+      "total_reasons": 99,
       "top_concepts": [
         {
           "concept": "银行",
-          "count": 9
+          "count": 10
         },
         {
           "concept": "电子",
@@ -2001,7 +2001,7 @@
       "emerging": [
         {
           "concept": "银行",
-          "count": 9,
+          "count": 10,
           "prev_count": 0
         },
         {
@@ -2066,7 +2066,7 @@
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 111,
+      "total_reasons": 112,
       "top_concepts": [
         {
           "concept": "PCB",
@@ -2155,7 +2155,7 @@
         {
           "concept": "银行",
           "count": 0,
-          "prev_count": 9
+          "prev_count": 10
         },
         {
           "concept": "先进封装",
@@ -2167,7 +2167,7 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 117,
+      "total_reasons": 124,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2190,15 +2190,15 @@
           "count": 5
         },
         {
+          "concept": "银行",
+          "count": 5
+        },
+        {
           "concept": "房地产",
           "count": 3
         },
         {
           "concept": "算力",
-          "count": 3
-        },
-        {
-          "concept": "银行",
           "count": 3
         },
         {
@@ -2223,7 +2223,7 @@
         },
         {
           "concept": "银行",
-          "count": 3,
+          "count": 5,
           "prev_count": 0
         }
       ],
@@ -2258,11 +2258,11 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 27,
+      "total_reasons": 42,
       "top_concepts": [
         {
           "concept": "煤炭",
-          "count": 4
+          "count": 6
         },
         {
           "concept": "AI",
@@ -2277,6 +2277,14 @@
           "count": 2
         },
         {
+          "concept": "新能源",
+          "count": 2
+        },
+        {
+          "concept": "覆铜板",
+          "count": 2
+        },
+        {
           "concept": "光模块",
           "count": 1
         },
@@ -2285,7 +2293,11 @@
           "count": 1
         },
         {
-          "concept": "新能源",
+          "concept": "电网设备",
+          "count": 1
+        },
+        {
+          "concept": "PCB",
           "count": 1
         }
       ],
@@ -2307,6 +2319,11 @@
           "prev_count": 5
         },
         {
+          "concept": "银行",
+          "count": 0,
+          "prev_count": 5
+        },
+        {
           "concept": "房地产",
           "count": 0,
           "prev_count": 3
@@ -2315,14 +2332,9 @@
           "concept": "算力",
           "count": 1,
           "prev_count": 3
-        },
-        {
-          "concept": "银行",
-          "count": 0,
-          "prev_count": 3
         }
       ]
     }
   ],
-  "generated_at": "2026-09-10T14:06:26.263Z"
+  "generated_at": "2026-09-10T23:43:20.943Z"
 }
