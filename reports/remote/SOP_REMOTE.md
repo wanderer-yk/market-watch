@@ -33,7 +33,7 @@ python3 reports/remote/remote.py status --date <可疑日期>   # 看 market-wat
 1. **不要另造重跑脚本**。补跑 / 重跑 = 直接 `remote.py run <日期>`。它后台拉起 `run_market_watch.cmd`，走的是和**每个工作日定时任务**完全相同（周一~周五 19:00，见附录）的、已验证的生产路径。任何自己写 `Win32_Process.Create` 拉 `snapshot.py` 半截的做法，都绕开了生产路径、且日志落盘不可靠。
 2. **日志只在 `market-watch.log`**。snapshot/diff/candidates/build 全部 `>> market-watch.log 2>&1`。不要去查 `scan_live_*.log` / `scan*.log` 这些不存在/过时的文件名（早期 `rerun-scan` 残留命名，已废弃）。
 3. **先看日志，别猜 CPU/进程**。排错第一动作永远是 `status`（它 dump `market-watch.log` 尾部），不是 `Get-CimInstance` 看进程 CPU。
-4. **token 由用户保证最新**：`set-token` 纯写 `.env`，不 probe。要验证就单独 `probe`（只读）。
+4. **token 由用户保证最新**：400016 首选 `fetch-token`（本机取 guest token 推服务器，免复制）；也可 `set-token` 纯写 `.env`，不 probe。要验证就单独 `probe`（只读）。
 5. **路径无空格就不套引号**（`Win32_Process.Create` 的 CommandLine）；cmd 重定向 `>>` 前必须有空格。
 6. **上传到 Windows 的 `.cmd`/`.bat` 必须是 CRLF 行尾**。`git pull` 已被 `.gitattributes`(`*.cmd text eol=crlf`) 保成 CRLF，但**手动 `scp` 覆盖服务器 .cmd 时仍必须先在本地转 CRLF**（否则 cmd.exe 解析错乱：注释行 `::` 被当命令执行、变量展开崩、整段脚本废掉）。转法：`python3 -c "open(f).read().replace('\n','\r\n')"` 后 scp。
 7. **改完 `remote.py` 也要验**：至少 `python3 reports/remote/remote.py --help` 确认无 SyntaxError/Warning；改了子命令逻辑再 `python3 -c "import ast; ast.parse(open('reports/remote/remote.py').read())"` 静态校验。今天曾因 docstring 里 `\w` 非 raw 字符串触发 SyntaxWarning 未察觉。
@@ -131,7 +131,7 @@ python3 reports/remote/remote.py build 2026-08-24   # 跳过 scan，直接 diff+
 
 ```
 status 显示 scan FAILED / 400016
-  ├─ probe 返回 400016 → set-token 换 token → run 重跑
+  ├─ probe 返回 400016 → **优先 `fetch-token`**（本机从雪球首页取 guest token 并推到服务器 .env，免手动复制）；或 `set-token <token>` 手动换 → run 重跑
   ├─ probe 返回 WAF 拦截页 → 浏览器过验证码解封 IP → probe 复 200 → run 重跑
   └─ probe 返回 200 但仍失败 → 看 market-watch.log 具体报错
         ├─ push 被拒(rejected/non-fast-forward) → 本地/服务器 git pull --rebase 合入再 push
@@ -141,6 +141,13 @@ status 显示 scan FAILED / 400016
         ├─ snapshot.py 语法错误 → 本地修 snapshot.py（只许 ASCII 注释）→ push → run 重跑
         ├─ 进程卡死无进展 → kill-scan → run 重跑
 ```
+
+> **关于 token 自动获取的边界（重要）**：`snapshot.py` 已实现"探针 400016 → 访问雪球首页自动取 guest token 写回 `.env`"；
+> 但**服务器 IP 常被雪球首页（www.xueqiu.com）的阿里云 WAF 拦截**，首页返回拦截页、拿不到 cookie，
+> 故服务器侧自动取 token 实际不可行（已实测确认）。可行方案是 **`remote.py fetch-token`**：在你本机
+> （IP 通常不被拦）取 guest token 并推送到服务器 `.env`，免去手动从浏览器复制。该 guest token 不绑 IP，
+> 推到服务器后可正常调通 reasons.json（已实测全链路跑通）。所以 400016 的首选恢复动作是 `fetch-token`，
+> 而非手动复制 cookie。
 
 **"未提交改动"专段**（`status` 显示 `Uncommitted: N files`）：
 

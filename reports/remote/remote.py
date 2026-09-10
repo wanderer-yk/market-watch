@@ -15,6 +15,7 @@ market-watch 远程操作工具集 —— 所有 quant-server 操作的唯一入
   python3 reports/remote/remote.py status [--date YYYY-MM-DD]
   python3 reports/remote/remote.py probe [TOKEN]
   python3 reports/remote/remote.py set-token TOKEN   # 纯写 .env，不 probe（token 由用户保证最新）
+  python3 reports/remote/remote.py fetch-token        # 本机从雪球首页取 guest token 并推到服务器 .env（免手动复制）
   python3 reports/remote/remote.py kill-scan          # 精准杀卡死的 snapshot 进程（不动其它 python）
   python3 reports/remote/remote.py run [YYYY-MM-DD] [--sleep 0.8]   # 补跑/重跑统一入口（后台拉 run_market_watch.cmd 全链路）
 
@@ -255,17 +256,45 @@ $g = (Get-Content $path | Where-Object { $_ -match '^\s*XUEQIU_TOKEN\s*=' })
 
 def cmd_set_token(args):
     token = args.token
-    # 兼容两种输入：纯 token（XqTest...）或带前缀 xq_a_token=xxx
+    # 兼容两种输入：纯 token（XqTest... 或 首页 guest 40位hex）或带前缀 xq_a_token=xxx
     if token.startswith('xq_a_token='):
         token = token[len('xq_a_token='):]
-    if not token.startswith('XqTest'):
-        print("[WARN] token 不以 XqTest 开头，确认是雪球 token？继续执行...")
+    # 两种合法 token：登录态 XqTest... 或 首页 guest（40位hex）。其余仅提示，不阻断。
+    _hex40 = len(token) == 40 and all(c in '0123456789abcdef' for c in token)
+    if not (token.startswith('XqTest') or _hex40):
+        print("[WARN] token 格式不常见，确认是雪球 xq_a_token？继续执行...")
 
     script = (PS_SET_TOKEN
               .replace("__ENV__", REMOTE_SITE + r'\.env')
               .replace("__TOKEN__", token))
     print(_scp_run_ps(script, timeout=15))
     # 用户约定：给的 token 必是浏览器最新复制的，跳过 probe 验证（纯写 .env）
+
+
+# ============================================================
+# 子命令：fetch-token —— 本机从雪球首页取 guest token 并推到服务器 .env
+# 背景：服务器 IP 常被雪球首页（www.xueqiu.com）的阿里云 WAF 拦截，无法自取 token；
+#       但本机 IP 通常不被拦，能拿到 guest xq_a_token。该 token 不绑 IP，推到服务器后仍可调通
+#       reasons.json（已实测：本机取的 guest token 跨 IP 在服务器上跑通全链路）。
+#       故由本机取后下发，免去手动从浏览器复制 cookie。
+# ============================================================
+def cmd_fetch_token(args):
+    """本机访问雪球首页取 guest xq_a_token，推送到服务器 .env（免手动复制）。"""
+    import requests as _req
+    try:
+        r = _req.get("https://www.xueqiu.com/",
+                     headers={"user-agent": XUEQIU_UA, "Connection": "close"},
+                     timeout=(8, 15))
+        token = r.cookies.get("xq_a_token")
+    except Exception as e:
+        print(f"[ERROR] 本机访问雪球首页失败: {e}")
+        return
+    if not token:
+        print("[ERROR] 首页未返回 xq_a_token（可能本机也被 WAF 拦截）。请改用 remote.py set-token 手动提供。")
+        return
+    print(f"[fetch-token] 本机获取 guest token 成功（长度 {len(token)}），推送到服务器 .env ...")
+    cmd_set_token(argparse.Namespace(token=token))
+    print("[fetch-token] 完成。可 remote.py probe 验证，或 remote.py run <日期> 补跑。")
 
 
 # ============================================================
@@ -485,6 +514,10 @@ def main():
     p_set = sub.add_parser('set-token', help='更新 run_market_watch.cmd 的 token')
     p_set.add_argument('token', help='新 token')
     p_set.set_defaults(func=cmd_set_token)
+
+    p_fetch = sub.add_parser('fetch-token',
+                             help='本机从雪球首页取 guest token 并推到服务器 .env（免手动复制）')
+    p_fetch.set_defaults(func=cmd_fetch_token)
 
     p_kill = sub.add_parser('kill-scan', help='精准杀掉卡死的 snapshot 进程（不动其它 python）')
     p_kill.set_defaults(func=cmd_kill_scan)
