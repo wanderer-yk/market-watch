@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-09",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SH603991",
+      "name": "领先股份",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 34.33
+    },
+    {
+      "ticker": "SH688656",
+      "name": "浩欧博",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 33.17
+    },
+    {
+      "ticker": "SH600737",
+      "name": "中粮糖业",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 31.65
+    },
+    {
+      "ticker": "SZ000735",
+      "name": "罗 牛 山",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 26.03
+    },
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 20.29
+    },
+    {
+      "ticker": "SH603322",
+      "name": "超讯科技",
+      "streak": 3,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-09",
+      "total_pct": 18.5
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-07",
-  "total_reasons": 4021,
+  "date_range": "2026-03-05 ~ 2026-09-08",
+  "total_reasons": 4053,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -105,6 +105,11 @@
       "type": "sector"
     },
     {
+      "id": "军工",
+      "count": 48,
+      "type": "sector"
+    },
+    {
       "id": "CPO",
       "count": 48,
       "type": "technology"
@@ -116,11 +121,6 @@
     },
     {
       "id": "覆铜板",
-      "count": 46,
-      "type": "sector"
-    },
-    {
-      "id": "军工",
       "count": 46,
       "type": "sector"
     },
@@ -171,7 +171,7 @@
     },
     {
       "id": "新能源",
-      "count": 27,
+      "count": 28,
       "type": "sector"
     },
     {
@@ -235,6 +235,11 @@
       "type": "sector"
     },
     {
+      "id": "白酒",
+      "count": 18,
+      "type": "sector"
+    },
+    {
       "id": "有色金属",
       "count": 17,
       "type": "sector"
@@ -251,11 +256,6 @@
     },
     {
       "id": "服装家纺",
-      "count": 17,
-      "type": "sector"
-    },
-    {
-      "id": "白酒",
       "count": 17,
       "type": "sector"
     },
@@ -280,6 +280,11 @@
       "type": "technology"
     },
     {
+      "id": "煤炭",
+      "count": 12,
+      "type": "sector"
+    },
+    {
       "id": "大金融",
       "count": 11,
       "type": "sector"
@@ -293,11 +298,6 @@
       "id": "CAE",
       "count": 10,
       "type": "technology"
-    },
-    {
-      "id": "煤炭",
-      "count": 9,
-      "type": "sector"
     },
     {
       "id": "GPU",

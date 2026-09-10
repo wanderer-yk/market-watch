@@ -1,25 +1,14 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-08",
-  "total_deaths": 1260,
+  "date_range": "2026-06-16 ~ 2026-09-09",
+  "total_deaths": 1266,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 38,
+    "高位回落": 37,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1217
+    "自然退潮": 1224
   },
   "recent_deaths": [
-    {
-      "ticker": "SZ002636",
-      "name": "金安国纪",
-      "death_date": "2026-08-31",
-      "peak_pct": 172.04,
-      "last_pct": 25.27,
-      "last_days": 7,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": []
-    },
     {
       "ticker": "SZ002827",
       "name": "高争民爆",
@@ -109,45 +98,28 @@
       "events": []
     },
     {
-      "ticker": "SZ300189",
-      "name": "神农种业",
-      "death_date": "2026-09-07",
-      "peak_pct": 92.04,
-      "last_pct": 92.04,
-      "last_days": 49,
-      "appearances": 4,
-      "pattern": "高位回落",
-      "events": [
-        {
-          "description": "神农种业2026-08-06收盘价5.10元，涨幅9.21%",
-          "timestamp": 1785945600000,
-          "reason": "农业板块受全球粮食安全担忧情绪催化而逆势走强，神农种业作为板块内个股受到资金关注。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-82dc072f-9736-45d1-93df-d27c9904bf40&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "神农种业2026-08-21收盘价5.59元，跌幅11.83%",
-          "timestamp": 1787241600000,
-          "reason": "种植业板块集体调整，市场对前期因厄尔尼诺和粮食危机预期引发的过度上涨进行获利了结",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-4d353da5-9f9b-4791-942f-0c3addedb43f&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "神农种业2026-09-01收盘价7.55元，涨幅20.03%",
-          "timestamp": 1788192000000,
-          "reason": "农业板块整体活跃带动，彭博农业现货指数8月累计涨幅超13%",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-2153b30e-afc5-4a8e-b175-a6b9ce6e1c06&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ300010",
-      "name": "ST豆神",
-      "death_date": "2026-09-04",
-      "peak_pct": 89.29,
-      "last_pct": 89.29,
-      "last_days": 11,
+      "ticker": "SH601086",
+      "name": "国芳集团",
+      "death_date": "2026-09-08",
+      "peak_pct": 99.6,
+      "last_pct": 99.6,
+      "last_days": 13,
       "appearances": 6,
       "pattern": "自然退潮",
-      "events": []
+      "events": [
+        {
+          "description": "国芳集团2026-08-28收盘价8.34元，涨幅10.03%",
+          "timestamp": 1787846400000,
+          "reason": "公司半年度业绩大幅增长，净利润同比大增214.09%，且零售板块受益于消费复苏预期",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c8fe5b36-968b-492c-b953-ca799adf1245&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "国芳集团2026-09-01收盘价10.09元，涨幅10.03%",
+          "timestamp": 1788192000000,
+          "reason": "零售行业板块受政策利好驱动，国芳集团作为区域龙头受到市场关注",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-32f26dfb-a4f9-4129-aa5f-a3b5df47539e&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     },
     {
       "ticker": "SZ300192",
@@ -174,24 +146,59 @@
       ]
     },
     {
-      "ticker": "SZ000056",
-      "name": "*ST皇庭",
-      "death_date": "2026-09-02",
-      "peak_pct": 84.92,
-      "last_pct": 20.1,
-      "last_days": 13,
-      "appearances": 4,
+      "ticker": "SZ300865",
+      "name": "大宏立",
+      "death_date": "2026-09-07",
+      "peak_pct": 76.97,
+      "last_pct": 76.97,
+      "last_days": 47,
+      "appearances": 6,
       "pattern": "自然退潮",
       "events": []
     },
     {
-      "ticker": "SH600869",
-      "name": "远东股份",
+      "ticker": "SZ002811",
+      "name": "郑中设计",
       "death_date": "2026-09-03",
-      "peak_pct": 82.46,
-      "last_pct": 30.26,
-      "last_days": 10,
-      "appearances": 5,
+      "peak_pct": 71.74,
+      "last_pct": 71.74,
+      "last_days": 43,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "郑中设计2026-07-31收盘价10.11元，涨幅5.42%",
+          "timestamp": 1785427200000,
+          "reason": "公司所属建筑装饰板块随市场回暖及AI相关基础设施概念（如PCB、数据中心）走强而获得资金关注",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-09085007-3e41-4dae-ac6c-b41f7b0d19e5&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "郑中设计2026-09-03收盘价15.68元，涨幅7.84%",
+          "timestamp": 1788364800000,
+          "reason": "房地产板块异动拉升带动建筑装饰行业走强",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6088dd49-864d-4f70-a3d3-ddaa443421f2&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH688448",
+      "name": "磁谷科技",
+      "death_date": "2026-09-03",
+      "peak_pct": 66.16,
+      "last_pct": 66.16,
+      "last_days": 45,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300961",
+      "name": "深水海纳",
+      "death_date": "2026-09-07",
+      "peak_pct": 63.65,
+      "last_pct": 63.65,
+      "last_days": 47,
+      "appearances": 4,
       "pattern": "自然退潮",
       "events": []
     }
@@ -226,17 +233,6 @@
       "peak_pct": 401.5,
       "last_pct": 88.54,
       "last_days": 13,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH603186",
-      "name": "华正新材",
-      "death_date": "2026-08-07",
-      "peak_pct": 354.44,
-      "last_pct": 45.03,
-      "last_days": 4,
       "appearances": 7,
       "pattern": "自然退潮",
       "events": []
@@ -380,6 +376,17 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-a3e6d007-6e30-4d98-adff-15f6771982f2&navBarTransparent=1&navBarTheme=dark"
         }
       ]
+    },
+    {
+      "ticker": "SH688143",
+      "name": "长盈通",
+      "death_date": "2026-08-17",
+      "peak_pct": 249.41,
+      "last_pct": 70.73,
+      "last_days": 13,
+      "appearances": 8,
+      "pattern": "自然退潮",
+      "events": []
     }
   ]
 }
