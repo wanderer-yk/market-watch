@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-11",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 5,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-11",
+      "total_pct": 31.41
+    },
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "streak": 4,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-11",
+      "total_pct": 38.67
+    },
+    {
+      "ticker": "SH688135",
+      "name": "利扬芯片",
+      "streak": 4,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-11",
+      "total_pct": 35.54
+    },
+    {
+      "ticker": "SZ000056",
+      "name": "*ST皇庭",
+      "streak": 3,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-11",
+      "total_pct": 34.72
+    },
+    {
+      "ticker": "SH600734",
+      "name": "*ST实达",
+      "streak": 3,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-11",
+      "total_pct": 33.53
+    },
+    {
+      "ticker": "SZ002011",
+      "name": "盾安环境",
+      "streak": 3,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-11",
+      "total_pct": 29.91
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "date": "2026-09-11",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ002560",
+      "name": "通达股份",
+      "pct": 10.08,
+      "concepts": [
+        "电网设备"
+      ]
+    },
+    {
+      "ticker": "SZ002848",
+      "name": "高斯贝尔",
+      "pct": 10.04,
+      "concepts": [
+        "MLCC"
+      ]
+    },
+    {
+      "ticker": "SH603386",
+      "name": "骏亚科技",
+      "pct": 10.03,
+      "concepts": [
+        "PCB",
+        "元件"
+      ]
+    },
+    {
+      "ticker": "SH600967",
+      "name": "内蒙一机",
+      "pct": 9.99,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605088",
+      "name": "冠盛股份",
+      "pct": 9.98,
+      "concepts": [
+        "汽车零部件"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 43,
+      "active_days": 9,
+      "heat_score": 387,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SH603386",
+          "name": "骏亚科技",
+          "pct": 10.03,
+          "concepts": [
+            "PCB",
+            "元件"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": [
+        {
+          "ticker": "SZ002560",
+          "name": "通达股份",
+          "pct": 10.08,
+          "concepts": [
+            "电网设备"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": [
+        {
+          "ticker": "SH600967",
+          "name": "内蒙一机",
+          "pct": 9.99,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SH605088",
+          "name": "冠盛股份",
+          "pct": 9.98,
+          "concepts": [
+            "汽车零部件"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "化学制药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 4,
+      "active_days": 1,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SZ300739",
+      "name": "明阳电路",
+      "last_seen": "2026-09-11",
+      "shared_concepts": [
+        "PCB"
+      ],
+      "trend_pct": 29.02,
+      "trend_days": 7
+    }
+  ]
+}

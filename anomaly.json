@@ -1,22 +1,14 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "lookback_days": 10,
   "anomalies": [
     {
-      "type": "sector_surge",
-      "label": "银行",
-      "today": 8,
-      "avg": 2,
-      "deviation": 3,
+      "type": "density_shift",
+      "label": "异动密度",
+      "today": 24,
+      "avg": 64,
+      "deviation": -0.62,
       "severity": "high"
-    },
-    {
-      "type": "sector_surge",
-      "label": "电子",
-      "today": 10,
-      "avg": 4.8,
-      "deviation": 1.09,
-      "severity": "medium"
     }
   ]
 }

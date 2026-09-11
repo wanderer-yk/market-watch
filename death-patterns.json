@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-10",
-  "total_deaths": 1292,
+  "date_range": "2026-06-16 ~ 2026-09-11",
+  "total_deaths": 1313,
   "patterns": {
     "闪崩": 0,
     "高位回落": 39,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1248
+    "自然退潮": 1269
   },
   "recent_deaths": [
     {
@@ -28,6 +28,17 @@
       "last_pct": 33.55,
       "last_days": 13,
       "appearances": 12,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300010",
+      "name": "ST豆神",
+      "death_date": "2026-09-10",
+      "peak_pct": 161.5,
+      "last_pct": 161.5,
+      "last_days": 22,
+      "appearances": 8,
       "pattern": "自然退潮",
       "events": []
     },
@@ -109,30 +120,6 @@
       "events": []
     },
     {
-      "ticker": "SH601086",
-      "name": "国芳集团",
-      "death_date": "2026-09-08",
-      "peak_pct": 99.6,
-      "last_pct": 99.6,
-      "last_days": 13,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "国芳集团2026-08-28收盘价8.34元，涨幅10.03%",
-          "timestamp": 1787846400000,
-          "reason": "公司半年度业绩大幅增长，净利润同比大增214.09%，且零售板块受益于消费复苏预期",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c8fe5b36-968b-492c-b953-ca799adf1245&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "国芳集团2026-09-01收盘价10.09元，涨幅10.03%",
-          "timestamp": 1788192000000,
-          "reason": "零售行业板块受政策利好驱动，国芳集团作为区域龙头受到市场关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-32f26dfb-a4f9-4129-aa5f-a3b5df47539e&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
       "ticker": "SZ300189",
       "name": "神农种业",
       "death_date": "2026-09-09",
@@ -159,6 +146,42 @@
           "timestamp": 1788192000000,
           "reason": "农业板块整体活跃带动，彭博农业现货指数8月累计涨幅超13%",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-2153b30e-afc5-4a8e-b175-a6b9ce6e1c06&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH600354",
+      "name": "敦煌种业",
+      "death_date": "2026-09-10",
+      "peak_pct": 90.2,
+      "last_pct": 90.2,
+      "last_days": 27,
+      "appearances": 9,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "敦煌种业2026-08-18收盘价6.99元，涨幅10.08%",
+          "timestamp": 1786982400000,
+          "reason": "农业板块因全球粮食危机担忧而整体走强，敦煌种业作为种植业龙头受到资金追捧。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-ca40c324-7bb5-4db8-b950-d4061177a476&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "敦煌种业2026-08-28收盘价8.21元，涨幅10.05%",
+          "timestamp": 1787846400000,
+          "reason": "公司发布2026年半年度报告，业绩大幅超预期，同时所属农林牧渔板块整体走强。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-16244d41-3d49-4465-87f5-1869d2be17db&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "敦煌种业2026-09-01收盘价9.12元，涨幅10.01%",
+          "timestamp": 1788192000000,
+          "reason": "种植业板块受全球农产品涨价预期驱动，敦煌种业作为板块龙头受市场追捧",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-09cf83b8-9ec0-4496-95fd-8cc21c2c7b85&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "敦煌种业2026-09-07收盘价9.53元，涨幅10.05%",
+          "timestamp": 1788710400000,
+          "reason": "所属农业板块受厄尔尼诺气候事件催化而整体活跃，是导致股价异动的主因。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d38de92d-7750-4d60-b5f3-b9df0ca2d69a&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
@@ -196,42 +219,6 @@
       "appearances": 6,
       "pattern": "自然退潮",
       "events": []
-    },
-    {
-      "ticker": "SH601579",
-      "name": "会稽山",
-      "death_date": "2026-09-09",
-      "peak_pct": 81.23,
-      "last_pct": 81.23,
-      "last_days": 47,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "会稽山2026-08-14收盘价18.68元，涨幅7.05%",
-          "timestamp": 1786636800000,
-          "reason": "食品饮料板块盘中局部异动带动，市场传闻黄酒行业增长潜力受关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24f70007-21f7-4ea0-9b61-116cc1376cc1&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-08-24收盘价20.21元，涨幅8.31%",
-          "timestamp": 1787500800000,
-          "reason": "市场对公司2026年中报业绩及全国化、高端化战略突破反应积极",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-145235b4-faa0-427c-b386-e571b12767d2&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-01收盘价20.70元，涨幅6.98%",
-          "timestamp": 1788192000000,
-          "reason": "白酒板块整体表现活跃，叠加公司上半年业绩超越古越龙山成为行业第一及高端产品全国化布局加速的市场预期",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-f247c2e2-0ea1-4e6a-8f07-3b0e583228d1&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-04收盘价24.07元，涨幅10.01%",
-          "timestamp": 1788451200000,
-          "reason": "酿酒板块整体走强，黄酒子板块领涨，市场看好其高端化、年轻化战略带来的业绩增长预期。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-614ac121-70cb-4565-8e96-d27d0e3fa9b8&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
     }
   ],
   "peak_deaths": [
