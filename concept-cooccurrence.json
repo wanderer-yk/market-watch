@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-10",
-  "total_reasons": 4091,
+  "date_range": "2026-03-05 ~ 2026-09-13",
+  "total_reasons": 4109,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 482,
+      "count": 483,
       "type": "technology"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "PCB",
-      "count": 255,
+      "count": 258,
       "type": "technology"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "算力",
-      "count": 186,
+      "count": 187,
       "type": "sector"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "id": "MLCC",
-      "count": 100,
+      "count": 101,
       "type": "technology"
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "id": "通信",
-      "count": 62,
+      "count": 63,
       "type": "sector"
     },
     {
@@ -95,6 +95,11 @@
       "type": "sector"
     },
     {
+      "id": "CPO",
+      "count": 50,
+      "type": "technology"
+    },
+    {
       "id": "光模块",
       "count": 49,
       "type": "sector"
@@ -108,11 +113,6 @@
       "id": "专用设备",
       "count": 49,
       "type": "sector"
-    },
-    {
-      "id": "CPO",
-      "count": 49,
-      "type": "technology"
     },
     {
       "id": "军工",
@@ -141,7 +141,7 @@
     },
     {
       "id": "元件",
-      "count": 38,
+      "count": 39,
       "type": "sector"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "id": "电网设备",
-      "count": 31,
+      "count": 33,
       "type": "sector"
     },
     {
@@ -190,6 +190,11 @@
       "type": "sector"
     },
     {
+      "id": "银行",
+      "count": 24,
+      "type": "sector"
+    },
+    {
       "id": "PTFE",
       "count": 23,
       "type": "technology"
@@ -201,11 +206,6 @@
     },
     {
       "id": "小金属",
-      "count": 22,
-      "type": "sector"
-    },
-    {
-      "id": "银行",
       "count": 22,
       "type": "sector"
     },
@@ -414,7 +414,7 @@
     {
       "source": "PCB",
       "target": "算力",
-      "weight": 35
+      "weight": 36
     },
     {
       "source": "PCB",
@@ -533,6 +533,11 @@
     },
     {
       "source": "AI",
+      "target": "通信",
+      "weight": 16
+    },
+    {
+      "source": "AI",
       "target": "CPO",
       "weight": 16
     },
@@ -544,11 +549,6 @@
     {
       "source": "PCB",
       "target": "半导体",
-      "weight": 15
-    },
-    {
-      "source": "AI",
-      "target": "通信",
       "weight": 15
     },
     {
@@ -767,6 +767,11 @@
       "weight": 6
     },
     {
+      "source": "PCB",
+      "target": "元件",
+      "weight": 6
+    },
+    {
       "source": "MLCC",
       "target": "玻璃基板",
       "weight": 6
@@ -835,11 +840,6 @@
       "source": "PCB",
       "target": "汽车零部件",
       "weight": 6
-    },
-    {
-      "source": "PCB",
-      "target": "元件",
-      "weight": 5
     },
     {
       "source": "专用设备",

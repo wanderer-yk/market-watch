@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-14",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 6,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-14",
+      "total_pct": 35.59
+    },
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "streak": 5,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-14",
+      "total_pct": 45.86
+    },
+    {
+      "ticker": "SH688135",
+      "name": "利扬芯片",
+      "streak": 5,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-14",
+      "total_pct": 44.42
+    },
+    {
+      "ticker": "SZ301132",
+      "name": "满坤科技",
+      "streak": 4,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-14",
+      "total_pct": 51.34
+    },
+    {
+      "ticker": "SZ000056",
+      "name": "*ST皇庭",
+      "streak": 4,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-14",
+      "total_pct": 24.77
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "streak": 3,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-14",
+      "total_pct": 51.64
+    }
+  ]
+}

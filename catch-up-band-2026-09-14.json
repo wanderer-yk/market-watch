@@ -1,0 +1,415 @@
+{
+  "date": "2026-09-14",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300903",
+      "name": "科翔股份",
+      "pct": 20,
+      "concepts": [
+        "PCB",
+        "电子",
+        "元件"
+      ]
+    },
+    {
+      "ticker": "SZ301132",
+      "name": "满坤科技",
+      "pct": 20,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SH688137",
+      "name": "近岸蛋白",
+      "pct": 20,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688244",
+      "name": "永信至诚",
+      "pct": 20,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301220",
+      "name": "亚香股份",
+      "pct": 11.56,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ000981",
+      "name": "山子高科",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002585",
+      "name": "双星新材",
+      "pct": 10.04,
+      "concepts": [
+        "MLCC"
+      ]
+    },
+    {
+      "ticker": "SZ002560",
+      "name": "通达股份",
+      "pct": 10.03,
+      "concepts": [
+        "电网设备"
+      ]
+    },
+    {
+      "ticker": "SH601086",
+      "name": "国芳集团",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002669",
+      "name": "康达新材",
+      "pct": 10,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SH603400",
+      "name": "华之杰",
+      "pct": 10,
+      "concepts": [
+        "液冷"
+      ]
+    },
+    {
+      "ticker": "SH603439",
+      "name": "三力制药",
+      "pct": 9.97,
+      "concepts": [
+        "中药"
+      ]
+    },
+    {
+      "ticker": "SZ002212",
+      "name": "天融信",
+      "pct": 9.96,
+      "concepts": [
+        "AI"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 41,
+      "active_days": 9,
+      "heat_score": 369,
+      "leaders": [
+        {
+          "ticker": "SH688244",
+          "name": "永信至诚",
+          "pct": 20,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301220",
+          "name": "亚香股份",
+          "pct": 11.56,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002212",
+          "name": "天融信",
+          "pct": 9.96,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 11,
+      "active_days": 5,
+      "heat_score": 55,
+      "leaders": [
+        {
+          "ticker": "SZ300903",
+          "name": "科翔股份",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "电子",
+            "元件"
+          ]
+        },
+        {
+          "ticker": "SZ301132",
+          "name": "满坤科技",
+          "pct": 20,
+          "concepts": [
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SZ002669",
+          "name": "康达新材",
+          "pct": 10,
+          "concepts": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": [
+        {
+          "ticker": "SZ002560",
+          "name": "通达股份",
+          "pct": 10.03,
+          "concepts": [
+            "电网设备"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SZ300903",
+          "name": "科翔股份",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "电子",
+            "元件"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": [
+        {
+          "ticker": "SH603400",
+          "name": "华之杰",
+          "pct": 10,
+          "concepts": [
+            "液冷"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH603439",
+          "name": "三力制药",
+          "pct": 9.97,
+          "concepts": [
+            "中药"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "化学制药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 4,
+      "active_days": 1,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ002585",
+          "name": "双星新材",
+          "pct": 10.04,
+          "concepts": [
+            "MLCC"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ300903",
+          "name": "科翔股份",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "电子",
+            "元件"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SZ300913",
+      "name": "兆龙互连",
+      "last_seen": "2026-09-14",
+      "shared_concepts": [
+        "AI"
+      ],
+      "trend_pct": 32.33,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SH603386",
+      "name": "骏亚科技",
+      "last_seen": "2026-09-14",
+      "shared_concepts": [
+        "PCB",
+        "元件"
+      ],
+      "trend_pct": 24.37,
+      "trend_days": 10
+    }
+  ]
+}

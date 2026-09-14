@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-11",
-  "total_deaths": 1313,
+  "date_range": "2026-06-16 ~ 2026-09-14",
+  "total_deaths": 1311,
   "patterns": {
     "闪崩": 0,
     "高位回落": 39,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1269
+    "自然退潮": 1267
   },
   "recent_deaths": [
     {
@@ -17,6 +17,17 @@
       "last_pct": 25.35,
       "last_days": 5,
       "appearances": 8,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002636",
+      "name": "金安国纪",
+      "death_date": "2026-09-11",
+      "peak_pct": 172.04,
+      "last_pct": 27.63,
+      "last_days": 7,
+      "appearances": 7,
       "pattern": "自然退潮",
       "events": []
     },
@@ -109,15 +120,22 @@
       ]
     },
     {
-      "ticker": "SZ002536",
-      "name": "飞龙股份",
-      "death_date": "2026-09-03",
-      "peak_pct": 99.78,
-      "last_pct": 99.78,
-      "last_days": 31,
-      "appearances": 6,
+      "ticker": "SZ301176",
+      "name": "逸豪新材",
+      "death_date": "2026-09-11",
+      "peak_pct": 105.76,
+      "last_pct": 41.92,
+      "last_days": 7,
+      "appearances": 4,
       "pattern": "自然退潮",
-      "events": []
+      "events": [
+        {
+          "description": "逸豪新材2026-09-10收盘价56.49元，涨幅15.29%",
+          "timestamp": 1788969600000,
+          "reason": "PCB覆铜板行业涨价潮带动相关概念股集体走强",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-a27f1e2a-c992-435d-b812-89ac95f86173&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     },
     {
       "ticker": "SZ300189",
@@ -182,30 +200,6 @@
           "timestamp": 1788710400000,
           "reason": "所属农业板块受厄尔尼诺气候事件催化而整体活跃，是导致股价异动的主因。",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d38de92d-7750-4d60-b5f3-b9df0ca2d69a&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ300192",
-      "name": "科德教育",
-      "death_date": "2026-09-03",
-      "peak_pct": 87.2,
-      "last_pct": 87.2,
-      "last_days": 41,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "科德教育2026-07-31收盘价12.51元，涨幅9.35%",
-          "timestamp": 1785427200000,
-          "reason": "市场传闻教育行业政策或有积极变化，叠加公司股东会审议回购方案，提振市场情绪。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-dae38d18-61a8-4acc-91c3-b5cc48b60136&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "科德教育2026-08-12收盘价14.64元，涨幅7.96%",
-          "timestamp": 1786464000000,
-          "reason": "公司发布不低于1亿元股份回购计划，传递管理层对公司价值的信心",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-1c0ccccc-8494-4f61-a5d5-b0baf4fe5512&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
