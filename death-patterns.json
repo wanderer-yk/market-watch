@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-14",
-  "total_deaths": 1311,
+  "date_range": "2026-06-16 ~ 2026-09-15",
+  "total_deaths": 1323,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 39,
+    "高位回落": 40,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1267
+    "自然退潮": 1278
   },
   "recent_deaths": [
     {
@@ -74,6 +74,36 @@
           "timestamp": 1788710400000,
           "reason": "AI算力驱动下高速光模块散热需求爆发，公司作为核心散热材料龙头深度受益于行业高景气及龙头客户战略入股",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6fa7dcc1-b68b-4de0-9581-a3433a648473&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH601086",
+      "name": "国芳集团",
+      "death_date": "2026-09-14",
+      "peak_pct": 141.8,
+      "last_pct": 141.8,
+      "last_days": 21,
+      "appearances": 8,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "国芳集团2026-08-28收盘价8.34元，涨幅10.03%",
+          "timestamp": 1787846400000,
+          "reason": "公司半年度业绩大幅增长，净利润同比大增214.09%，且零售板块受益于消费复苏预期",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c8fe5b36-968b-492c-b953-ca799adf1245&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "国芳集团2026-09-01收盘价10.09元，涨幅10.03%",
+          "timestamp": 1788192000000,
+          "reason": "零售行业板块受政策利好驱动，国芳集团作为区域龙头受到市场关注",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-32f26dfb-a4f9-4129-aa5f-a3b5df47539e&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "国芳集团2026-09-14收盘价17.99元，涨幅10.03%",
+          "timestamp": 1789315200000,
+          "reason": "零售板块受政策利好提振，国芳集团作为板块内高辨识度个股获市场资金关注。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-8e4289b6-e8ec-44b4-bf10-dd9e49ba62f2&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
@@ -202,17 +232,6 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d38de92d-7750-4d60-b5f3-b9df0ca2d69a&navBarTransparent=1&navBarTheme=dark"
         }
       ]
-    },
-    {
-      "ticker": "SH600869",
-      "name": "远东股份",
-      "death_date": "2026-09-09",
-      "peak_pct": 82.46,
-      "last_pct": 40.61,
-      "last_days": 8,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": []
     }
   ],
   "peak_deaths": [

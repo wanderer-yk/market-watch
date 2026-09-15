@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-15",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "streak": 6,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-15",
+      "total_pct": 100.93
+    },
+    {
+      "ticker": "SZ301132",
+      "name": "满坤科技",
+      "streak": 5,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-15",
+      "total_pct": 60.49
+    },
+    {
+      "ticker": "SZ000056",
+      "name": "*ST皇庭",
+      "streak": 5,
+      "first_date": "2026-09-09",
+      "last_date": "2026-09-15",
+      "total_pct": 28.76
+    },
+    {
+      "ticker": "SZ000823",
+      "name": "超声电子",
+      "streak": 4,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-15",
+      "total_pct": 64.94
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "streak": 4,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-15",
+      "total_pct": 63.74
+    }
+  ]
+}

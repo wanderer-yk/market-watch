@@ -1859,7 +1859,7 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 75,
+      "total_reasons": 77,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1955,11 +1955,11 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 100,
+      "total_reasons": 101,
       "top_concepts": [
         {
           "concept": "银行",
-          "count": 11
+          "count": 12
         },
         {
           "concept": "电子",
@@ -2001,7 +2001,7 @@
       "emerging": [
         {
           "concept": "银行",
-          "count": 11,
+          "count": 12,
           "prev_count": 0
         },
         {
@@ -2066,7 +2066,7 @@
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 114,
+      "total_reasons": 115,
       "top_concepts": [
         {
           "concept": "PCB",
@@ -2155,7 +2155,7 @@
         {
           "concept": "银行",
           "count": 0,
-          "prev_count": 11
+          "prev_count": 12
         },
         {
           "concept": "先进封装",
@@ -2167,7 +2167,7 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 130,
+      "total_reasons": 132,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2176,6 +2176,10 @@
         {
           "concept": "军工",
           "count": 7
+        },
+        {
+          "concept": "白酒",
+          "count": 6
         },
         {
           "concept": "银行",
@@ -2187,10 +2191,6 @@
         },
         {
           "concept": "证券",
-          "count": 5
-        },
-        {
-          "concept": "白酒",
           "count": 5
         },
         {
@@ -2217,13 +2217,13 @@
           "prev_count": 1
         },
         {
-          "concept": "银行",
+          "concept": "白酒",
           "count": 6,
           "prev_count": 0
         },
         {
-          "concept": "白酒",
-          "count": 5,
+          "concept": "银行",
+          "count": 6,
           "prev_count": 0
         }
       ],
@@ -2258,18 +2258,18 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 57,
+      "total_reasons": 60,
       "top_concepts": [
         {
           "concept": "煤炭",
           "count": 6
         },
         {
-          "concept": "新能源",
-          "count": 4
+          "concept": "PCB",
+          "count": 5
         },
         {
-          "concept": "PCB",
+          "concept": "新能源",
           "count": 4
         },
         {
@@ -2278,6 +2278,10 @@
         },
         {
           "concept": "覆铜板",
+          "count": 3
+        },
+        {
+          "concept": "CPO",
           "count": 3
         },
         {
@@ -2293,10 +2297,6 @@
           "count": 2
         },
         {
-          "concept": "CPO",
-          "count": 2
-        },
-        {
           "concept": "通信",
           "count": 2
         }
@@ -2305,6 +2305,11 @@
         {
           "concept": "新能源",
           "count": 4,
+          "prev_count": 0
+        },
+        {
+          "concept": "CPO",
+          "count": 3,
           "prev_count": 0
         }
       ],
@@ -2315,17 +2320,17 @@
           "prev_count": 7
         },
         {
+          "concept": "白酒",
+          "count": 0,
+          "prev_count": 6
+        },
+        {
           "concept": "银行",
           "count": 0,
           "prev_count": 6
         },
         {
           "concept": "证券",
-          "count": 0,
-          "prev_count": 5
-        },
-        {
-          "concept": "白酒",
           "count": 0,
           "prev_count": 5
         },
@@ -2344,18 +2349,30 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 5,
+      "total_reasons": 13,
       "top_concepts": [
         {
           "concept": "PCB",
-          "count": 1
+          "count": 3
         },
         {
           "concept": "MLCC",
-          "count": 1
+          "count": 2
         },
         {
           "concept": "电网设备",
+          "count": 1
+        },
+        {
+          "concept": "白酒",
+          "count": 1
+        },
+        {
+          "concept": "AI",
+          "count": 1
+        },
+        {
+          "concept": "中药",
           "count": 1
         }
       ],
@@ -2372,22 +2389,22 @@
           "prev_count": 4
         },
         {
-          "concept": "PCB",
-          "count": 1,
-          "prev_count": 4
-        },
-        {
           "concept": "AI",
-          "count": 0,
+          "count": 1,
           "prev_count": 3
         },
         {
           "concept": "覆铜板",
           "count": 0,
           "prev_count": 3
+        },
+        {
+          "concept": "CPO",
+          "count": 0,
+          "prev_count": 3
         }
       ]
     }
   ],
-  "generated_at": "2026-09-14T19:43:35.445Z"
+  "generated_at": "2026-09-15T19:43:47.074Z"
 }

@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-13",
-  "total_reasons": 4109,
+  "date_range": "2026-03-05 ~ 2026-09-14",
+  "total_reasons": 4126,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 483,
+      "count": 484,
       "type": "technology"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "PCB",
-      "count": 258,
+      "count": 261,
       "type": "technology"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "id": "MLCC",
-      "count": 101,
+      "count": 102,
       "type": "technology"
     },
     {
@@ -91,12 +91,12 @@
     },
     {
       "id": "中药",
-      "count": 52,
+      "count": 53,
       "type": "sector"
     },
     {
       "id": "CPO",
-      "count": 50,
+      "count": 51,
       "type": "technology"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
       "id": "元件",
-      "count": 39,
+      "count": 40,
       "type": "sector"
     },
     {
@@ -180,17 +180,17 @@
       "type": "technology"
     },
     {
+      "id": "银行",
+      "count": 25,
+      "type": "sector"
+    },
+    {
       "id": "消费电子",
       "count": 24,
       "type": "sector"
     },
     {
       "id": "电子布",
-      "count": 24,
-      "type": "sector"
-    },
-    {
-      "id": "银行",
       "count": 24,
       "type": "sector"
     },
@@ -220,6 +220,11 @@
       "type": "sector"
     },
     {
+      "id": "白酒",
+      "count": 20,
+      "type": "sector"
+    },
+    {
       "id": "半导体硅片",
       "count": 19,
       "type": "sector"
@@ -236,11 +241,6 @@
     },
     {
       "id": "工业金属",
-      "count": 18,
-      "type": "sector"
-    },
-    {
-      "id": "白酒",
       "count": 18,
       "type": "sector"
     },
@@ -707,6 +707,11 @@
       "weight": 8
     },
     {
+      "source": "PCB",
+      "target": "元件",
+      "weight": 7
+    },
+    {
       "source": "AI",
       "target": "PTFE",
       "weight": 7
@@ -764,11 +769,6 @@
     {
       "source": "元件",
       "target": "机器人",
-      "weight": 6
-    },
-    {
-      "source": "PCB",
-      "target": "元件",
       "weight": 6
     },
     {
