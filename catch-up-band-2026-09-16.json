@@ -1,0 +1,632 @@
+{
+  "date": "2026-09-16",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ301251",
+      "name": "威尔高",
+      "pct": 20,
+      "concepts": [
+        "PCB",
+        "CPO",
+        "光模块",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301486",
+      "name": "致尚科技",
+      "pct": 20,
+      "concepts": [
+        "CPO",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ301183",
+      "name": "东田微",
+      "pct": 14.25,
+      "concepts": [
+        "CPO"
+      ]
+    },
+    {
+      "ticker": "SH688222",
+      "name": "成都先导",
+      "pct": 14.05,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301128",
+      "name": "强瑞技术",
+      "pct": 12.97,
+      "concepts": [
+        "AI",
+        "液冷",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ300820",
+      "name": "英杰电气",
+      "pct": 12.72,
+      "concepts": [
+        "半导体材料",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ301479",
+      "name": "弘景光电",
+      "pct": 12.12,
+      "concepts": [
+        "CPO",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ300207",
+      "name": "欣旺达",
+      "pct": 11.67,
+      "concepts": [
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SH688234",
+      "name": "天岳先进",
+      "pct": 11.28,
+      "concepts": [
+        "半导体材料",
+        "半导体",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH600500",
+      "name": "中化国际",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002617",
+      "name": "露笑科技",
+      "pct": 10.03,
+      "concepts": [
+        "光伏"
+      ]
+    },
+    {
+      "ticker": "SZ002584",
+      "name": "西陇科学",
+      "pct": 10.02,
+      "concepts": [
+        "半导体材料",
+        "半导体",
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SZ002961",
+      "name": "瑞达期货",
+      "pct": 10.02,
+      "concepts": [
+        "大金融"
+      ]
+    },
+    {
+      "ticker": "SH600059",
+      "name": "古越龙山",
+      "pct": 10.02,
+      "concepts": [
+        "证券"
+      ]
+    },
+    {
+      "ticker": "SZ002846",
+      "name": "英联股份",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603607",
+      "name": "京华激光",
+      "pct": 10,
+      "concepts": [
+        "半导体材料",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH605358",
+      "name": "立昂微",
+      "pct": 10,
+      "concepts": [
+        "半导体材料",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ002068",
+      "name": "黑猫股份",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000592",
+      "name": "平潭发展",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002383",
+      "name": "合众思壮",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605378",
+      "name": "野马电池",
+      "pct": 9.97,
+      "concepts": [
+        "锂电池"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 26,
+      "active_days": 9,
+      "heat_score": 234,
+      "leaders": [
+        {
+          "ticker": "SZ301251",
+          "name": "威尔高",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "光模块",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688222",
+          "name": "成都先导",
+          "pct": 14.05,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301128",
+          "name": "强瑞技术",
+          "pct": 12.97,
+          "concepts": [
+            "AI",
+            "液冷",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688234",
+          "name": "天岳先进",
+          "pct": 11.28,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 13,
+      "active_days": 6,
+      "heat_score": 78,
+      "leaders": [
+        {
+          "ticker": "SZ301251",
+          "name": "威尔高",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "光模块",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.02,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": [
+        {
+          "ticker": "SZ301486",
+          "name": "致尚科技",
+          "pct": 20,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ301479",
+          "name": "弘景光电",
+          "pct": 12.12,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SZ301251",
+          "name": "威尔高",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "光模块",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301486",
+          "name": "致尚科技",
+          "pct": 20,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ301183",
+          "name": "东田微",
+          "pct": 14.25,
+          "concepts": [
+            "CPO"
+          ]
+        },
+        {
+          "ticker": "SZ301479",
+          "name": "弘景光电",
+          "pct": 12.12,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 8,
+      "active_days": 3,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": [
+        {
+          "ticker": "SZ301128",
+          "name": "强瑞技术",
+          "pct": 12.97,
+          "concepts": [
+            "AI",
+            "液冷",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688234",
+          "name": "天岳先进",
+          "pct": 11.28,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": [
+        {
+          "ticker": "SZ300820",
+          "name": "英杰电气",
+          "pct": 12.72,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688234",
+          "name": "天岳先进",
+          "pct": 11.28,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.02,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SH603607",
+          "name": "京华激光",
+          "pct": 10,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH605358",
+          "name": "立昂微",
+          "pct": 10,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": [
+        {
+          "ticker": "SZ300820",
+          "name": "英杰电气",
+          "pct": 12.72,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688234",
+          "name": "天岳先进",
+          "pct": 11.28,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.02,
+          "concepts": [
+            "半导体材料",
+            "半导体",
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SH603607",
+          "name": "京华激光",
+          "pct": 10,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH605358",
+          "name": "立昂微",
+          "pct": 10,
+          "concepts": [
+            "半导体材料",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH600059",
+          "name": "古越龙山",
+          "pct": 10.02,
+          "concepts": [
+            "证券"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 4,
+      "active_days": 1,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ301251",
+          "name": "威尔高",
+          "pct": 20,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "光模块",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ301128",
+          "name": "强瑞技术",
+          "pct": 12.97,
+          "concepts": [
+            "AI",
+            "液冷",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": [
+        {
+          "ticker": "SZ300207",
+          "name": "欣旺达",
+          "pct": 11.67,
+          "concepts": [
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SH605378",
+          "name": "野马电池",
+          "pct": 9.97,
+          "concepts": [
+            "锂电池"
+          ]
+        }
+      ]
+    }
+  ],
+  "catchup_candidates": []
+}

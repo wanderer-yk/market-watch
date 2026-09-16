@@ -1,17 +1,17 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-14",
-  "total_reasons": 4126,
+  "date_range": "2026-03-05 ~ 2026-09-15",
+  "total_reasons": 4146,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
     {
       "id": "半导体",
-      "count": 681,
+      "count": 682,
       "type": "sector"
     },
     {
       "id": "AI",
-      "count": 484,
+      "count": 485,
       "type": "technology"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "PCB",
-      "count": 261,
+      "count": 264,
       "type": "technology"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "半导体材料",
-      "count": 131,
+      "count": 132,
       "type": "sector"
     },
     {
@@ -90,18 +90,18 @@
       "type": "sector"
     },
     {
+      "id": "CPO",
+      "count": 53,
+      "type": "technology"
+    },
+    {
       "id": "中药",
       "count": 53,
       "type": "sector"
     },
     {
-      "id": "CPO",
-      "count": 51,
-      "type": "technology"
-    },
-    {
       "id": "光模块",
-      "count": 49,
+      "count": 50,
       "type": "sector"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "id": "新能源",
-      "count": 31,
+      "count": 32,
       "type": "sector"
     },
     {
@@ -210,17 +210,17 @@
       "type": "sector"
     },
     {
+      "id": "白酒",
+      "count": 22,
+      "type": "sector"
+    },
+    {
       "id": "医疗服务",
       "count": 21,
       "type": "sector"
     },
     {
       "id": "港股医药",
-      "count": 20,
-      "type": "sector"
-    },
-    {
-      "id": "白酒",
       "count": 20,
       "type": "sector"
     },
@@ -379,7 +379,7 @@
     {
       "source": "半导体",
       "target": "半导体材料",
-      "weight": 131
+      "weight": 132
     },
     {
       "source": "半导体",
@@ -399,7 +399,7 @@
     {
       "source": "AI",
       "target": "PCB",
-      "weight": 66
+      "weight": 67
     },
     {
       "source": "人形机器人",
@@ -522,8 +522,18 @@
       "weight": 17
     },
     {
+      "source": "AI",
+      "target": "CPO",
+      "weight": 17
+    },
+    {
       "source": "PCB",
       "target": "电子化学品",
+      "weight": 16
+    },
+    {
+      "source": "PCB",
+      "target": "半导体",
       "weight": 16
     },
     {
@@ -537,18 +547,13 @@
       "weight": 16
     },
     {
-      "source": "AI",
-      "target": "CPO",
-      "weight": 16
-    },
-    {
       "source": "CPO",
       "target": "算力",
       "weight": 16
     },
     {
-      "source": "PCB",
-      "target": "半导体",
+      "source": "AI",
+      "target": "光模块",
       "weight": 15
     },
     {
@@ -559,11 +564,6 @@
     {
       "source": "半导体",
       "target": "氟化工",
-      "weight": 14
-    },
-    {
-      "source": "AI",
-      "target": "光模块",
       "weight": 14
     },
     {
@@ -742,6 +742,11 @@
       "weight": 7
     },
     {
+      "source": "CPO",
+      "target": "光模块",
+      "weight": 7
+    },
+    {
       "source": "存储芯片",
       "target": "算力",
       "weight": 7
@@ -819,11 +824,6 @@
     {
       "source": "半导体",
       "target": "算力",
-      "weight": 6
-    },
-    {
-      "source": "CPO",
-      "target": "光模块",
       "weight": 6
     },
     {
@@ -987,6 +987,11 @@
       "weight": 4
     },
     {
+      "source": "PCB",
+      "target": "光模块",
+      "weight": 4
+    },
+    {
       "source": "半导体",
       "target": "液冷",
       "weight": 4
@@ -1094,11 +1099,6 @@
     {
       "source": "半导体",
       "target": "汽车零部件",
-      "weight": 3
-    },
-    {
-      "source": "PCB",
-      "target": "光模块",
       "weight": 3
     },
     {

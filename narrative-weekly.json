@@ -1859,7 +1859,7 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 77,
+      "total_reasons": 78,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1955,7 +1955,7 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 101,
+      "total_reasons": 102,
       "top_concepts": [
         {
           "concept": "银行",
@@ -2066,7 +2066,7 @@
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 115,
+      "total_reasons": 116,
       "top_concepts": [
         {
           "concept": "PCB",
@@ -2167,19 +2167,19 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 132,
+      "total_reasons": 137,
       "top_concepts": [
         {
           "concept": "AI",
           "count": 18
         },
         {
-          "concept": "军工",
+          "concept": "白酒",
           "count": 7
         },
         {
-          "concept": "白酒",
-          "count": 6
+          "concept": "军工",
+          "count": 7
         },
         {
           "concept": "银行",
@@ -2212,14 +2212,14 @@
       ],
       "emerging": [
         {
+          "concept": "白酒",
+          "count": 7,
+          "prev_count": 0
+        },
+        {
           "concept": "军工",
           "count": 7,
           "prev_count": 1
-        },
-        {
-          "concept": "白酒",
-          "count": 6,
-          "prev_count": 0
         },
         {
           "concept": "银行",
@@ -2258,19 +2258,19 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 60,
+      "total_reasons": 64,
       "top_concepts": [
         {
           "concept": "煤炭",
           "count": 6
         },
         {
-          "concept": "PCB",
+          "concept": "新能源",
           "count": 5
         },
         {
-          "concept": "新能源",
-          "count": 4
+          "concept": "PCB",
+          "count": 5
         },
         {
           "concept": "AI",
@@ -2304,7 +2304,7 @@
       "emerging": [
         {
           "concept": "新能源",
-          "count": 4,
+          "count": 5,
           "prev_count": 0
         },
         {
@@ -2315,14 +2315,14 @@
       ],
       "fading": [
         {
-          "concept": "军工",
+          "concept": "白酒",
           "count": 0,
           "prev_count": 7
         },
         {
-          "concept": "白酒",
+          "concept": "军工",
           "count": 0,
-          "prev_count": 6
+          "prev_count": 7
         },
         {
           "concept": "银行",
@@ -2349,14 +2349,26 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 13,
+      "total_reasons": 21,
       "top_concepts": [
         {
           "concept": "PCB",
-          "count": 3
+          "count": 6
         },
         {
           "concept": "MLCC",
+          "count": 2
+        },
+        {
+          "concept": "白酒",
+          "count": 2
+        },
+        {
+          "concept": "AI",
+          "count": 2
+        },
+        {
+          "concept": "CPO",
           "count": 2
         },
         {
@@ -2364,15 +2376,19 @@
           "count": 1
         },
         {
-          "concept": "白酒",
-          "count": 1
-        },
-        {
-          "concept": "AI",
-          "count": 1
-        },
-        {
           "concept": "中药",
+          "count": 1
+        },
+        {
+          "concept": "光模块",
+          "count": 1
+        },
+        {
+          "concept": "半导体材料",
+          "count": 1
+        },
+        {
+          "concept": "半导体",
           "count": 1
         }
       ],
@@ -2386,25 +2402,15 @@
         {
           "concept": "新能源",
           "count": 0,
-          "prev_count": 4
-        },
-        {
-          "concept": "AI",
-          "count": 1,
-          "prev_count": 3
+          "prev_count": 5
         },
         {
           "concept": "覆铜板",
-          "count": 0,
-          "prev_count": 3
-        },
-        {
-          "concept": "CPO",
           "count": 0,
           "prev_count": 3
         }
       ]
     }
   ],
-  "generated_at": "2026-09-15T19:43:47.074Z"
+  "generated_at": "2026-09-16T19:39:22.197Z"
 }

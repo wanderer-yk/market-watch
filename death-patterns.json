@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-15",
-  "total_deaths": 1323,
+  "date_range": "2026-06-16 ~ 2026-09-16",
+  "total_deaths": 1315,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 40,
+    "高位回落": 39,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1278
+    "自然退潮": 1271
   },
   "recent_deaths": [
     {
@@ -32,13 +32,13 @@
       "events": []
     },
     {
-      "ticker": "SZ002827",
-      "name": "高争民爆",
-      "death_date": "2026-09-07",
-      "peak_pct": 171.49,
-      "last_pct": 33.55,
-      "last_days": 13,
-      "appearances": 12,
+      "ticker": "SZ300319",
+      "name": "麦捷科技",
+      "death_date": "2026-09-15",
+      "peak_pct": 170.64,
+      "last_pct": 23.14,
+      "last_days": 11,
+      "appearances": 8,
       "pattern": "自然退潮",
       "events": []
     },
@@ -52,30 +52,6 @@
       "appearances": 8,
       "pattern": "自然退潮",
       "events": []
-    },
-    {
-      "ticker": "SZ300684",
-      "name": "中石科技",
-      "death_date": "2026-09-07",
-      "peak_pct": 147.71,
-      "last_pct": 147.71,
-      "last_days": 39,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "中石科技2026-08-14收盘价67.36元，涨幅20.01%",
-          "timestamp": 1786636800000,
-          "reason": "光模块龙头中际旭创战略入股10.47%，引发市场对公司在AI算力散热环节价值的重估，并带动CPO/散热板块走强。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-1af01576-fe61-40b4-81f2-b9f149d4e972&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "中石科技2026-09-07收盘价104.36元，涨幅17.39%",
-          "timestamp": 1788710400000,
-          "reason": "AI算力驱动下高速光模块散热需求爆发，公司作为核心散热材料龙头深度受益于行业高景气及龙头客户战略入股",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6fa7dcc1-b68b-4de0-9581-a3433a648473&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
     },
     {
       "ticker": "SH601086",
@@ -104,48 +80,6 @@
           "timestamp": 1789315200000,
           "reason": "零售板块受政策利好提振，国芳集团作为板块内高辨识度个股获市场资金关注。",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-8e4289b6-e8ec-44b4-bf10-dd9e49ba62f2&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ003040",
-      "name": "楚天龙",
-      "death_date": "2026-09-07",
-      "peak_pct": 130.65,
-      "last_pct": 130.65,
-      "last_days": 52,
-      "appearances": 11,
-      "pattern": "高位回落",
-      "events": [
-        {
-          "description": "楚天龙2026-07-27收盘价10.50元，涨幅4.17%",
-          "timestamp": 1785081600000,
-          "reason": "PCB概念板块走强，AI算力需求带动高端PCB涨价预期",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d48833a4-4023-4040-976b-9b5c0302ddff&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "楚天龙2026-08-06收盘价12.46元，涨幅9.97%",
-          "timestamp": 1785945600000,
-          "reason": "所属【数字货币概念】板块受政策利好驱动集体活跃",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d0617f9b-ec78-4e5f-a098-f5c770fe236f&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "楚天龙2026-08-07收盘价13.10元，涨幅5.14%",
-          "timestamp": 1786032000000,
-          "reason": "所属通信设备板块受6G及PCB概念驱动，市场传闻英伟达寻求基站厂商合作开发6G基站，提振板块情绪。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-7aced90d-1a7d-4c7d-af5c-138640ac1d59&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "楚天龙2026-08-25收盘价15.48元，涨幅10.02%",
-          "timestamp": 1787587200000,
-          "reason": "所属数字货币概念板块因行业政策利好持续活跃，带动个股连续涨停。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-10673342-d3a0-4b17-8a69-fd73abd1e6d4&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "楚天龙2026-09-03收盘价19.20元，跌幅9.09%",
-          "timestamp": 1788364800000,
-          "reason": "公司发布《股票交易异常波动公告》，提示数字人民币业务收入占比不足5%且存在不确定性，叠加上半年业绩阶段性亏损，市场炒作情绪降温。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-18b35817-f4ec-40fe-83a8-7c52ac1f35da&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
@@ -232,6 +166,28 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d38de92d-7750-4d60-b5f3-b9df0ca2d69a&navBarTransparent=1&navBarTheme=dark"
         }
       ]
+    },
+    {
+      "ticker": "SZ000056",
+      "name": "*ST皇庭",
+      "death_date": "2026-09-15",
+      "peak_pct": 84.92,
+      "last_pct": 28.76,
+      "last_days": 12,
+      "appearances": 9,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SH600869",
+      "name": "远东股份",
+      "death_date": "2026-09-09",
+      "peak_pct": 82.46,
+      "last_pct": 40.61,
+      "last_days": 8,
+      "appearances": 6,
+      "pattern": "自然退潮",
+      "events": []
     }
   ],
   "peak_deaths": [
