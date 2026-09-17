@@ -1,0 +1,351 @@
+{
+  "date": "2026-09-17",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688137",
+      "name": "近岸蛋白",
+      "pct": 18.75,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301633",
+      "name": "港迪技术",
+      "pct": 10.33,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600792",
+      "name": "云煤能源",
+      "pct": 10.1,
+      "concepts": [
+        "煤炭"
+      ]
+    },
+    {
+      "ticker": "SH600699",
+      "name": "均胜电子",
+      "pct": 10.02,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH601872",
+      "name": "招商轮船",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002796",
+      "name": "世嘉科技",
+      "pct": 10.01,
+      "concepts": [
+        "电子布",
+        "通信",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603009",
+      "name": "北特科技",
+      "pct": 10.01,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ003026",
+      "name": "中晶科技",
+      "pct": 9.99,
+      "concepts": [
+        "半导体硅片",
+        "半导体"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 27,
+      "active_days": 9,
+      "heat_score": 243,
+      "leaders": [
+        {
+          "ticker": "SH688137",
+          "name": "近岸蛋白",
+          "pct": 18.75,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002796",
+          "name": "世嘉科技",
+          "pct": 10.01,
+          "concepts": [
+            "电子布",
+            "通信",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 11,
+      "active_days": 5,
+      "heat_score": 55,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 10,
+      "active_days": 5,
+      "heat_score": 50,
+      "leaders": [
+        {
+          "ticker": "SZ002796",
+          "name": "世嘉科技",
+          "pct": 10.01,
+          "concepts": [
+            "电子布",
+            "通信",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 10,
+      "active_days": 4,
+      "heat_score": 40,
+      "leaders": [
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603009",
+          "name": "北特科技",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603009",
+          "name": "北特科技",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH603009",
+          "name": "北特科技",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH600792",
+          "name": "云煤能源",
+          "pct": 10.1,
+          "concepts": [
+            "煤炭"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ003026",
+          "name": "中晶科技",
+          "pct": 9.99,
+          "concepts": [
+            "半导体硅片",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SZ002796",
+          "name": "世嘉科技",
+          "pct": 10.01,
+          "concepts": [
+            "电子布",
+            "通信",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}

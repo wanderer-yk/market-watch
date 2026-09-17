@@ -1,21 +1,13 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "lookback_days": 10,
   "anomalies": [
     {
       "type": "sector_surge",
-      "label": "电力设备",
+      "label": "医药生物",
       "today": 5,
       "avg": 2,
       "deviation": 1.5,
-      "severity": "medium"
-    },
-    {
-      "type": "sector_surge",
-      "label": "电子",
-      "today": 15,
-      "avg": 7,
-      "deviation": 1.14,
       "severity": "medium"
     }
   ]

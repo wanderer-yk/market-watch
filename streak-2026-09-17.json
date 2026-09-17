@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-17",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "streak": 8,
+      "first_date": "2026-09-08",
+      "last_date": "2026-09-17",
+      "total_pct": 120.5
+    },
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 8,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-17",
+      "total_pct": 50.11
+    },
+    {
+      "ticker": "SZ002531",
+      "name": "天顺风能",
+      "streak": 3,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-17",
+      "total_pct": 31.77
+    },
+    {
+      "ticker": "SH603980",
+      "name": "吉华集团",
+      "streak": 3,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-17",
+      "total_pct": 25.8
+    },
+    {
+      "ticker": "SH601298",
+      "name": "青岛港",
+      "streak": 3,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-17",
+      "total_pct": 11.56
+    }
+  ]
+}

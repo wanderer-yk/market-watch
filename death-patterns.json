@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-16",
-  "total_deaths": 1315,
+  "date_range": "2026-06-16 ~ 2026-09-17",
+  "total_deaths": 1323,
   "patterns": {
     "闪崩": 0,
     "高位回落": 39,
     "利空事件": 2,
     "利空+下跌": 3,
-    "自然退潮": 1271
+    "自然退潮": 1279
   },
   "recent_deaths": [
     {
@@ -52,6 +52,24 @@
       "appearances": 8,
       "pattern": "自然退潮",
       "events": []
+    },
+    {
+      "ticker": "SZ301251",
+      "name": "威尔高",
+      "death_date": "2026-09-16",
+      "peak_pct": 146.56,
+      "last_pct": 52.35,
+      "last_days": 12,
+      "appearances": 5,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "威尔高2026-09-16收盘价81.78元，涨幅20.00%",
+          "timestamp": 1789488000000,
+          "reason": "PCB板块受上游材料涨价传导利好而整体走强，同时公司作为AI服务器电源PCB细分龙头，受益于CPO/光模块概念热度提升。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6a5a88bf-b96c-4158-8046-4d117efffd41&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     },
     {
       "ticker": "SH601086",
@@ -175,17 +193,6 @@
       "last_pct": 28.76,
       "last_days": 12,
       "appearances": 9,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH600869",
-      "name": "远东股份",
-      "death_date": "2026-09-09",
-      "peak_pct": 82.46,
-      "last_pct": 40.61,
-      "last_days": 8,
-      "appearances": 6,
       "pattern": "自然退潮",
       "events": []
     }

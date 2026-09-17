@@ -1,17 +1,17 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-15",
-  "total_reasons": 4146,
+  "date_range": "2026-03-05 ~ 2026-09-16",
+  "total_reasons": 4163,
   "total_concepts": 72,
   "total_pairs": 203,
   "nodes": [
     {
       "id": "半导体",
-      "count": 682,
+      "count": 683,
       "type": "sector"
     },
     {
       "id": "AI",
-      "count": 485,
+      "count": 486,
       "type": "technology"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "id": "新能源",
-      "count": 32,
+      "count": 33,
       "type": "sector"
     },
     {
@@ -195,6 +195,11 @@
       "type": "sector"
     },
     {
+      "id": "白酒",
+      "count": 24,
+      "type": "sector"
+    },
+    {
       "id": "PTFE",
       "count": 23,
       "type": "technology"
@@ -210,23 +215,18 @@
       "type": "sector"
     },
     {
-      "id": "白酒",
-      "count": 22,
-      "type": "sector"
-    },
-    {
       "id": "医疗服务",
       "count": 21,
       "type": "sector"
     },
     {
-      "id": "港股医药",
+      "id": "半导体硅片",
       "count": 20,
       "type": "sector"
     },
     {
-      "id": "半导体硅片",
-      "count": 19,
+      "id": "港股医药",
+      "count": 20,
       "type": "sector"
     },
     {
@@ -487,6 +487,11 @@
       "weight": 20
     },
     {
+      "source": "半导体",
+      "target": "半导体硅片",
+      "weight": 20
+    },
+    {
       "source": "CPO",
       "target": "通信",
       "weight": 20
@@ -495,11 +500,6 @@
       "source": "中药",
       "target": "创新药",
       "weight": 20
-    },
-    {
-      "source": "半导体",
-      "target": "半导体硅片",
-      "weight": 19
     },
     {
       "source": "HBM",
