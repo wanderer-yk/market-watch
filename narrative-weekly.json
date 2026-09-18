@@ -1859,7 +1859,7 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 80,
+      "total_reasons": 81,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2167,15 +2167,15 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 141,
+      "total_reasons": 146,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 18
+          "count": 19
         },
         {
           "concept": "白酒",
-          "count": 8
+          "count": 9
         },
         {
           "concept": "军工",
@@ -2213,7 +2213,7 @@
       "emerging": [
         {
           "concept": "白酒",
-          "count": 8,
+          "count": 9,
           "prev_count": 0
         },
         {
@@ -2258,14 +2258,14 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 67,
+      "total_reasons": 72,
       "top_concepts": [
         {
-          "concept": "煤炭",
-          "count": 6
+          "concept": "新能源",
+          "count": 7
         },
         {
-          "concept": "新能源",
+          "concept": "煤炭",
           "count": 6
         },
         {
@@ -2274,6 +2274,10 @@
         },
         {
           "concept": "AI",
+          "count": 3
+        },
+        {
+          "concept": "电网设备",
           "count": 3
         },
         {
@@ -2293,10 +2297,6 @@
           "count": 2
         },
         {
-          "concept": "电网设备",
-          "count": 2
-        },
-        {
           "concept": "通信",
           "count": 2
         }
@@ -2304,7 +2304,12 @@
       "emerging": [
         {
           "concept": "新能源",
-          "count": 6,
+          "count": 7,
+          "prev_count": 0
+        },
+        {
+          "concept": "电网设备",
+          "count": 3,
           "prev_count": 0
         },
         {
@@ -2317,7 +2322,7 @@
         {
           "concept": "白酒",
           "count": 0,
-          "prev_count": 8
+          "prev_count": 9
         },
         {
           "concept": "军工",
@@ -2349,18 +2354,26 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 28,
+      "total_reasons": 40,
       "top_concepts": [
         {
           "concept": "PCB",
           "count": 6
         },
         {
-          "concept": "白酒",
-          "count": 3
+          "concept": "AI",
+          "count": 5
         },
         {
-          "concept": "AI",
+          "concept": "白酒",
+          "count": 4
+        },
+        {
+          "concept": "半导体",
+          "count": 4
+        },
+        {
+          "concept": "CPO",
           "count": 3
         },
         {
@@ -2368,11 +2381,7 @@
           "count": 2
         },
         {
-          "concept": "CPO",
-          "count": 2
-        },
-        {
-          "concept": "半导体",
+          "concept": "半导体材料",
           "count": 2
         },
         {
@@ -2386,29 +2395,35 @@
         {
           "concept": "光模块",
           "count": 1
-        },
-        {
-          "concept": "半导体材料",
-          "count": 1
         }
       ],
       "emerging": [
         {
           "concept": "白酒",
-          "count": 3,
+          "count": 4,
+          "prev_count": 0
+        },
+        {
+          "concept": "半导体",
+          "count": 4,
           "prev_count": 0
         }
       ],
       "fading": [
+        {
+          "concept": "新能源",
+          "count": 0,
+          "prev_count": 7
+        },
         {
           "concept": "煤炭",
           "count": 0,
           "prev_count": 6
         },
         {
-          "concept": "新能源",
-          "count": 0,
-          "prev_count": 6
+          "concept": "电网设备",
+          "count": 1,
+          "prev_count": 3
         },
         {
           "concept": "覆铜板",
@@ -2418,5 +2433,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-17T19:45:24.152Z"
+  "generated_at": "2026-09-18T19:50:14.621Z"
 }

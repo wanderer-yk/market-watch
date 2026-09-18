@@ -1,14 +1,38 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "lookback_days": 10,
   "anomalies": [
     {
       "type": "sector_surge",
       "label": "医药生物",
+      "today": 12,
+      "avg": 2.4,
+      "deviation": 4.05,
+      "severity": "high"
+    },
+    {
+      "type": "sector_surge",
+      "label": "机械设备",
       "today": 5,
+      "avg": 1.6,
+      "deviation": 2.13,
+      "severity": "high"
+    },
+    {
+      "type": "sector_surge",
+      "label": "电力设备",
+      "today": 6,
       "avg": 2,
-      "deviation": 1.5,
+      "deviation": 2,
       "severity": "medium"
+    },
+    {
+      "type": "density_shift",
+      "label": "异动密度",
+      "today": 64,
+      "avg": 40,
+      "deviation": 0.62,
+      "severity": "high"
     }
   ]
 }

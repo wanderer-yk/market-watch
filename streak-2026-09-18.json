@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-18",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "streak": 9,
+      "first_date": "2026-09-07",
+      "last_date": "2026-09-18",
+      "total_pct": 38.17
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "streak": 6,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-18",
+      "total_pct": 103.53
+    },
+    {
+      "ticker": "SH603657",
+      "name": "春光科技",
+      "streak": 5,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-18",
+      "total_pct": 49.62
+    },
+    {
+      "ticker": "SH603980",
+      "name": "吉华集团",
+      "streak": 4,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-18",
+      "total_pct": 34.66
+    },
+    {
+      "ticker": "SZ001216",
+      "name": "华瓷股份",
+      "streak": 3,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-18",
+      "total_pct": 50.21
+    },
+    {
+      "ticker": "SH688114",
+      "name": "华大智造",
+      "streak": 3,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-18",
+      "total_pct": 32.49
+    },
+    {
+      "ticker": "SZ001201",
+      "name": "东瑞股份",
+      "streak": 3,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-18",
+      "total_pct": 29.15
+    },
+    {
+      "ticker": "SZ300688",
+      "name": "创业黑马",
+      "streak": 3,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-18",
+      "total_pct": 24.66
+    }
+  ]
+}
