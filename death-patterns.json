@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-18",
-  "total_deaths": 1297,
+  "date_range": "2026-06-16 ~ 2026-09-21",
+  "total_deaths": 1264,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 35,
+    "高位回落": 34,
     "利空事件": 2,
     "利空+下跌": 2,
-    "自然退潮": 1258
+    "自然退潮": 1226
   },
   "recent_deaths": [
     {
@@ -32,17 +32,6 @@
       "events": []
     },
     {
-      "ticker": "SZ300010",
-      "name": "ST豆神",
-      "death_date": "2026-09-10",
-      "peak_pct": 161.5,
-      "last_pct": 161.5,
-      "last_days": 22,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
       "ticker": "SZ301251",
       "name": "威尔高",
       "death_date": "2026-09-16",
@@ -57,30 +46,6 @@
           "timestamp": 1789488000000,
           "reason": "PCB板块受上游材料涨价传导利好而整体走强，同时公司作为AI服务器电源PCB细分龙头，受益于CPO/光模块概念热度提升。",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6a5a88bf-b96c-4158-8046-4d117efffd41&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH688137",
-      "name": "近岸蛋白",
-      "death_date": "2026-09-17",
-      "peak_pct": 143.1,
-      "last_pct": 62.01,
-      "last_days": 10,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "近岸蛋白2026-09-14收盘价76.80元，涨幅20.00%",
-          "timestamp": 1789315200000,
-          "reason": "CRO/CDMO行业受研报看好，公司作为相关概念股受市场关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24ef4087-e404-4f00-91a3-d6ed4461663f&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "近岸蛋白2026-09-17收盘价99.75元，涨幅18.75%",
-          "timestamp": 1789574400000,
-          "reason": "AI制药概念板块活跃，市场预期公司作为上游蛋白试剂供应商受益于行业需求增长",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-13777766-6a34-45d5-b7fc-80283c51ad9d&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
@@ -115,13 +80,13 @@
       ]
     },
     {
-      "ticker": "SZ002815",
-      "name": "崇达技术",
-      "death_date": "2026-09-17",
-      "peak_pct": 120.5,
-      "last_pct": 120.5,
-      "last_days": 49,
-      "appearances": 10,
+      "ticker": "SH688072",
+      "name": "拓荆科技",
+      "death_date": "2026-09-18",
+      "peak_pct": 119.04,
+      "last_pct": 19.81,
+      "last_days": 4,
+      "appearances": 6,
       "pattern": "自然退潮",
       "events": []
     },
@@ -155,40 +120,37 @@
       "events": []
     },
     {
-      "ticker": "SH600354",
-      "name": "敦煌种业",
-      "death_date": "2026-09-10",
-      "peak_pct": 90.2,
-      "last_pct": 90.2,
-      "last_days": 27,
-      "appearances": 9,
+      "ticker": "SH688147",
+      "name": "微导纳米",
+      "death_date": "2026-09-18",
+      "peak_pct": 95.52,
+      "last_pct": 23.44,
+      "last_days": 7,
+      "appearances": 5,
       "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "敦煌种业2026-08-18收盘价6.99元，涨幅10.08%",
-          "timestamp": 1786982400000,
-          "reason": "农业板块因全球粮食危机担忧而整体走强，敦煌种业作为种植业龙头受到资金追捧。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-ca40c324-7bb5-4db8-b950-d4061177a476&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "敦煌种业2026-08-28收盘价8.21元，涨幅10.05%",
-          "timestamp": 1787846400000,
-          "reason": "公司发布2026年半年度报告，业绩大幅超预期，同时所属农林牧渔板块整体走强。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-16244d41-3d49-4465-87f5-1869d2be17db&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "敦煌种业2026-09-01收盘价9.12元，涨幅10.01%",
-          "timestamp": 1788192000000,
-          "reason": "种植业板块受全球农产品涨价预期驱动，敦煌种业作为板块龙头受市场追捧",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-09cf83b8-9ec0-4496-95fd-8cc21c2c7b85&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "敦煌种业2026-09-07收盘价9.53元，涨幅10.05%",
-          "timestamp": 1788710400000,
-          "reason": "所属农业板块受厄尔尼诺气候事件催化而整体活跃，是导致股价异动的主因。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d38de92d-7750-4d60-b5f3-b9df0ca2d69a&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
+      "events": []
+    },
+    {
+      "ticker": "SZ300260",
+      "name": "新莱应材",
+      "death_date": "2026-09-18",
+      "peak_pct": 92.46,
+      "last_pct": 23.5,
+      "last_days": 7,
+      "appearances": 3,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300401",
+      "name": "花园生物",
+      "death_date": "2026-09-18",
+      "peak_pct": 88.35,
+      "last_pct": 14.32,
+      "last_days": 3,
+      "appearances": 8,
+      "pattern": "自然退潮",
+      "events": []
     }
   ],
   "peak_deaths": [

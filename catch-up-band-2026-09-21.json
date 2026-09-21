@@ -1,0 +1,680 @@
+{
+  "date": "2026-09-21",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688176",
+      "name": "亚虹医药",
+      "pct": 15.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688136",
+      "name": "科兴制药",
+      "pct": 13.86,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688678",
+      "name": "福立旺",
+      "pct": 13.17,
+      "concepts": [
+        "消费电子",
+        "PCB",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ300860",
+      "name": "锋尚文化",
+      "pct": 12.8,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688393",
+      "name": "安必平",
+      "pct": 11.05,
+      "concepts": [
+        "医疗器械"
+      ]
+    },
+    {
+      "ticker": "SZ301498",
+      "name": "乖宝宠物",
+      "pct": 11,
+      "concepts": [
+        "证券"
+      ]
+    },
+    {
+      "ticker": "SH600712",
+      "name": "南宁百货",
+      "pct": 10.09,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002907",
+      "name": "华森制药",
+      "pct": 10.03,
+      "concepts": [
+        "中药"
+      ]
+    },
+    {
+      "ticker": "SZ000829",
+      "name": "天音控股",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600587",
+      "name": "新华医疗",
+      "pct": 10.02,
+      "concepts": [
+        "医疗器械"
+      ]
+    },
+    {
+      "ticker": "SH603319",
+      "name": "美湖股份",
+      "pct": 10.02,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002869",
+      "name": "金溢科技",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600630",
+      "name": "龙头股份",
+      "pct": 10.01,
+      "concepts": [
+        "服装家纺"
+      ]
+    },
+    {
+      "ticker": "SH603068",
+      "name": "博通集成",
+      "pct": 10,
+      "concepts": [
+        "半导体",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH603663",
+      "name": "三祥新材",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ001201",
+      "name": "东瑞股份",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600301",
+      "name": "华锡有色",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH601579",
+      "name": "会稽山",
+      "pct": 9.99,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SH603093",
+      "name": "南华期货",
+      "pct": 9.98,
+      "concepts": [
+        "大金融"
+      ]
+    },
+    {
+      "ticker": "SZ000756",
+      "name": "新华制药",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000607",
+      "name": "华媒控股",
+      "pct": 9.95,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688197",
+      "name": "首药控股",
+      "pct": 9.95,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ000002",
+      "name": "万  科Ａ",
+      "pct": 9.94,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SH600281",
+      "name": "华阳新材",
+      "pct": 9.93,
+      "concepts": [
+        "小金属",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002042",
+      "name": "华孚时尚",
+      "pct": 9.9,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 36,
+      "active_days": 9,
+      "heat_score": 324,
+      "leaders": [
+        {
+          "ticker": "SZ300860",
+          "name": "锋尚文化",
+          "pct": 12.8,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603068",
+          "name": "博通集成",
+          "pct": 10,
+          "concepts": [
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688197",
+          "name": "首药控股",
+          "pct": 9.95,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH600281",
+          "name": "华阳新材",
+          "pct": 9.93,
+          "concepts": [
+            "小金属",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 12,
+      "active_days": 6,
+      "heat_score": 72,
+      "leaders": [
+        {
+          "ticker": "SH688678",
+          "name": "福立旺",
+          "pct": 13.17,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 11,
+      "active_days": 6,
+      "heat_score": 66,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 10,
+      "active_days": 5,
+      "heat_score": 50,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 9,
+      "active_days": 5,
+      "heat_score": 45,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 11,
+      "active_days": 4,
+      "heat_score": 44,
+      "leaders": [
+        {
+          "ticker": "SH603319",
+          "name": "美湖股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": [
+        {
+          "ticker": "SH603068",
+          "name": "博通集成",
+          "pct": 10,
+          "concepts": [
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SH603319",
+          "name": "美湖股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SH603068",
+          "name": "博通集成",
+          "pct": 10,
+          "concepts": [
+            "半导体",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH600281",
+          "name": "华阳新材",
+          "pct": 9.93,
+          "concepts": [
+            "小金属",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SH688678",
+          "name": "福立旺",
+          "pct": 13.17,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SZ000002",
+          "name": "万  科Ａ",
+          "pct": 9.94,
+          "concepts": [
+            "房地产"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SH688393",
+          "name": "安必平",
+          "pct": 11.05,
+          "concepts": [
+            "医疗器械"
+          ]
+        },
+        {
+          "ticker": "SH600587",
+          "name": "新华医疗",
+          "pct": 10.02,
+          "concepts": [
+            "医疗器械"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH688678",
+          "name": "福立旺",
+          "pct": 13.17,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ002907",
+          "name": "华森制药",
+          "pct": 10.03,
+          "concepts": [
+            "中药"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH601579",
+          "name": "会稽山",
+          "pct": 9.99,
+          "concepts": [
+            "白酒"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH603093",
+          "name": "南华期货",
+          "pct": 9.98,
+          "concepts": [
+            "大金融"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ301498",
+          "name": "乖宝宠物",
+          "pct": 11,
+          "concepts": [
+            "证券"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH600630",
+          "name": "龙头股份",
+          "pct": 10.01,
+          "concepts": [
+            "服装家纺"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SZ001317",
+      "name": "三羊马",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "AI",
+        "机器人"
+      ],
+      "trend_pct": 27.2,
+      "trend_days": 6
+    },
+    {
+      "ticker": "SH600606",
+      "name": "绿地控股",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "房地产"
+      ],
+      "trend_pct": 25.98,
+      "trend_days": 6
+    },
+    {
+      "ticker": "SZ301220",
+      "name": "亚香股份",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "AI"
+      ],
+      "trend_pct": 25.3,
+      "trend_days": 13
+    },
+    {
+      "ticker": "SH603375",
+      "name": "盛景微",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "半导体"
+      ],
+      "trend_pct": 24.02,
+      "trend_days": 7
+    },
+    {
+      "ticker": "SZ002623",
+      "name": "亚玛顿",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "AI",
+        "算力"
+      ],
+      "trend_pct": 23.55,
+      "trend_days": 7
+    },
+    {
+      "ticker": "SZ301349",
+      "name": "信德新材",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "PCB"
+      ],
+      "trend_pct": 20.42,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ301335",
+      "name": "天元宠物",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "证券"
+      ],
+      "trend_pct": 17.39,
+      "trend_days": 5
+    },
+    {
+      "ticker": "SH600933",
+      "name": "爱柯迪",
+      "last_seen": "2026-09-21",
+      "shared_concepts": [
+        "机器人"
+      ],
+      "trend_pct": 17.24,
+      "trend_days": 5
+    }
+  ]
+}

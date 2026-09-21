@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-21",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "streak": 7,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-21",
+      "total_pct": 112.15
+    },
+    {
+      "ticker": "SH603657",
+      "name": "春光科技",
+      "streak": 6,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-21",
+      "total_pct": 53.45
+    },
+    {
+      "ticker": "SH601579",
+      "name": "会稽山",
+      "streak": 5,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-21",
+      "total_pct": 57.04
+    },
+    {
+      "ticker": "SH603980",
+      "name": "吉华集团",
+      "streak": 5,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-21",
+      "total_pct": 36.49
+    },
+    {
+      "ticker": "SZ001216",
+      "name": "华瓷股份",
+      "streak": 4,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-21",
+      "total_pct": 65.25
+    },
+    {
+      "ticker": "SZ002011",
+      "name": "盾安环境",
+      "streak": 4,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-21",
+      "total_pct": 50.77
+    },
+    {
+      "ticker": "SZ002913",
+      "name": "奥士康",
+      "streak": 4,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-21",
+      "total_pct": 48.85
+    },
+    {
+      "ticker": "SZ001201",
+      "name": "东瑞股份",
+      "streak": 4,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-21",
+      "total_pct": 42.05
+    },
+    {
+      "ticker": "SH688799",
+      "name": "华纳药厂",
+      "streak": 3,
+      "first_date": "2026-09-17",
+      "last_date": "2026-09-21",
+      "total_pct": 28.65
+    },
+    {
+      "ticker": "SH688181",
+      "name": "八亿时空",
+      "streak": 3,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-21",
+      "total_pct": 25.44
+    }
+  ]
+}
