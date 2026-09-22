@@ -1,25 +1,14 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-21",
-  "total_deaths": 1264,
+  "date_range": "2026-06-16 ~ 2026-09-22",
+  "total_deaths": 1301,
   "patterns": {
     "闪崩": 0,
     "高位回落": 34,
-    "利空事件": 2,
+    "利空事件": 3,
     "利空+下跌": 2,
-    "自然退潮": 1226
+    "自然退潮": 1262
   },
   "recent_deaths": [
-    {
-      "ticker": "SZ002636",
-      "name": "金安国纪",
-      "death_date": "2026-09-11",
-      "peak_pct": 172.04,
-      "last_pct": 27.63,
-      "last_days": 7,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": []
-    },
     {
       "ticker": "SZ300319",
       "name": "麦捷科技",
@@ -32,52 +21,57 @@
       "events": []
     },
     {
-      "ticker": "SZ301251",
-      "name": "威尔高",
-      "death_date": "2026-09-16",
-      "peak_pct": 146.56,
-      "last_pct": 52.35,
-      "last_days": 12,
-      "appearances": 5,
+      "ticker": "SH603663",
+      "name": "三祥新材",
+      "death_date": "2026-09-21",
+      "peak_pct": 143.13,
+      "last_pct": 27.38,
+      "last_days": 13,
+      "appearances": 6,
       "pattern": "自然退潮",
       "events": [
         {
-          "description": "威尔高2026-09-16收盘价81.78元，涨幅20.00%",
-          "timestamp": 1789488000000,
-          "reason": "PCB板块受上游材料涨价传导利好而整体走强，同时公司作为AI服务器电源PCB细分龙头，受益于CPO/光模块概念热度提升。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6a5a88bf-b96c-4158-8046-4d117efffd41&navBarTransparent=1&navBarTheme=dark"
+          "description": "三祥新材2026-09-21收盘价49.82元，涨幅10.00%",
+          "timestamp": 1789920000000,
+          "reason": "市场对锆英砂供给收缩及铪产品前景乐观，叠加公司多项业务进展传闻，驱动股价上涨。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-03661d05-af5e-4012-87db-486bc7da2b54&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     },
     {
-      "ticker": "SH601086",
-      "name": "国芳集团",
-      "death_date": "2026-09-14",
-      "peak_pct": 141.8,
-      "last_pct": 141.8,
-      "last_days": 21,
-      "appearances": 8,
+      "ticker": "SH688137",
+      "name": "近岸蛋白",
+      "death_date": "2026-09-21",
+      "peak_pct": 143.1,
+      "last_pct": 85.69,
+      "last_days": 10,
+      "appearances": 9,
       "pattern": "自然退潮",
       "events": [
         {
-          "description": "国芳集团2026-08-28收盘价8.34元，涨幅10.03%",
-          "timestamp": 1787846400000,
-          "reason": "公司半年度业绩大幅增长，净利润同比大增214.09%，且零售板块受益于消费复苏预期",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c8fe5b36-968b-492c-b953-ca799adf1245&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "国芳集团2026-09-01收盘价10.09元，涨幅10.03%",
-          "timestamp": 1788192000000,
-          "reason": "零售行业板块受政策利好驱动，国芳集团作为区域龙头受到市场关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-32f26dfb-a4f9-4129-aa5f-a3b5df47539e&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "国芳集团2026-09-14收盘价17.99元，涨幅10.03%",
+          "description": "近岸蛋白2026-09-14收盘价76.80元，涨幅20.00%",
           "timestamp": 1789315200000,
-          "reason": "零售板块受政策利好提振，国芳集团作为板块内高辨识度个股获市场资金关注。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-8e4289b6-e8ec-44b4-bf10-dd9e49ba62f2&navBarTransparent=1&navBarTheme=dark"
+          "reason": "CRO/CDMO行业受研报看好，公司作为相关概念股受市场关注",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24ef4087-e404-4f00-91a3-d6ed4461663f&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "近岸蛋白2026-09-17收盘价99.75元，涨幅18.75%",
+          "timestamp": 1789574400000,
+          "reason": "AI制药概念板块活跃，市场预期公司作为上游蛋白试剂供应商受益于行业需求增长",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-13777766-6a34-45d5-b7fc-80283c51ad9d&navBarTransparent=1&navBarTheme=dark"
         }
       ]
+    },
+    {
+      "ticker": "SZ301080",
+      "name": "百普赛斯",
+      "death_date": "2026-09-21",
+      "peak_pct": 119.82,
+      "last_pct": 47.65,
+      "last_days": 10,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": []
     },
     {
       "ticker": "SH688072",
@@ -91,33 +85,22 @@
       "events": []
     },
     {
-      "ticker": "SZ301176",
-      "name": "逸豪新材",
-      "death_date": "2026-09-11",
-      "peak_pct": 105.76,
-      "last_pct": 41.92,
-      "last_days": 7,
+      "ticker": "SZ301349",
+      "name": "信德新材",
+      "death_date": "2026-09-21",
+      "peak_pct": 114.42,
+      "last_pct": 20.42,
+      "last_days": 10,
       "appearances": 4,
       "pattern": "自然退潮",
       "events": [
         {
-          "description": "逸豪新材2026-09-10收盘价56.49元，涨幅15.29%",
-          "timestamp": 1788969600000,
-          "reason": "PCB覆铜板行业涨价潮带动相关概念股集体走强",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-a27f1e2a-c992-435d-b812-89ac95f86173&navBarTransparent=1&navBarTheme=dark"
+          "description": "信德新材2026-09-21收盘价49.71元，涨幅8.40%",
+          "timestamp": 1789920000000,
+          "reason": "市场传闻上游原材料涨价推动PCB板块盈利改善预期，公司作为电池材料供应商或受益于产业链价格传导。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c838e1d5-3f4f-467c-b626-1dcf7fcb5ca3&navBarTransparent=1&navBarTheme=dark"
         }
       ]
-    },
-    {
-      "ticker": "SH600641",
-      "name": "先导基电",
-      "death_date": "2026-09-17",
-      "peak_pct": 96.34,
-      "last_pct": 25.55,
-      "last_days": 6,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": []
     },
     {
       "ticker": "SH688147",
@@ -149,6 +132,17 @@
       "last_pct": 14.32,
       "last_days": 3,
       "appearances": 8,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ000056",
+      "name": "*ST皇庭",
+      "death_date": "2026-09-15",
+      "peak_pct": 84.92,
+      "last_pct": 28.76,
+      "last_days": 12,
+      "appearances": 9,
       "pattern": "自然退潮",
       "events": []
     }

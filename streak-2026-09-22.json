@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-22",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "streak": 8,
+      "first_date": "2026-09-10",
+      "last_date": "2026-09-22",
+      "total_pct": 117.13
+    },
+    {
+      "ticker": "SH603657",
+      "name": "春光科技",
+      "streak": 7,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-22",
+      "total_pct": 56.85
+    },
+    {
+      "ticker": "SH601579",
+      "name": "会稽山",
+      "streak": 6,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-22",
+      "total_pct": 60.02
+    },
+    {
+      "ticker": "SH603980",
+      "name": "吉华集团",
+      "streak": 6,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-22",
+      "total_pct": 36.64
+    },
+    {
+      "ticker": "SZ001216",
+      "name": "华瓷股份",
+      "streak": 5,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-22",
+      "total_pct": 81.8
+    },
+    {
+      "ticker": "SZ002913",
+      "name": "奥士康",
+      "streak": 5,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-22",
+      "total_pct": 55.22
+    },
+    {
+      "ticker": "SZ001201",
+      "name": "东瑞股份",
+      "streak": 5,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-22",
+      "total_pct": 33.17
+    },
+    {
+      "ticker": "SH688265",
+      "name": "南模生物",
+      "streak": 3,
+      "first_date": "2026-09-18",
+      "last_date": "2026-09-22",
+      "total_pct": 39.41
+    }
+  ]
+}

@@ -629,7 +629,9 @@
       "name": "恒玄科技",
       "last_seen": "2026-09-18",
       "shared_concepts": [
-        "半导体"
+        "半导体",
+        "AI",
+        "算力"
       ],
       "trend_pct": 15.6,
       "trend_days": 4

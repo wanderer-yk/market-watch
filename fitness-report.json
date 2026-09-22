@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T19:51:09.748Z",
-  "total_entries": 5604,
+  "generated_at": "2026-09-22T19:50:14.628Z",
+  "total_entries": 5723,
   "by_kind": {
     "continued": {
-      "count": 1668,
+      "count": 1714,
       "win_rate_5d": 39,
       "avg_ret_5d": -1.33,
       "win_rate_20d": 17,
       "avg_ret_20d": -16.51
     },
     "new": {
-      "count": 3936,
+      "count": 4009,
       "win_rate_5d": 41,
       "avg_ret_5d": -1.35,
       "win_rate_20d": 25,
@@ -20,7 +20,7 @@
   "by_days_bucket": [
     {
       "bucket": "1-7天",
-      "count": 1691,
+      "count": 1741,
       "win_rate_5d": 45,
       "avg_ret_5d": -1.33,
       "win_rate_20d": 34,
@@ -28,7 +28,7 @@
     },
     {
       "bucket": "8-14天",
-      "count": 3087,
+      "count": 3139,
       "win_rate_5d": 41,
       "avg_ret_5d": -0.71,
       "win_rate_20d": 24,
@@ -36,7 +36,7 @@
     },
     {
       "bucket": "15-30天",
-      "count": 379,
+      "count": 388,
       "win_rate_5d": 25,
       "avg_ret_5d": -4.99,
       "win_rate_20d": 7,
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "30天+",
-      "count": 447,
+      "count": 455,
       "win_rate_5d": 40,
       "avg_ret_5d": -1.41,
       "win_rate_20d": 5,
@@ -54,7 +54,7 @@
   "by_pct_bucket": [
     {
       "bucket": "0-20%",
-      "count": 2290,
+      "count": 2348,
       "win_rate_5d": 44,
       "avg_ret_5d": -0.54,
       "win_rate_20d": 37,
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "20-50%",
-      "count": 2540,
+      "count": 2589,
       "win_rate_5d": 39,
       "avg_ret_5d": -1.53,
       "win_rate_20d": 20,
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "50-100%",
-      "count": 536,
+      "count": 544,
       "win_rate_5d": 36,
       "avg_ret_5d": -2.39,
       "win_rate_20d": 12,
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "100%+",
-      "count": 238,
+      "count": 242,
       "win_rate_5d": 32,
       "avg_ret_5d": -4.11,
       "win_rate_20d": 4,
@@ -88,7 +88,7 @@
   "combo_analysis": [
     {
       "combo": "涨停+区间涨",
-      "count": 368,
+      "count": 378,
       "win_rate_5d": 43,
       "avg_ret_5d": -0.85,
       "win_rate_20d": 18,
@@ -96,7 +96,7 @@
     },
     {
       "combo": "非涨停+区间涨",
-      "count": 5236,
+      "count": 5345,
       "win_rate_5d": 40,
       "avg_ret_5d": -1.38,
       "win_rate_20d": 23,
