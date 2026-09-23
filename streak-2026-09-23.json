@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-23",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ001216",
+      "name": "华瓷股份",
+      "streak": 6,
+      "first_date": "2026-09-16",
+      "last_date": "2026-09-23",
+      "total_pct": 94.44
+    },
+    {
+      "ticker": "SZ002913",
+      "name": "奥士康",
+      "streak": 6,
+      "first_date": "2026-09-14",
+      "last_date": "2026-09-23",
+      "total_pct": 60.05
+    },
+    {
+      "ticker": "SZ301080",
+      "name": "百普赛斯",
+      "streak": 3,
+      "first_date": "2026-09-18",
+      "last_date": "2026-09-23",
+      "total_pct": 64.93
+    },
+    {
+      "ticker": "SH688238",
+      "name": "和元生物",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-23",
+      "total_pct": 40.45
+    },
+    {
+      "ticker": "SZ301678",
+      "name": "新恒汇",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-23",
+      "total_pct": 38.75
+    },
+    {
+      "ticker": "SH688185",
+      "name": "康希诺",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-23",
+      "total_pct": 34.78
+    },
+    {
+      "ticker": "SZ002734",
+      "name": "利民股份",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-23",
+      "total_pct": 26.92
+    },
+    {
+      "ticker": "SZ300685",
+      "name": "艾德生物",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-23",
+      "total_pct": 25.96
+    }
+  ]
+}

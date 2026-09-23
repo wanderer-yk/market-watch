@@ -1748,7 +1748,7 @@
     {
       "week": "2026-W32",
       "date_range": "08-03 ~ 08-09",
-      "total_reasons": 223,
+      "total_reasons": 224,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1756,11 +1756,11 @@
         },
         {
           "concept": "算力",
-          "count": 25
+          "count": 26
         },
         {
           "concept": "PCB",
-          "count": 24
+          "count": 25
         },
         {
           "concept": "通信",
@@ -1955,11 +1955,11 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 105,
+      "total_reasons": 106,
       "top_concepts": [
         {
           "concept": "银行",
-          "count": 13
+          "count": 14
         },
         {
           "concept": "电子",
@@ -2001,7 +2001,7 @@
       "emerging": [
         {
           "concept": "银行",
-          "count": 13,
+          "count": 14,
           "prev_count": 0
         },
         {
@@ -2155,7 +2155,7 @@
         {
           "concept": "银行",
           "count": 0,
-          "prev_count": 13
+          "prev_count": 14
         },
         {
           "concept": "先进封装",
@@ -2258,7 +2258,7 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 84,
+      "total_reasons": 85,
       "top_concepts": [
         {
           "concept": "煤炭",
@@ -2354,19 +2354,19 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 79,
+      "total_reasons": 85,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 16
+          "count": 17
         },
         {
           "concept": "PCB",
-          "count": 9
+          "count": 11
         },
         {
           "concept": "半导体",
-          "count": 8
+          "count": 9
         },
         {
           "concept": "白酒",
@@ -2374,6 +2374,10 @@
         },
         {
           "concept": "CPO",
+          "count": 6
+        },
+        {
+          "concept": "半导体硅片",
           "count": 4
         },
         {
@@ -2385,22 +2389,18 @@
           "count": 3
         },
         {
-          "concept": "半导体硅片",
+          "concept": "光模块",
           "count": 3
         },
         {
-          "concept": "证券",
-          "count": 3
-        },
-        {
-          "concept": "机器人",
+          "concept": "先进封装",
           "count": 3
         }
       ],
       "emerging": [
         {
           "concept": "半导体",
-          "count": 8,
+          "count": 9,
           "prev_count": 0
         },
         {
@@ -2410,6 +2410,16 @@
         },
         {
           "concept": "半导体硅片",
+          "count": 4,
+          "prev_count": 0
+        },
+        {
+          "concept": "光模块",
+          "count": 3,
+          "prev_count": 1
+        },
+        {
+          "concept": "先进封装",
           "count": 3,
           "prev_count": 0
         },
@@ -2435,18 +2445,26 @@
     {
       "week": "2026-W39",
       "date_range": "09-21 ~ 09-27",
-      "total_reasons": 36,
+      "total_reasons": 49,
       "top_concepts": [
         {
           "concept": "AI",
-          "count": 11
+          "count": 13
         },
         {
           "concept": "半导体",
-          "count": 5
+          "count": 6
+        },
+        {
+          "concept": "PCB",
+          "count": 3
         },
         {
           "concept": "算力",
+          "count": 3
+        },
+        {
+          "concept": "创新药",
           "count": 3
         },
         {
@@ -2454,7 +2472,11 @@
           "count": 2
         },
         {
-          "concept": "PCB",
+          "concept": "消费电子",
+          "count": 2
+        },
+        {
+          "concept": "电子",
           "count": 2
         },
         {
@@ -2462,20 +2484,8 @@
           "count": 2
         },
         {
-          "concept": "创新药",
+          "concept": "MLCC",
           "count": 2
-        },
-        {
-          "concept": "消费电子",
-          "count": 1
-        },
-        {
-          "concept": "电子",
-          "count": 1
-        },
-        {
-          "concept": "服装家纺",
-          "count": 1
         }
       ],
       "emerging": [
@@ -2483,11 +2493,21 @@
           "concept": "算力",
           "count": 3,
           "prev_count": 1
+        },
+        {
+          "concept": "创新药",
+          "count": 3,
+          "prev_count": 0
         }
       ],
       "fading": [
         {
           "concept": "CPO",
+          "count": 0,
+          "prev_count": 6
+        },
+        {
+          "concept": "半导体硅片",
           "count": 0,
           "prev_count": 4
         },
@@ -2502,7 +2522,12 @@
           "prev_count": 3
         },
         {
-          "concept": "半导体硅片",
+          "concept": "光模块",
+          "count": 1,
+          "prev_count": 3
+        },
+        {
+          "concept": "先进封装",
           "count": 0,
           "prev_count": 3
         },
@@ -2519,5 +2544,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-22T19:46:30.313Z"
+  "generated_at": "2026-09-23T19:48:32.478Z"
 }

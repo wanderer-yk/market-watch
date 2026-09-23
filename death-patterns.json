@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-22",
-  "total_deaths": 1301,
+  "date_range": "2026-06-16 ~ 2026-09-23",
+  "total_deaths": 1350,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 34,
+    "高位回落": 36,
     "利空事件": 3,
     "利空+下跌": 2,
-    "自然退潮": 1262
+    "自然退潮": 1309
   },
   "recent_deaths": [
     {
@@ -63,13 +63,35 @@
       ]
     },
     {
-      "ticker": "SZ301080",
-      "name": "百普赛斯",
-      "death_date": "2026-09-21",
-      "peak_pct": 119.82,
-      "last_pct": 47.65,
-      "last_days": 10,
-      "appearances": 7,
+      "ticker": "SH601086",
+      "name": "国芳集团",
+      "death_date": "2026-09-22",
+      "peak_pct": 141.8,
+      "last_pct": 24.64,
+      "last_days": 6,
+      "appearances": 9,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "death_date": "2026-09-22",
+      "peak_pct": 135.53,
+      "last_pct": 135.53,
+      "last_days": 54,
+      "appearances": 12,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SH600721",
+      "name": "百花医药",
+      "death_date": "2026-09-22",
+      "peak_pct": 126.67,
+      "last_pct": 35.74,
+      "last_days": 7,
+      "appearances": 12,
       "pattern": "自然退潮",
       "events": []
     },
@@ -83,6 +105,30 @@
       "appearances": 6,
       "pattern": "自然退潮",
       "events": []
+    },
+    {
+      "ticker": "SZ000993",
+      "name": "闽东电力",
+      "death_date": "2026-09-22",
+      "peak_pct": 117.13,
+      "last_pct": 117.13,
+      "last_days": 34,
+      "appearances": 8,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "闽东电力2026-09-11收盘价13.88元，涨幅9.98%",
+          "timestamp": 1789056000000,
+          "reason": "电力板块受‘算电协同’驱动价值重估预期影响整体走强，闽东电力作为板块内活跃标的获市场关注。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-cac5cc6b-a917-4bd6-8f8a-553b85244b72&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "闽东电力2026-09-14收盘价15.27元，涨幅10.01%",
+          "timestamp": 1789315200000,
+          "reason": "电力板块受国常会政策利好驱动，绿电方向领涨",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-0a347b9f-9516-4cac-9621-87721c858523&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     },
     {
       "ticker": "SZ301349",
@@ -103,46 +149,13 @@
       ]
     },
     {
-      "ticker": "SH688147",
-      "name": "微导纳米",
-      "death_date": "2026-09-18",
-      "peak_pct": 95.52,
-      "last_pct": 23.44,
-      "last_days": 7,
+      "ticker": "SH688356",
+      "name": "键凯科技",
+      "death_date": "2026-09-22",
+      "peak_pct": 113.83,
+      "last_pct": 34,
+      "last_days": 11,
       "appearances": 5,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ300260",
-      "name": "新莱应材",
-      "death_date": "2026-09-18",
-      "peak_pct": 92.46,
-      "last_pct": 23.5,
-      "last_days": 7,
-      "appearances": 3,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ300401",
-      "name": "花园生物",
-      "death_date": "2026-09-18",
-      "peak_pct": 88.35,
-      "last_pct": 14.32,
-      "last_days": 3,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ000056",
-      "name": "*ST皇庭",
-      "death_date": "2026-09-15",
-      "peak_pct": 84.92,
-      "last_pct": 28.76,
-      "last_days": 12,
-      "appearances": 9,
       "pattern": "自然退潮",
       "events": []
     }

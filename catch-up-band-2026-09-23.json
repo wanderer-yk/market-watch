@@ -1,0 +1,350 @@
+{
+  "date": "2026-09-23",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ301150",
+      "name": "中一科技",
+      "pct": 20,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SZ300192",
+      "name": "科德教育",
+      "pct": 16.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688662",
+      "name": "富信科技",
+      "pct": 16.21,
+      "concepts": [
+        "光模块"
+      ]
+    },
+    {
+      "ticker": "SZ301678",
+      "name": "新恒汇",
+      "pct": 14.32,
+      "concepts": [
+        "覆铜板",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688379",
+      "name": "华光新材",
+      "pct": 13.98,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SH688776",
+      "name": "国光电气",
+      "pct": 10.29,
+      "concepts": [
+        "军工",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ002286",
+      "name": "保龄宝",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600843",
+      "name": "上工申贝",
+      "pct": 9.97,
+      "concepts": [
+        "专用设备",
+        "PCB"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 39,
+      "active_days": 8,
+      "heat_score": 312,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 12,
+      "active_days": 7,
+      "heat_score": 84,
+      "leaders": [
+        {
+          "ticker": "SZ301150",
+          "name": "中一科技",
+          "pct": 20,
+          "concepts": [
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SH688379",
+          "name": "华光新材",
+          "pct": 13.98,
+          "concepts": [
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SH600843",
+          "name": "上工申贝",
+          "pct": 9.97,
+          "concepts": [
+            "专用设备",
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 12,
+      "active_days": 6,
+      "heat_score": 72,
+      "leaders": [
+        {
+          "ticker": "SZ301678",
+          "name": "新恒汇",
+          "pct": 14.32,
+          "concepts": [
+            "覆铜板",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 9,
+      "active_days": 5,
+      "heat_score": 45,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SH688776",
+          "name": "国光电气",
+          "pct": 10.29,
+          "concepts": [
+            "军工",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SH688776",
+          "name": "国光电气",
+          "pct": 10.29,
+          "concepts": [
+            "军工",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "煤炭",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SZ301678",
+          "name": "新恒汇",
+          "pct": 14.32,
+          "concepts": [
+            "覆铜板",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH688662",
+          "name": "富信科技",
+          "pct": 16.21,
+          "concepts": [
+            "光模块"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
