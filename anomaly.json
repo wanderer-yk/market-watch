@@ -1,29 +1,21 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "lookback_days": 10,
   "anomalies": [
     {
       "type": "sector_surge",
-      "label": "汽车",
-      "today": 6,
-      "avg": 2.2,
-      "deviation": 1.77,
-      "severity": "medium"
-    },
-    {
-      "type": "sector_surge",
-      "label": "基础化工",
-      "today": 9,
-      "avg": 3.9,
-      "deviation": 1.31,
+      "label": "社会服务",
+      "today": 3,
+      "avg": 1.3,
+      "deviation": 1.33,
       "severity": "medium"
     },
     {
       "type": "density_shift",
       "label": "异动密度",
-      "today": 77,
-      "avg": 57,
-      "deviation": 0.35,
+      "today": 33,
+      "avg": 59,
+      "deviation": -0.44,
       "severity": "medium"
     }
   ]

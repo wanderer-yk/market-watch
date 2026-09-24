@@ -1,21 +1,103 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-23",
-  "total_deaths": 1350,
+  "date_range": "2026-06-16 ~ 2026-09-24",
+  "total_deaths": 1400,
   "patterns": {
     "闪崩": 0,
     "高位回落": 36,
     "利空事件": 3,
     "利空+下跌": 2,
-    "自然退潮": 1309
+    "自然退潮": 1359
   },
   "recent_deaths": [
     {
-      "ticker": "SZ300319",
-      "name": "麦捷科技",
-      "death_date": "2026-09-15",
-      "peak_pct": 170.64,
-      "last_pct": 23.14,
-      "last_days": 11,
+      "ticker": "SZ301251",
+      "name": "威尔高",
+      "death_date": "2026-09-23",
+      "peak_pct": 240.97,
+      "last_pct": 240.97,
+      "last_days": 55,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "威尔高2026-08-06收盘价39.83元，涨幅20.01%",
+          "timestamp": 1785945600000,
+          "reason": "PCB概念板块因先进算力需求驱动整体走强，带动个股上涨。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-af582c14-b83e-4cb6-810e-c73b66c5f636&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "威尔高2026-09-16收盘价81.78元，涨幅20.00%",
+          "timestamp": 1789488000000,
+          "reason": "PCB板块受上游材料涨价传导利好而整体走强，同时公司作为AI服务器电源PCB细分龙头，受益于CPO/光模块概念热度提升。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6a5a88bf-b96c-4158-8046-4d117efffd41&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ301132",
+      "name": "满坤科技",
+      "death_date": "2026-09-23",
+      "peak_pct": 182.96,
+      "last_pct": 182.96,
+      "last_days": 55,
+      "appearances": 18,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "满坤科技2026-09-14收盘价58.37元，涨幅20.00%",
+          "timestamp": 1789315200000,
+          "reason": "PCB（印制电路板）行业因上游原材料涨价预期而整体走强，公司作为板块成分股受到带动。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-f294cc0a-b506-4149-b3cb-35954aeeb37f&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ002827",
+      "name": "高争民爆",
+      "death_date": "2026-09-23",
+      "peak_pct": 171.49,
+      "last_pct": 36.54,
+      "last_days": 12,
+      "appearances": 15,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SH688662",
+      "name": "富信科技",
+      "death_date": "2026-09-23",
+      "peak_pct": 168.72,
+      "last_pct": 58.01,
+      "last_days": 12,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "富信科技2026-09-23收盘价130.61元，涨幅16.21%",
+          "timestamp": 1790092800000,
+          "reason": "公司发布定增预案用于Micro TEC产能扩张，市场看好其在光模块温控领域的国产替代前景",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d792a22e-a770-4b10-932f-35c8b1140505&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ300489",
+      "name": "光智科技",
+      "death_date": "2026-09-23",
+      "peak_pct": 148.86,
+      "last_pct": 32.96,
+      "last_days": 8,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300684",
+      "name": "中石科技",
+      "death_date": "2026-09-23",
+      "peak_pct": 147.71,
+      "last_pct": 43.11,
+      "last_days": 13,
       "appearances": 8,
       "pattern": "自然退潮",
       "events": []
@@ -74,90 +156,22 @@
       "events": []
     },
     {
-      "ticker": "SZ002815",
-      "name": "崇达技术",
-      "death_date": "2026-09-22",
-      "peak_pct": 135.53,
-      "last_pct": 135.53,
-      "last_days": 54,
-      "appearances": 12,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH600721",
-      "name": "百花医药",
-      "death_date": "2026-09-22",
-      "peak_pct": 126.67,
-      "last_pct": 35.74,
-      "last_days": 7,
-      "appearances": 12,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH688072",
-      "name": "拓荆科技",
-      "death_date": "2026-09-18",
-      "peak_pct": 119.04,
-      "last_pct": 19.81,
-      "last_days": 4,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ000993",
-      "name": "闽东电力",
-      "death_date": "2026-09-22",
-      "peak_pct": 117.13,
-      "last_pct": 117.13,
-      "last_days": 34,
-      "appearances": 8,
+      "ticker": "SZ301047",
+      "name": "义翘神州",
+      "death_date": "2026-09-23",
+      "peak_pct": 135.63,
+      "last_pct": 63.51,
+      "last_days": 12,
+      "appearances": 14,
       "pattern": "自然退潮",
       "events": [
         {
-          "description": "闽东电力2026-09-11收盘价13.88元，涨幅9.98%",
-          "timestamp": 1789056000000,
-          "reason": "电力板块受‘算电协同’驱动价值重估预期影响整体走强，闽东电力作为板块内活跃标的获市场关注。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-cac5cc6b-a917-4bd6-8f8a-553b85244b72&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "闽东电力2026-09-14收盘价15.27元，涨幅10.01%",
-          "timestamp": 1789315200000,
-          "reason": "电力板块受国常会政策利好驱动，绿电方向领涨",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-0a347b9f-9516-4cac-9621-87721c858523&navBarTransparent=1&navBarTheme=dark"
+          "description": "义翘神州2026-09-22收盘价136.22元，涨幅16.09%",
+          "timestamp": 1790006400000,
+          "reason": "受医药工业‘十五五’规划及AI制药产业链景气度提升影响，公司作为CRO/生命科学上游试剂龙头受到市场追捧。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24a77caa-d695-4d6e-8f79-757b4ce7817e&navBarTransparent=1&navBarTheme=dark"
         }
       ]
-    },
-    {
-      "ticker": "SZ301349",
-      "name": "信德新材",
-      "death_date": "2026-09-21",
-      "peak_pct": 114.42,
-      "last_pct": 20.42,
-      "last_days": 10,
-      "appearances": 4,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "信德新材2026-09-21收盘价49.71元，涨幅8.40%",
-          "timestamp": 1789920000000,
-          "reason": "市场传闻上游原材料涨价推动PCB板块盈利改善预期，公司作为电池材料供应商或受益于产业链价格传导。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c838e1d5-3f4f-467c-b626-1dcf7fcb5ca3&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH688356",
-      "name": "键凯科技",
-      "death_date": "2026-09-22",
-      "peak_pct": 113.83,
-      "last_pct": 34,
-      "last_days": 11,
-      "appearances": 5,
-      "pattern": "自然退潮",
-      "events": []
     }
   ],
   "peak_deaths": [

@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-22",
-  "total_reasons": 4307,
+  "date_range": "2026-03-05 ~ 2026-09-23",
+  "total_reasons": 4324,
   "total_concepts": 72,
-  "total_pairs": 206,
+  "total_pairs": 207,
   "nodes": [
     {
       "id": "半导体",
-      "count": 696,
+      "count": 697,
       "type": "sector"
     },
     {
@@ -16,17 +16,17 @@
     },
     {
       "id": "电子",
-      "count": 331,
+      "count": 333,
       "type": "sector"
     },
     {
       "id": "创新药",
-      "count": 303,
+      "count": 304,
       "type": "sector"
     },
     {
       "id": "PCB",
-      "count": 274,
+      "count": 275,
       "type": "technology"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "id": "机器人",
-      "count": 135,
+      "count": 137,
       "type": "sector"
     },
     {
@@ -90,12 +90,12 @@
       "type": "technology"
     },
     {
-      "id": "光模块",
-      "count": 53,
+      "id": "人形机器人",
+      "count": 54,
       "type": "sector"
     },
     {
-      "id": "人形机器人",
+      "id": "光模块",
       "count": 53,
       "type": "sector"
     },
@@ -116,12 +116,12 @@
     },
     {
       "id": "专用设备",
-      "count": 49,
+      "count": 50,
       "type": "sector"
     },
     {
       "id": "军工",
-      "count": 49,
+      "count": 50,
       "type": "sector"
     },
     {
@@ -165,12 +165,12 @@
       "type": "sector"
     },
     {
-      "id": "液冷",
-      "count": 30,
+      "id": "白酒",
+      "count": 33,
       "type": "sector"
     },
     {
-      "id": "白酒",
+      "id": "液冷",
       "count": 30,
       "type": "sector"
     },
@@ -384,7 +384,7 @@
     {
       "source": "半导体",
       "target": "电子",
-      "weight": 102
+      "weight": 103
     },
     {
       "source": "电子",
@@ -404,7 +404,7 @@
     {
       "source": "人形机器人",
       "target": "机器人",
-      "weight": 53
+      "weight": 54
     },
     {
       "source": "光学光电子",
@@ -429,7 +429,7 @@
     {
       "source": "军工",
       "target": "电子",
-      "weight": 32
+      "weight": 33
     },
     {
       "source": "半导体",
@@ -1165,6 +1165,11 @@
       "source": "CPO",
       "target": "PCB",
       "weight": 3
+    },
+    {
+      "source": "PCB",
+      "target": "专用设备",
+      "weight": 2
     },
     {
       "source": "消费电子",

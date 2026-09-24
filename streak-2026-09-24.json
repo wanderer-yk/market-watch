@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-24",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SH601579",
+      "name": "会稽山",
+      "streak": 7,
+      "first_date": "2026-09-15",
+      "last_date": "2026-09-24",
+      "total_pct": 172.49
+    },
+    {
+      "ticker": "SZ000504",
+      "name": "南华生物",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-24",
+      "total_pct": 66.02
+    },
+    {
+      "ticker": "SH600825",
+      "name": "新华传媒",
+      "streak": 3,
+      "first_date": "2026-09-22",
+      "last_date": "2026-09-24",
+      "total_pct": 53.86
+    },
+    {
+      "ticker": "SH688179",
+      "name": "阿拉丁",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-24",
+      "total_pct": 33.76
+    },
+    {
+      "ticker": "SZ000710",
+      "name": "贝瑞基因",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-24",
+      "total_pct": 31.7
+    },
+    {
+      "ticker": "SZ300203",
+      "name": "聚光科技",
+      "streak": 3,
+      "first_date": "2026-09-21",
+      "last_date": "2026-09-24",
+      "total_pct": 19.52
+    }
+  ]
+}

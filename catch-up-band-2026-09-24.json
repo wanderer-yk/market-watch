@@ -1,0 +1,408 @@
+{
+  "date": "2026-09-24",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688682",
+      "name": "霍莱沃",
+      "pct": 19.99,
+      "concepts": [
+        "军工",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ002413",
+      "name": "雷科防务",
+      "pct": 10.06,
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "军工",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH600189",
+      "name": "泉阳泉",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002164",
+      "name": "宁波东力",
+      "pct": 10.03,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002395",
+      "name": "双象股份",
+      "pct": 10.02,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH601567",
+      "name": "三星电气",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603375",
+      "name": "盛景微",
+      "pct": 10.01,
+      "concepts": [
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH600358",
+      "name": "国旅联合",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002119",
+      "name": "康强电子",
+      "pct": 9.99,
+      "concepts": [
+        "半导体",
+        "电子"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 37,
+      "active_days": 7,
+      "heat_score": 259,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 15,
+      "active_days": 7,
+      "heat_score": 105,
+      "leaders": [
+        {
+          "ticker": "SZ002413",
+          "name": "雷科防务",
+          "pct": 10.06,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603375",
+          "name": "盛景微",
+          "pct": 10.01,
+          "concepts": [
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ002119",
+          "name": "康强电子",
+          "pct": 9.99,
+          "concepts": [
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 12,
+      "active_days": 7,
+      "heat_score": 84,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": [
+        {
+          "ticker": "SH688682",
+          "name": "霍莱沃",
+          "pct": 19.99,
+          "concepts": [
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002413",
+          "name": "雷科防务",
+          "pct": 10.06,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002119",
+          "name": "康强电子",
+          "pct": 9.99,
+          "concepts": [
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": [
+        {
+          "ticker": "SZ002164",
+          "name": "宁波东力",
+          "pct": 10.03,
+          "concepts": [
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002395",
+          "name": "双象股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": [
+        {
+          "ticker": "SZ002395",
+          "name": "双象股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH688682",
+          "name": "霍莱沃",
+          "pct": 19.99,
+          "concepts": [
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002413",
+          "name": "雷科防务",
+          "pct": 10.06,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "军工",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SH600699",
+      "name": "均胜电子",
+      "last_seen": "2026-09-24",
+      "shared_concepts": [
+        "机器人",
+        "人形机器人"
+      ],
+      "trend_pct": 25.53,
+      "trend_days": 9
+    },
+    {
+      "ticker": "SH688776",
+      "name": "国光电气",
+      "last_seen": "2026-09-24",
+      "shared_concepts": [
+        "军工",
+        "电子"
+      ],
+      "trend_pct": 22.74,
+      "trend_days": 9
+    }
+  ]
+}
