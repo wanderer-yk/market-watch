@@ -1,22 +1,14 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-28",
   "lookback_days": 10,
   "anomalies": [
     {
-      "type": "sector_surge",
-      "label": "社会服务",
-      "today": 3,
-      "avg": 1.3,
-      "deviation": 1.33,
-      "severity": "medium"
-    },
-    {
       "type": "density_shift",
       "label": "异动密度",
-      "today": 33,
-      "avg": 59,
-      "deviation": -0.44,
-      "severity": "medium"
+      "today": 21,
+      "avg": 57,
+      "deviation": -0.63,
+      "severity": "high"
     }
   ]
 }

@@ -1859,7 +1859,7 @@
     {
       "week": "2026-W33",
       "date_range": "08-10 ~ 08-16",
-      "total_reasons": 83,
+      "total_reasons": 84,
       "top_concepts": [
         {
           "concept": "AI",
@@ -1955,11 +1955,11 @@
     {
       "week": "2026-W34",
       "date_range": "08-17 ~ 08-23",
-      "total_reasons": 106,
+      "total_reasons": 108,
       "top_concepts": [
         {
           "concept": "银行",
-          "count": 14
+          "count": 15
         },
         {
           "concept": "电子",
@@ -2001,7 +2001,7 @@
       "emerging": [
         {
           "concept": "银行",
-          "count": 14,
+          "count": 15,
           "prev_count": 0
         },
         {
@@ -2066,7 +2066,7 @@
     {
       "week": "2026-W35",
       "date_range": "08-24 ~ 08-30",
-      "total_reasons": 118,
+      "total_reasons": 120,
       "top_concepts": [
         {
           "concept": "PCB",
@@ -2155,7 +2155,7 @@
         {
           "concept": "银行",
           "count": 0,
-          "prev_count": 14
+          "prev_count": 15
         },
         {
           "concept": "先进封装",
@@ -2167,7 +2167,7 @@
     {
       "week": "2026-W36",
       "date_range": "08-31 ~ 09-06",
-      "total_reasons": 155,
+      "total_reasons": 158,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2175,7 +2175,7 @@
         },
         {
           "concept": "白酒",
-          "count": 10
+          "count": 11
         },
         {
           "concept": "军工",
@@ -2213,7 +2213,7 @@
       "emerging": [
         {
           "concept": "白酒",
-          "count": 10,
+          "count": 11,
           "prev_count": 0
         },
         {
@@ -2258,7 +2258,7 @@
     {
       "week": "2026-W37",
       "date_range": "09-07 ~ 09-13",
-      "total_reasons": 85,
+      "total_reasons": 86,
       "top_concepts": [
         {
           "concept": "煤炭",
@@ -2322,7 +2322,7 @@
         {
           "concept": "白酒",
           "count": 0,
-          "prev_count": 10
+          "prev_count": 11
         },
         {
           "concept": "军工",
@@ -2354,7 +2354,7 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 88,
+      "total_reasons": 92,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2370,14 +2370,22 @@
         },
         {
           "concept": "白酒",
-          "count": 7
+          "count": 8
         },
         {
           "concept": "CPO",
           "count": 6
         },
         {
+          "concept": "机器人",
+          "count": 5
+        },
+        {
           "concept": "半导体硅片",
+          "count": 4
+        },
+        {
+          "concept": "证券",
           "count": 4
         },
         {
@@ -2385,15 +2393,7 @@
           "count": 4
         },
         {
-          "concept": "机器人",
-          "count": 4
-        },
-        {
           "concept": "电网设备",
-          "count": 3
-        },
-        {
-          "concept": "光模块",
           "count": 3
         }
       ],
@@ -2405,11 +2405,16 @@
         },
         {
           "concept": "白酒",
-          "count": 7,
+          "count": 8,
           "prev_count": 0
         },
         {
           "concept": "半导体硅片",
+          "count": 4,
+          "prev_count": 0
+        },
+        {
+          "concept": "证券",
           "count": 4,
           "prev_count": 0
         },
@@ -2420,11 +2425,6 @@
         },
         {
           "concept": "先进封装",
-          "count": 3,
-          "prev_count": 0
-        },
-        {
-          "concept": "证券",
           "count": 3,
           "prev_count": 0
         }
@@ -2445,7 +2445,7 @@
     {
       "week": "2026-W39",
       "date_range": "09-21 ~ 09-27",
-      "total_reasons": 59,
+      "total_reasons": 63,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2454,6 +2454,10 @@
         {
           "concept": "半导体",
           "count": 7
+        },
+        {
+          "concept": "白酒",
+          "count": 4
         },
         {
           "concept": "PCB",
@@ -2466,10 +2470,6 @@
         {
           "concept": "创新药",
           "count": 4
-        },
-        {
-          "concept": "白酒",
-          "count": 3
         },
         {
           "concept": "算力",
@@ -2512,18 +2512,23 @@
           "prev_count": 6
         },
         {
+          "concept": "机器人",
+          "count": 1,
+          "prev_count": 5
+        },
+        {
           "concept": "半导体硅片",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "证券",
           "count": 0,
           "prev_count": 4
         },
         {
           "concept": "煤炭",
           "count": 0,
-          "prev_count": 4
-        },
-        {
-          "concept": "机器人",
-          "count": 1,
           "prev_count": 4
         },
         {
@@ -2540,14 +2545,66 @@
           "concept": "先进封装",
           "count": 0,
           "prev_count": 3
+        }
+      ]
+    },
+    {
+      "week": "2026-W40",
+      "date_range": "09-28 ~ 10-04",
+      "total_reasons": 4,
+      "top_concepts": [
+        {
+          "concept": "人形机器人",
+          "count": 1
         },
         {
-          "concept": "证券",
+          "concept": "机器人",
+          "count": 1
+        },
+        {
+          "concept": "光伏",
+          "count": 1
+        }
+      ],
+      "emerging": [],
+      "fading": [
+        {
+          "concept": "AI",
+          "count": 0,
+          "prev_count": 13
+        },
+        {
+          "concept": "半导体",
+          "count": 0,
+          "prev_count": 7
+        },
+        {
+          "concept": "白酒",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "PCB",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "电子",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "创新药",
+          "count": 0,
+          "prev_count": 4
+        },
+        {
+          "concept": "算力",
           "count": 0,
           "prev_count": 3
         }
       ]
     }
   ],
-  "generated_at": "2026-09-24T19:42:37.830Z"
+  "generated_at": "2026-09-28T19:40:05.829Z"
 }

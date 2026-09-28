@@ -1,0 +1,303 @@
+{
+  "date": "2026-09-28",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688244",
+      "name": "永信至诚",
+      "pct": 20,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ000503",
+      "name": "国新健康",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000513",
+      "name": "丽珠集团",
+      "pct": 10.01,
+      "concepts": [
+        "创新药"
+      ]
+    },
+    {
+      "ticker": "SZ002852",
+      "name": "道道全",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002640",
+      "name": "跨境通",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603278",
+      "name": "大业股份",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH605366",
+      "name": "宏柏新材",
+      "pct": 9.98,
+      "concepts": [
+        "光伏"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 38,
+      "active_days": 8,
+      "heat_score": 304,
+      "leaders": [
+        {
+          "ticker": "SH688244",
+          "name": "永信至诚",
+          "pct": 20,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 15,
+      "active_days": 7,
+      "heat_score": 105,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 11,
+      "active_days": 6,
+      "heat_score": 66,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 8,
+      "active_days": 5,
+      "heat_score": 40,
+      "leaders": [
+        {
+          "ticker": "SH603278",
+          "name": "大业股份",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 6,
+      "active_days": 5,
+      "heat_score": 30,
+      "leaders": [
+        {
+          "ticker": "SH603278",
+          "name": "大业股份",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "MLCC",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SH605366",
+          "name": "宏柏新材",
+          "pct": 9.98,
+          "concepts": [
+            "光伏"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ000513",
+          "name": "丽珠集团",
+          "pct": 10.01,
+          "concepts": [
+            "创新药"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
