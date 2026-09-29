@@ -1,13 +1,21 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "lookback_days": 10,
   "anomalies": [
     {
+      "type": "sector_surge",
+      "label": "房地产",
+      "today": 8,
+      "avg": 2,
+      "deviation": 3,
+      "severity": "high"
+    },
+    {
       "type": "density_shift",
       "label": "异动密度",
-      "today": 21,
+      "today": 22,
       "avg": 57,
-      "deviation": -0.63,
+      "deviation": -0.61,
       "severity": "high"
     }
   ]

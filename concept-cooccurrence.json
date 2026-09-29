@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-27",
-  "total_reasons": 4345,
+  "date_range": "2026-03-05 ~ 2026-09-28",
+  "total_reasons": 4358,
   "total_concepts": 72,
   "total_pairs": 207,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 515,
+      "count": 516,
       "type": "technology"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": "创新药",
-      "count": 304,
+      "count": 306,
       "type": "sector"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "id": "机器人",
-      "count": 139,
+      "count": 140,
       "type": "sector"
     },
     {
@@ -140,12 +140,12 @@
       "type": "sector"
     },
     {
-      "id": "元件",
-      "count": 40,
+      "id": "汽车零部件",
+      "count": 41,
       "type": "sector"
     },
     {
-      "id": "汽车零部件",
+      "id": "元件",
       "count": 40,
       "type": "sector"
     },
@@ -176,6 +176,11 @@
     },
     {
       "id": "氟化工",
+      "count": 28,
+      "type": "sector"
+    },
+    {
+      "id": "房地产",
       "count": 28,
       "type": "sector"
     },
@@ -211,11 +216,6 @@
     },
     {
       "id": "电子树脂",
-      "count": 22,
-      "type": "sector"
-    },
-    {
-      "id": "房地产",
       "count": 22,
       "type": "sector"
     },
@@ -306,7 +306,7 @@
     },
     {
       "id": "汽车整车",
-      "count": 9,
+      "count": 10,
       "type": "sector"
     },
     {
@@ -602,6 +602,11 @@
       "weight": 12
     },
     {
+      "source": "机器人",
+      "target": "汽车零部件",
+      "weight": 12
+    },
+    {
       "source": "PFA",
       "target": "氟化工",
       "weight": 11
@@ -609,11 +614,6 @@
     {
       "source": "HBM",
       "target": "半导体设备",
-      "weight": 11
-    },
-    {
-      "source": "机器人",
-      "target": "汽车零部件",
       "weight": 11
     },
     {

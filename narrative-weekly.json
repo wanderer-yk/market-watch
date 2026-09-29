@@ -2354,7 +2354,7 @@
     {
       "week": "2026-W38",
       "date_range": "09-14 ~ 09-20",
-      "total_reasons": 92,
+      "total_reasons": 95,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2427,6 +2427,11 @@
           "concept": "先进封装",
           "count": 3,
           "prev_count": 0
+        },
+        {
+          "concept": "房地产",
+          "count": 3,
+          "prev_count": 0
         }
       ],
       "fading": [
@@ -2445,7 +2450,7 @@
     {
       "week": "2026-W39",
       "date_range": "09-21 ~ 09-27",
-      "total_reasons": 63,
+      "total_reasons": 66,
       "top_concepts": [
         {
           "concept": "AI",
@@ -2476,15 +2481,15 @@
           "count": 3
         },
         {
-          "concept": "消费电子",
-          "count": 2
-        },
-        {
           "concept": "房地产",
-          "count": 2
+          "count": 3
         },
         {
-          "concept": "MLCC",
+          "concept": "汽车整车",
+          "count": 3
+        },
+        {
+          "concept": "消费电子",
           "count": 2
         }
       ],
@@ -2501,6 +2506,11 @@
         },
         {
           "concept": "算力",
+          "count": 3,
+          "prev_count": 1
+        },
+        {
+          "concept": "汽车整车",
           "count": 3,
           "prev_count": 1
         }
@@ -2551,18 +2561,34 @@
     {
       "week": "2026-W40",
       "date_range": "09-28 ~ 10-04",
-      "total_reasons": 4,
+      "total_reasons": 11,
       "top_concepts": [
+        {
+          "concept": "房地产",
+          "count": 3
+        },
+        {
+          "concept": "机器人",
+          "count": 2
+        },
+        {
+          "concept": "创新药",
+          "count": 2
+        },
         {
           "concept": "人形机器人",
           "count": 1
         },
         {
-          "concept": "机器人",
+          "concept": "光伏",
           "count": 1
         },
         {
-          "concept": "光伏",
+          "concept": "汽车零部件",
+          "count": 1
+        },
+        {
+          "concept": "AI",
           "count": 1
         }
       ],
@@ -2570,7 +2596,7 @@
       "fading": [
         {
           "concept": "AI",
-          "count": 0,
+          "count": 1,
           "prev_count": 13
         },
         {
@@ -2594,17 +2620,17 @@
           "prev_count": 4
         },
         {
-          "concept": "创新药",
+          "concept": "算力",
           "count": 0,
-          "prev_count": 4
+          "prev_count": 3
         },
         {
-          "concept": "算力",
+          "concept": "汽车整车",
           "count": 0,
           "prev_count": 3
         }
       ]
     }
   ],
-  "generated_at": "2026-09-28T19:40:05.829Z"
+  "generated_at": "2026-09-29T19:42:53.345Z"
 }
