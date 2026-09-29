@@ -184,7 +184,7 @@ chcp 65001 > $null
 $ProgressPreference = 'SilentlyContinue'
 $token = '__TOKEN__'
 $ua = '__UA__'
-$code = "const https=require('https');const t='" + $token + "';https.get('https://xueqiu.com/rainbow/ai/abnormal/reasons.json',{headers:{'Cookie':'xq_a_token='+t,'User-Agent':'" + $ua + "','Host':'xueqiu.com'}},r=>{let d='';r.on('data',c=>d+=c);r.on('end',()=>{console.log('STATUS='+r.statusCode);console.log('BODY='+d.substring(0,300));process.exit(0)})}).on('error',e=>{console.log('ERR='+e.message);process.exit(1)})"
+$code = "const https=require('https');const t='" + $token + "';https.get('https://www.xueqiu.com/rainbow/ai/abnormal/reasons.json',{headers:{'Cookie':'xq_a_token='+t,'User-Agent':'" + $ua + "','Host':'www.xueqiu.com'}},r=>{let d='';r.on('data',c=>d+=c);r.on('end',()=>{console.log('STATUS='+r.statusCode);console.log('BODY='+d.substring(0,300));process.exit(0)})}).on('error',e=>{console.log('ERR='+e.message);process.exit(1)})"
 Set-Content -Path C:\workspace\_probe.js -Value $code -Encoding UTF8
 & '__NODE__' C:\workspace\_probe.js
 """
