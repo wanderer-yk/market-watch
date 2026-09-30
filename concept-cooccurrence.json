@@ -1,6 +1,6 @@
 {
-  "date_range": "2026-03-05 ~ 2026-09-28",
-  "total_reasons": 4358,
+  "date_range": "2026-03-05 ~ 2026-09-29",
+  "total_reasons": 4384,
   "total_concepts": 72,
   "total_pairs": 207,
   "nodes": [
@@ -11,7 +11,7 @@
     },
     {
       "id": "AI",
-      "count": 516,
+      "count": 517,
       "type": "technology"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": "创新药",
-      "count": 306,
+      "count": 309,
       "type": "sector"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "id": "机器人",
-      "count": 140,
+      "count": 141,
       "type": "sector"
     },
     {
@@ -105,6 +105,11 @@
       "type": "sector"
     },
     {
+      "id": "证券",
+      "count": 51,
+      "type": "sector"
+    },
+    {
       "id": "先进封装",
       "count": 50,
       "type": "sector"
@@ -125,22 +130,22 @@
       "type": "sector"
     },
     {
-      "id": "证券",
-      "count": 50,
-      "type": "sector"
-    },
-    {
       "id": "光学光电子",
       "count": 43,
       "type": "sector"
     },
     {
-      "id": "金属新材料",
-      "count": 41,
+      "id": "汽车零部件",
+      "count": 42,
       "type": "sector"
     },
     {
-      "id": "汽车零部件",
+      "id": "医疗器械",
+      "count": 42,
+      "type": "sector"
+    },
+    {
+      "id": "金属新材料",
       "count": 41,
       "type": "sector"
     },
@@ -150,17 +155,12 @@
       "type": "sector"
     },
     {
-      "id": "医疗器械",
-      "count": 40,
+      "id": "白酒",
+      "count": 37,
       "type": "sector"
     },
     {
       "id": "电网设备",
-      "count": 36,
-      "type": "sector"
-    },
-    {
-      "id": "白酒",
       "count": 36,
       "type": "sector"
     },
@@ -170,22 +170,22 @@
       "type": "sector"
     },
     {
+      "id": "房地产",
+      "count": 33,
+      "type": "sector"
+    },
+    {
       "id": "液冷",
       "count": 30,
       "type": "sector"
     },
     {
-      "id": "氟化工",
-      "count": 28,
-      "type": "sector"
-    },
-    {
-      "id": "房地产",
-      "count": 28,
-      "type": "sector"
-    },
-    {
       "id": "银行",
+      "count": 30,
+      "type": "sector"
+    },
+    {
+      "id": "氟化工",
       "count": 28,
       "type": "sector"
     },
@@ -295,6 +295,11 @@
       "type": "technology"
     },
     {
+      "id": "汽车整车",
+      "count": 11,
+      "type": "sector"
+    },
+    {
       "id": "光伏",
       "count": 10,
       "type": "sector"
@@ -303,11 +308,6 @@
       "id": "CAE",
       "count": 10,
       "type": "technology"
-    },
-    {
-      "id": "汽车整车",
-      "count": 10,
-      "type": "sector"
     },
     {
       "id": "GPU",
@@ -582,6 +582,11 @@
       "weight": 13
     },
     {
+      "source": "机器人",
+      "target": "汽车零部件",
+      "weight": 13
+    },
+    {
       "source": "PCB",
       "target": "PTFE",
       "weight": 12
@@ -599,11 +604,6 @@
     {
       "source": "算力",
       "target": "通信",
-      "weight": 12
-    },
-    {
-      "source": "机器人",
-      "target": "汽车零部件",
       "weight": 12
     },
     {
@@ -677,6 +677,11 @@
       "weight": 9
     },
     {
+      "source": "创新药",
+      "target": "医疗器械",
+      "weight": 9
+    },
+    {
       "source": "存储芯片",
       "target": "电子化学品",
       "weight": 8
@@ -709,11 +714,6 @@
     {
       "source": "AI",
       "target": "存储芯片",
-      "weight": 8
-    },
-    {
-      "source": "创新药",
-      "target": "医疗器械",
       "weight": 8
     },
     {

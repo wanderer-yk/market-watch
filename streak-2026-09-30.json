@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-30",
+  "min_streak": 3,
+  "entries": [
+    {
+      "ticker": "SZ000678",
+      "name": "襄阳轴承",
+      "streak": 3,
+      "first_date": "2026-09-28",
+      "last_date": "2026-09-30",
+      "total_pct": 49.36
+    },
+    {
+      "ticker": "SH600418",
+      "name": "江淮汽车",
+      "streak": 3,
+      "first_date": "2026-09-28",
+      "last_date": "2026-09-30",
+      "total_pct": 44.2
+    }
+  ]
+}
