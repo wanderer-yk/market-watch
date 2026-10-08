@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-08",
+  "density": {
+    "candidates": 42,
+    "down_candidates": 157,
+    "daily_candidates": 8,
+    "universe": 5208
+  },
+  "sectors": [
+    {
+      "name": "电力设备",
+      "count": 12,
+      "avg_pct": 18.93,
+      "tickers": [
+        "SZ002487",
+        "SZ002531",
+        "SZ002882",
+        "SZ002058",
+        "SH603906",
+        "SH600152",
+        "SZ300450",
+        "SZ300890",
+        "SH688778",
+        "SZ300073",
+        "SZ301238",
+        "SH688567"
+      ]
+    },
+    {
+      "name": "汽车",
+      "count": 4,
+      "avg_pct": 17.61,
+      "tickers": [
+        "SZ301119",
+        "SH603266",
+        "SZ002547",
+        "SH603529"
+      ]
+    },
+    {
+      "name": "银行",
+      "count": 4,
+      "avg_pct": 10.66,
+      "tickers": [
+        "SH601988",
+        "SH601328",
+        "SH600000",
+        "SH601577"
+      ]
+    },
+    {
+      "name": "公用事业",
+      "count": 3,
+      "avg_pct": 21.98,
+      "tickers": [
+        "SH605169",
+        "SH600795",
+        "SH600011"
+      ]
+    },
+    {
+      "name": "交通运输",
+      "count": 3,
+      "avg_pct": 10.1,
+      "tickers": [
+        "SZ300350",
+        "SH601000",
+        "SZ001872"
+      ]
+    },
+    {
+      "name": "基础化工",
+      "count": 2,
+      "avg_pct": 25.75,
+      "tickers": [
+        "SH605366",
+        "SZ300905"
+      ]
+    },
+    {
+      "name": "建筑装饰",
+      "count": 2,
+      "avg_pct": 4.53,
+      "tickers": [
+        "SH601800",
+        "SH601668"
+      ]
+    },
+    {
+      "name": "传媒",
+      "count": 1,
+      "avg_pct": 119.88,
+      "tickers": [
+        "SH600825"
+      ]
+    },
+    {
+      "name": "环保",
+      "count": 1,
+      "avg_pct": 33.11,
+      "tickers": [
+        "SH603200"
+      ]
+    },
+    {
+      "name": "计算机",
+      "count": 1,
+      "avg_pct": 24.77,
+      "tickers": [
+        "SZ002869"
+      ]
+    },
+    {
+      "name": "轻工制造",
+      "count": 1,
+      "avg_pct": 22.13,
+      "tickers": [
+        "SZ300501"
+      ]
+    },
+    {
+      "name": "未分类",
+      "count": 1,
+      "avg_pct": 21.08,
+      "tickers": [
+        "SZ002074"
+      ]
+    },
+    {
+      "name": "家用电器",
+      "count": 1,
+      "avg_pct": 18.75,
+      "tickers": [
+        "SZ002959"
+      ]
+    },
+    {
+      "name": "煤炭",
+      "count": 1,
+      "avg_pct": 17.46,
+      "tickers": [
+        "SH600121"
+      ]
+    },
+    {
+      "name": "房地产",
+      "count": 1,
+      "avg_pct": 17.24,
+      "tickers": [
+        "SZ001979"
+      ]
+    },
+    {
+      "name": "医药生物",
+      "count": 1,
+      "avg_pct": 12.48,
+      "tickers": [
+        "SZ002382"
+      ]
+    },
+    {
+      "name": "纺织服饰",
+      "count": 1,
+      "avg_pct": 10.49,
+      "tickers": [
+        "SH600177"
+      ]
+    },
+    {
+      "name": "商贸零售",
+      "count": 1,
+      "avg_pct": 6.18,
+      "tickers": [
+        "SZ002818"
+      ]
+    },
+    {
+      "name": "机械设备",
+      "count": 1,
+      "avg_pct": 5.93,
+      "tickers": [
+        "SZ002122"
+      ]
+    }
+  ],
+  "top_candidates": [
+    {
+      "ticker": "SH605169",
+      "name": "洪通燃气",
+      "pct": 52.08,
+      "days": 100,
+      "kind": "continued",
+      "summary": "二季度归母净利环比大增显著改善盈利预期，构成核心上行驱动。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH601988",
+      "name": "中国银行",
+      "pct": 15.82,
+      "days": 55,
+      "kind": "continued",
+      "summary": "低利率资产荒下，全球化布局与高股息优势推动国有大行价值重估。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH601328",
+      "name": "交通银行",
+      "pct": 13.48,
+      "days": 52,
+      "kind": "continued",
+      "summary": "低利率环境下高股息价值重估，叠加中报业绩稳健、分红比例提升与评级上调，驱动估值折价修复。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600177",
+      "name": "雅戈尔",
+      "pct": 10.49,
+      "days": 42,
+      "kind": "continued",
+      "summary": "可持续高分红能力与投资业务现金流，是股价长期核心驱动。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600825",
+      "name": "新华传媒",
+      "pct": 119.88,
+      "days": 35,
+      "kind": "continued",
+      "summary": "拟发行股份收购界面财联社，点燃上海国资传媒资产证券化与财经资讯平台重估预期。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH605366",
+      "name": "宏柏新材",
+      "pct": 31.74,
+      "days": 21,
+      "kind": "new",
+      "summary": "硅基新材料成长预期与AI算力材料需求共振，驱动估值快速修复行情。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002869",
+      "name": "金溢科技",
+      "pct": 24.77,
+      "days": 21,
+      "kind": "new",
+      "summary": "公司发布AI热管理液冷新方案并推出股权激励，基本面预期改善驱动资金持续流入。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ300501",
+      "name": "海顺新材",
+      "pct": 22.13,
+      "days": 21,
+      "kind": "new",
+      "summary": "转债下修博弈升温叠加节前情绪回暖，驱动估值快速修复。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002074",
+      "name": "国轩高科",
+      "pct": 21.08,
+      "days": 21,
+      "kind": "new",
+      "summary": "与大众深度绑定推进欧洲产能落地，构成全球化长期成长主线。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ301119",
+      "name": "正强股份",
+      "pct": 20.75,
+      "days": 21,
+      "kind": "new",
+      "summary": "机器人精密传动从送样迈向小批量供货，第二增长曲线预期构成股价上行的核心驱动。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ001979",
+      "name": "招商蛇口",
+      "pct": 17.24,
+      "days": 21,
+      "kind": "continued",
+      "summary": "房地产供给侧出清提速，招商蛇口以核心城市优质土储与央企信用优势率先受益。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ300350",
+      "name": "华鹏飞",
+      "pct": 13.86,
+      "days": 21,
+      "kind": "new",
+      "summary": "深圳APEC峰会催化本地物流与跨境贸易概念，长期重估预期升温。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH603266",
+      "name": "天龙股份",
+      "pct": 24.4,
+      "days": 20,
+      "kind": "new",
+      "summary": "新能源电子零部件转型与汽车智能化题材共振，驱动估值修复。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002382",
+      "name": "蓝帆医疗",
+      "pct": 12.48,
+      "days": 20,
+      "kind": "new",
+      "summary": "心脑血管平台资本结构优化与创新器械突破，驱动估值修复。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002487",
+      "name": "大金重工",
+      "pct": 28.29,
+      "days": 15,
+      "kind": "continued",
+      "summary": "签约乌斯坦布局海上安装船，推进一体化交付，强化欧洲海风出口壁垒。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600121",
+      "name": "郑州煤电",
+      "pct": 17.46,
+      "days": 15,
+      "kind": "new",
+      "summary": "动力煤涨价与冷冬预期共振，驱动煤炭板块资金回流并支撑个股短线博弈。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002531",
+      "name": "天顺风能",
+      "pct": 16.62,
+      "days": 15,
+      "kind": "new",
+      "summary": "海工订单爆发与“陆转海”战略落地兑现，构成公司困境反转的核心长期驱动。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002547",
+      "name": "*ST春兴",
+      "pct": 15.68,
+      "days": 15,
+      "kind": "new",
+      "summary": "重整投资人确定为智凌芯科技联合体，芯片资产注入预期驱动价值重估。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH601000",
+      "name": "唐山港",
+      "pct": 8.56,
+      "days": 15,
+      "kind": "continued",
+      "summary": "曹妃甸矿石码头三期扩建与港口智慧化升级，持续提升大宗散货吞吐能力与运营效率。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600000",
+      "name": "浦发银行",
+      "pct": 8.02,
+      "days": 15,
+      "kind": "new",
+      "summary": "净利增长与不良改善驱动的困境反转，是核心估值修复动力。",
+      "risk_flags": []
+    }
+  ],
+  "down_candidates": [
+    {
+      "ticker": "SH603298",
+      "name": "杭叉集团",
+      "pct": -22.64,
+      "days": 69,
+      "kind": "continued",
+      "summary": "近23亿可转债募资引发摊薄担忧，叠加汇兑损失，成为股价下跌核心压制。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ300033",
+      "name": "同花顺",
+      "pct": -20.98,
+      "days": 64,
+      "kind": "new",
+      "summary": "长期核心驱动是A股交投活跃度，成交与APP月活回落直接压制同花顺业绩与估值。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH688327",
+      "name": "云从科技",
+      "pct": -15.85,
+      "days": 62,
+      "kind": "continued",
+      "summary": "营收大幅下滑且减亏依赖费用压降，AI智能体转型兑现缓慢，估值持续承压。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ300274",
+      "name": "阳光电源",
+      "pct": -31.75,
+      "days": 52,
+      "kind": "continued",
+      "summary": "海外政策壁垒与储能价格战叠加，光储龙头盈利与估值中枢遭重估。",
+      "risk_flags": [
+        "跌幅"
+      ]
+    },
+    {
+      "ticker": "SZ300750",
+      "name": "宁德时代",
+      "pct": -28.31,
+      "days": 52,
+      "kind": "continued",
+      "summary": "车企自研与供应链多元化重构，持续削弱电池供应商份额与定价权预期。",
+      "risk_flags": [
+        "跌幅"
+      ]
+    },
+    {
+      "ticker": "SH688027",
+      "name": "国盾量子",
+      "pct": -24.79,
+      "days": 52,
+      "kind": "continued",
+      "summary": "业绩不及预期与高估值透支预期，量子商业化证伪引发股价深度回调。",
+      "risk_flags": [
+        "跌幅"
+      ]
+    },
+    {
+      "ticker": "SZ300617",
+      "name": "安靠智电",
+      "pct": -23.94,
+      "days": 52,
+      "kind": "continued",
+      "summary": "海外变压器与AIDC订单兑现偏慢，主业盈利质量不足致估值中枢持续下移。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600877",
+      "name": "电科芯片",
+      "pct": -16.69,
+      "days": 52,
+      "kind": "continued",
+      "summary": "半年报业绩转亏叠加管理层密集离职，基本面与治理双重承压主导区间下跌。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH603211",
+      "name": "晋拓股份",
+      "pct": -35.47,
+      "days": 51,
+      "kind": "continued",
+      "summary": "业绩变脸叠加机器人题材退潮，缺乏机构底仓的概念溢价快速回归",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600580",
+      "name": "卧龙电驱",
+      "pct": -33.06,
+      "days": 51,
+      "kind": "continued",
+      "summary": "传统电驱业绩承压与机器人概念退潮共振，高估值溢价缺乏业绩支撑加速消化。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH688787",
+      "name": "海天瑞声",
+      "pct": -29.74,
+      "days": 51,
+      "kind": "continued",
+      "summary": "AI板块杀估值叠加半年报业绩兑现力度不足，高估值数据标注标的遭遇估值与盈利双重压制。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600549",
+      "name": "厦门钨业",
+      "pct": -25,
+      "days": 51,
+      "kind": "continued",
+      "summary": "钨价周期回落叠加核心资源断供纠纷，公司盈利弹性与资源保障能力遭市场系统性重估。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH688418",
+      "name": "震有科技",
+      "pct": -24.58,
+      "days": 51,
+      "kind": "new",
+      "summary": "卫星核心网与空天布局需长期兑现，短期业绩深度亏损与募资摊薄预期压制估值中枢。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600111",
+      "name": "北方稀土",
+      "pct": -16,
+      "days": 50,
+      "kind": "continued",
+      "summary": "行业景气预期转弱与无稀土电机进展引发需求担忧，成为压制稀土板块估值的关键变量。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH688410",
+      "name": "山外山",
+      "pct": -19.57,
+      "days": 49,
+      "kind": "continued",
+      "summary": "在行业需求景气背景下，原始股东持续大宗减持形成筹码抛压，压制估值修复。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH603516",
+      "name": "淳中科技",
+      "pct": -25.51,
+      "days": 44,
+      "kind": "new",
+      "summary": "AI测试新业务尚未放量，主业承压与扣非亏损使高估值持续消化。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ002706",
+      "name": "良信股份",
+      "pct": -15.03,
+      "days": 44,
+      "kind": "continued",
+      "summary": "三季度业绩下滑预期主导估值下修，AI固态断路器新业务尚未形成业绩支撑。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH600114",
+      "name": "东睦股份",
+      "pct": -22.04,
+      "days": 42,
+      "kind": "new",
+      "summary": "盈利下滑与定增摊薄叠加折叠屏预期兑现，估值向基本面回归。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SZ300042",
+      "name": "朗科科技",
+      "pct": -16.59,
+      "days": 42,
+      "kind": "continued",
+      "summary": "存储主业缺乏硬核产品，行业竞争与科技板块流动性收缩共振，估值长期承压。",
+      "risk_flags": []
+    },
+    {
+      "ticker": "SH603290",
+      "name": "斯达半导",
+      "pct": -15.44,
+      "days": 42,
+      "kind": "new",
+      "summary": "中报净利暴跌76%、毛利率降至20.58%叠加行业价格战，盈利修复乏力是压制股价的长期核心内因。",
+      "risk_flags": []
+    }
+  ],
+  "daily_top": [
+    {
+      "ticker": "SZ300619",
+      "name": "金银河",
+      "pct": 17.57,
+      "reason": "七部门印发新型电池产业“十五五”规划，固态电池概念活跃，金银河随板块快速拉升。"
+    },
+    {
+      "ticker": "SZ002733",
+      "name": "雄韬股份",
+      "pct": 10.02,
+      "reason": "新型电池产业“十五五”规划发布，固态电池概念活跃，雄韬股份随电池板块情绪快速涨停。"
+    },
+    {
+      "ticker": "SH600026",
+      "name": "中远海能",
+      "pct": 10.02,
+      "reason": "中东局势升级威胁石油海运，VLCC运价飙升，航运及油运板块走强，中远海能涨停。"
+    },
+    {
+      "ticker": "SZ002580",
+      "name": "圣阳股份",
+      "pct": 9.43,
+      "reason": "工信部等七部门印发《新型电池产业发展“十五五”规划》，固态电池概念活跃，带动圣阳股份上涨"
+    },
+    {
+      "ticker": "SH601872",
+      "name": "招商轮船",
+      "pct": 9.33,
+      "reason": "VLCC运价大幅上涨带动油运景气提升，航运板块走强，中远海能涨停，招商轮船作为油运标的放量上涨。"
+    },
+    {
+      "ticker": "SH600027",
+      "name": "华电国际",
+      "pct": 4.24,
+      "reason": "市场传闻南方电力现货价走高、复工提振用电需求，电力板块重估预期升温。"
+    },
+    {
+      "ticker": "SH600028",
+      "name": "中国石化",
+      "pct": 3.79,
+      "reason": "受国际油价突破101美元/桶及欧洲天然气价格上涨提振，油气板块走强带动中国石化上涨。"
+    },
+    {
+      "ticker": "SH600398",
+      "name": "海澜之家",
+      "pct": 3.54,
+      "reason": "海澜之家发布2026年半年度权益分派实施公告，每股派0.27元、共约12.97亿元，高分红预期提振股价。"
+    }
+  ]
+}

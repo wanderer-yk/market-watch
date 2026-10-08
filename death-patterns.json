@@ -1,12 +1,12 @@
 {
-  "date_range": "2026-06-16 ~ 2026-09-30",
-  "total_deaths": 1416,
+  "date_range": "2026-06-16 ~ 2026-10-08",
+  "total_deaths": 1427,
   "patterns": {
     "闪崩": 0,
-    "高位回落": 35,
+    "高位回落": 37,
     "利空事件": 3,
     "利空+下跌": 2,
-    "自然退潮": 1376
+    "自然退潮": 1385
   },
   "recent_deaths": [
     {
@@ -151,48 +151,6 @@
       "events": []
     },
     {
-      "ticker": "SH603663",
-      "name": "三祥新材",
-      "death_date": "2026-09-21",
-      "peak_pct": 143.13,
-      "last_pct": 27.38,
-      "last_days": 13,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "三祥新材2026-09-21收盘价49.82元，涨幅10.00%",
-          "timestamp": 1789920000000,
-          "reason": "市场对锆英砂供给收缩及铪产品前景乐观，叠加公司多项业务进展传闻，驱动股价上涨。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-03661d05-af5e-4012-87db-486bc7da2b54&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH688137",
-      "name": "近岸蛋白",
-      "death_date": "2026-09-21",
-      "peak_pct": 143.1,
-      "last_pct": 85.69,
-      "last_days": 10,
-      "appearances": 9,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "近岸蛋白2026-09-14收盘价76.80元，涨幅20.00%",
-          "timestamp": 1789315200000,
-          "reason": "CRO/CDMO行业受研报看好，公司作为相关概念股受市场关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24ef4087-e404-4f00-91a3-d6ed4461663f&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "近岸蛋白2026-09-17收盘价99.75元，涨幅18.75%",
-          "timestamp": 1789574400000,
-          "reason": "AI制药概念板块活跃，市场预期公司作为上游蛋白试剂供应商受益于行业需求增长",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-13777766-6a34-45d5-b7fc-80283c51ad9d&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
       "ticker": "SH601086",
       "name": "国芳集团",
       "death_date": "2026-09-22",
@@ -200,6 +158,35 @@
       "last_pct": 24.64,
       "last_days": 6,
       "appearances": 9,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ301047",
+      "name": "义翘神州",
+      "death_date": "2026-09-23",
+      "peak_pct": 135.63,
+      "last_pct": 63.51,
+      "last_days": 12,
+      "appearances": 14,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "义翘神州2026-09-22收盘价136.22元，涨幅16.09%",
+          "timestamp": 1790006400000,
+          "reason": "受医药工业‘十五五’规划及AI制药产业链景气度提升影响，公司作为CRO/生命科学上游试剂龙头受到市场追捧。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24a77caa-d695-4d6e-8f79-757b4ce7817e&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ002815",
+      "name": "崇达技术",
+      "death_date": "2026-09-22",
+      "peak_pct": 135.53,
+      "last_pct": 135.53,
+      "last_days": 54,
+      "appearances": 12,
       "pattern": "自然退潮",
       "events": []
     }

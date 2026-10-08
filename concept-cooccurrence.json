@@ -1,6 +1,6 @@
 {
   "date_range": "2026-03-05 ~ 2026-09-29",
-  "total_reasons": 4384,
+  "total_reasons": 4403,
   "total_concepts": 72,
   "total_pairs": 207,
   "nodes": [
@@ -155,32 +155,32 @@
       "type": "sector"
     },
     {
+      "id": "电网设备",
+      "count": 37,
+      "type": "sector"
+    },
+    {
       "id": "白酒",
       "count": 37,
       "type": "sector"
     },
     {
-      "id": "电网设备",
+      "id": "新能源",
       "count": 36,
       "type": "sector"
     },
     {
-      "id": "新能源",
-      "count": 35,
-      "type": "sector"
-    },
-    {
       "id": "房地产",
-      "count": 33,
-      "type": "sector"
-    },
-    {
-      "id": "液冷",
-      "count": 30,
+      "count": 34,
       "type": "sector"
     },
     {
       "id": "银行",
+      "count": 31,
+      "type": "sector"
+    },
+    {
+      "id": "液冷",
       "count": 30,
       "type": "sector"
     },
@@ -280,9 +280,19 @@
       "type": "sector"
     },
     {
+      "id": "固态电池",
+      "count": 12,
+      "type": "sector"
+    },
+    {
       "id": "PFA",
       "count": 12,
       "type": "technology"
+    },
+    {
+      "id": "光伏",
+      "count": 11,
+      "type": "sector"
     },
     {
       "id": "大金融",
@@ -297,11 +307,6 @@
     {
       "id": "汽车整车",
       "count": 11,
-      "type": "sector"
-    },
-    {
-      "id": "光伏",
-      "count": 10,
       "type": "sector"
     },
     {
@@ -342,11 +347,6 @@
     {
       "id": "量子计算",
       "count": 4,
-      "type": "sector"
-    },
-    {
-      "id": "固态电池",
-      "count": 3,
       "type": "sector"
     },
     {

@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-08",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300619",
+      "name": "金银河",
+      "pct": 17.57,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SZ002733",
+      "name": "雄韬股份",
+      "pct": 10.02,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SH600026",
+      "name": "中远海能",
+      "pct": 10.02,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 38,
+      "active_days": 7,
+      "heat_score": 266,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 15,
+      "active_days": 7,
+      "heat_score": 105,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 9,
+      "active_days": 6,
+      "heat_score": 54,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 11,
+      "active_days": 3,
+      "heat_score": 33,
+      "leaders": [
+        {
+          "ticker": "SZ300619",
+          "name": "金银河",
+          "pct": 17.57,
+          "concepts": [
+            "固态电池"
+          ]
+        },
+        {
+          "ticker": "SZ002733",
+          "name": "雄韬股份",
+          "pct": 10.02,
+          "concepts": [
+            "固态电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 6,
+      "active_days": 5,
+      "heat_score": 30,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": [
+    {
+      "ticker": "SZ002058",
+      "name": "威尔泰",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 33.13,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SH603200",
+      "name": "上海洗霸",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 33.11,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SH603906",
+      "name": "龙蟠科技",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 24.27,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ002882",
+      "name": "金龙羽",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 24.14,
+      "trend_days": 14
+    },
+    {
+      "ticker": "SH600152",
+      "name": "维科技术",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 21.43,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ300450",
+      "name": "先导智能",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 20.48,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ300905",
+      "name": "宝丽迪",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 19.76,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ300890",
+      "name": "翔丰华",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 14.9,
+      "trend_days": 10
+    },
+    {
+      "ticker": "SZ300073",
+      "name": "当升科技",
+      "last_seen": "2026-10-08",
+      "shared_concepts": [
+        "固态电池"
+      ],
+      "trend_pct": 13.69,
+      "trend_days": 10
+    }
+  ]
+}
