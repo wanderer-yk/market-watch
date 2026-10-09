@@ -1,38 +1,14 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "lookback_days": 10,
   "anomalies": [
     {
-      "type": "sector_surge",
-      "label": "电力设备",
-      "today": 12,
-      "avg": 2.7,
-      "deviation": 3.44,
+      "type": "density_shift",
+      "label": "异动密度",
+      "today": 0,
+      "avg": 59,
+      "deviation": -1,
       "severity": "high"
-    },
-    {
-      "type": "sector_surge",
-      "label": "银行",
-      "today": 4,
-      "avg": 1.5,
-      "deviation": 1.67,
-      "severity": "medium"
-    },
-    {
-      "type": "sector_surge",
-      "label": "公用事业",
-      "today": 3,
-      "avg": 1.3,
-      "deviation": 1.25,
-      "severity": "medium"
-    },
-    {
-      "type": "sector_surge",
-      "label": "交通运输",
-      "today": 3,
-      "avg": 1.4,
-      "deviation": 1.08,
-      "severity": "medium"
     }
   ]
 }

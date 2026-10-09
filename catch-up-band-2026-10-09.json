@@ -1,0 +1,733 @@
+{
+  "date": "2026-10-09",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300530",
+      "name": "领湃科技",
+      "pct": 20.02,
+      "concepts": [
+        "固态电池",
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SZ300364",
+      "name": "中文在线",
+      "pct": 20.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300413",
+      "name": "芒果超媒",
+      "pct": 19.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300981",
+      "name": "中红医疗",
+      "pct": 19.98,
+      "concepts": [
+        "医疗器械"
+      ]
+    },
+    {
+      "ticker": "SH688244",
+      "name": "永信至诚",
+      "pct": 16.22,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300340",
+      "name": "科恒股份",
+      "pct": 15.89,
+      "concepts": [
+        "固态电池",
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SH688661",
+      "name": "和林微纳",
+      "pct": 14.1,
+      "concepts": [
+        "半导体",
+        "CPO",
+        "通信",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300019",
+      "name": "硅宝科技",
+      "pct": 13.62,
+      "concepts": [
+        "固态电池",
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SZ300872",
+      "name": "天阳科技",
+      "pct": 12.38,
+      "concepts": [
+        "GPU",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH688561",
+      "name": "奇安信",
+      "pct": 11.21,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300182",
+      "name": "捷成股份",
+      "pct": 10.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300133",
+      "name": "华策影视",
+      "pct": 10.85,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH601929",
+      "name": "吉视传媒",
+      "pct": 10.13,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002212",
+      "name": "天融信",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000710",
+      "name": "贝瑞基因",
+      "pct": 10.03,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH605399",
+      "name": "晨光新材",
+      "pct": 10.03,
+      "concepts": [
+        "固态电池",
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SZ002805",
+      "name": "丰元股份",
+      "pct": 10.02,
+      "concepts": [
+        "固态电池",
+        "锂电池"
+      ]
+    },
+    {
+      "ticker": "SH605188",
+      "name": "国光连锁",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600629",
+      "name": "华建集团",
+      "pct": 10.01,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SH605168",
+      "name": "三人行",
+      "pct": 10.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH600715",
+      "name": "文投控股",
+      "pct": 10,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH601595",
+      "name": "上海电影",
+      "pct": 10,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002979",
+      "name": "雷赛智能",
+      "pct": 9.99,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603533",
+      "name": "掌阅科技",
+      "pct": 9.99,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002811",
+      "name": "郑中设计",
+      "pct": 9.98,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SH601118",
+      "name": "海南橡胶",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002181",
+      "name": "粤 传 媒",
+      "pct": 9.95,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002343",
+      "name": "慈文传媒",
+      "pct": 9.95,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ000736",
+      "name": "中交发展",
+      "pct": 9.92,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SH600478",
+      "name": "科力远",
+      "pct": 9.91,
+      "concepts": [
+        "锂电池"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 48,
+      "active_days": 7,
+      "heat_score": 336,
+      "leaders": [
+        {
+          "ticker": "SZ300364",
+          "name": "中文在线",
+          "pct": 20.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300413",
+          "name": "芒果超媒",
+          "pct": 19.98,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688661",
+          "name": "和林微纳",
+          "pct": 14.1,
+          "concepts": [
+            "半导体",
+            "CPO",
+            "通信",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300872",
+          "name": "天阳科技",
+          "pct": 12.38,
+          "concepts": [
+            "GPU",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688561",
+          "name": "奇安信",
+          "pct": 11.21,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300182",
+          "name": "捷成股份",
+          "pct": 10.98,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300133",
+          "name": "华策影视",
+          "pct": 10.85,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ000710",
+          "name": "贝瑞基因",
+          "pct": 10.03,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH605168",
+          "name": "三人行",
+          "pct": 10.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH600715",
+          "name": "文投控股",
+          "pct": 10,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH601595",
+          "name": "上海电影",
+          "pct": 10,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603533",
+          "name": "掌阅科技",
+          "pct": 9.99,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002181",
+          "name": "粤 传 媒",
+          "pct": 9.95,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002343",
+          "name": "慈文传媒",
+          "pct": 9.95,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 11,
+      "active_days": 7,
+      "heat_score": 77,
+      "leaders": [
+        {
+          "ticker": "SH688661",
+          "name": "和林微纳",
+          "pct": 14.1,
+          "concepts": [
+            "半导体",
+            "CPO",
+            "通信",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 10,
+      "active_days": 7,
+      "heat_score": 70,
+      "leaders": [
+        {
+          "ticker": "SZ002979",
+          "name": "雷赛智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 16,
+      "active_days": 4,
+      "heat_score": 64,
+      "leaders": [
+        {
+          "ticker": "SZ300530",
+          "name": "领湃科技",
+          "pct": 20.02,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ300340",
+          "name": "科恒股份",
+          "pct": 15.89,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ300019",
+          "name": "硅宝科技",
+          "pct": 13.62,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SH605399",
+          "name": "晨光新材",
+          "pct": 10.03,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ002805",
+          "name": "丰元股份",
+          "pct": 10.02,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 7,
+      "active_days": 6,
+      "heat_score": 42,
+      "leaders": [
+        {
+          "ticker": "SZ002979",
+          "name": "雷赛智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": [
+        {
+          "ticker": "SZ300872",
+          "name": "天阳科技",
+          "pct": 12.38,
+          "concepts": [
+            "GPU",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH601929",
+          "name": "吉视传媒",
+          "pct": 10.13,
+          "concepts": [
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": [
+        {
+          "ticker": "SH600629",
+          "name": "华建集团",
+          "pct": 10.01,
+          "concepts": [
+            "房地产"
+          ]
+        },
+        {
+          "ticker": "SZ002811",
+          "name": "郑中设计",
+          "pct": 9.98,
+          "concepts": [
+            "房地产"
+          ]
+        },
+        {
+          "ticker": "SZ000736",
+          "name": "中交发展",
+          "pct": 9.92,
+          "concepts": [
+            "房地产"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": [
+        {
+          "ticker": "SZ300981",
+          "name": "中红医疗",
+          "pct": 19.98,
+          "concepts": [
+            "医疗器械"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SH688661",
+          "name": "和林微纳",
+          "pct": 14.1,
+          "concepts": [
+            "半导体",
+            "CPO",
+            "通信",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SH688661",
+          "name": "和林微纳",
+          "pct": 14.1,
+          "concepts": [
+            "半导体",
+            "CPO",
+            "通信",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SZ300530",
+          "name": "领湃科技",
+          "pct": 20.02,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ300340",
+          "name": "科恒股份",
+          "pct": 15.89,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ300019",
+          "name": "硅宝科技",
+          "pct": 13.62,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SH605399",
+          "name": "晨光新材",
+          "pct": 10.03,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SZ002805",
+          "name": "丰元股份",
+          "pct": 10.02,
+          "concepts": [
+            "固态电池",
+            "锂电池"
+          ]
+        },
+        {
+          "ticker": "SH600478",
+          "name": "科力远",
+          "pct": 9.91,
+          "concepts": [
+            "锂电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "服装家纺",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
