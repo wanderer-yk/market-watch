@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-10-09",
+  "date_range": "2026-06-16 ~ 2026-10-12",
   "total_deaths": 1453,
   "patterns": {
     "闪崩": 0,
@@ -9,30 +9,6 @@
     "自然退潮": 1411
   },
   "recent_deaths": [
-    {
-      "ticker": "SZ301251",
-      "name": "威尔高",
-      "death_date": "2026-09-23",
-      "peak_pct": 240.97,
-      "last_pct": 240.97,
-      "last_days": 55,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "威尔高2026-08-06收盘价39.83元，涨幅20.01%",
-          "timestamp": 1785945600000,
-          "reason": "PCB概念板块因先进算力需求驱动整体走强，带动个股上涨。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-af582c14-b83e-4cb6-810e-c73b66c5f636&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "威尔高2026-09-16收盘价81.78元，涨幅20.00%",
-          "timestamp": 1789488000000,
-          "reason": "PCB板块受上游材料涨价传导利好而整体走强，同时公司作为AI服务器电源PCB细分龙头，受益于CPO/光模块概念热度提升。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-6a5a88bf-b96c-4158-8046-4d117efffd41&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
     {
       "ticker": "SH601579",
       "name": "会稽山",
@@ -82,93 +58,6 @@
       ]
     },
     {
-      "ticker": "SZ301132",
-      "name": "满坤科技",
-      "death_date": "2026-09-23",
-      "peak_pct": 182.96,
-      "last_pct": 182.96,
-      "last_days": 55,
-      "appearances": 18,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "满坤科技2026-09-14收盘价58.37元，涨幅20.00%",
-          "timestamp": 1789315200000,
-          "reason": "PCB（印制电路板）行业因上游原材料涨价预期而整体走强，公司作为板块成分股受到带动。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-f294cc0a-b506-4149-b3cb-35954aeeb37f&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ002827",
-      "name": "高争民爆",
-      "death_date": "2026-09-23",
-      "peak_pct": 171.49,
-      "last_pct": 36.54,
-      "last_days": 12,
-      "appearances": 15,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH688662",
-      "name": "富信科技",
-      "death_date": "2026-09-23",
-      "peak_pct": 168.72,
-      "last_pct": 58.01,
-      "last_days": 12,
-      "appearances": 4,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "富信科技2026-09-23收盘价130.61元，涨幅16.21%",
-          "timestamp": 1790092800000,
-          "reason": "公司发布定增预案用于Micro TEC产能扩张，市场看好其在光模块温控领域的国产替代前景",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d792a22e-a770-4b10-932f-35c8b1140505&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ300489",
-      "name": "光智科技",
-      "death_date": "2026-09-23",
-      "peak_pct": 148.86,
-      "last_pct": 32.96,
-      "last_days": 8,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ300684",
-      "name": "中石科技",
-      "death_date": "2026-09-23",
-      "peak_pct": 147.71,
-      "last_pct": 43.11,
-      "last_days": 13,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ301047",
-      "name": "义翘神州",
-      "death_date": "2026-09-23",
-      "peak_pct": 135.63,
-      "last_pct": 63.51,
-      "last_days": 12,
-      "appearances": 14,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "义翘神州2026-09-22收盘价136.22元，涨幅16.09%",
-          "timestamp": 1790006400000,
-          "reason": "受医药工业‘十五五’规划及AI制药产业链景气度提升影响，公司作为CRO/生命科学上游试剂龙头受到市场追捧。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24a77caa-d695-4d6e-8f79-757b4ce7817e&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
       "ticker": "SH600825",
       "name": "新华传媒",
       "death_date": "2026-10-08",
@@ -187,15 +76,120 @@
       ]
     },
     {
-      "ticker": "SZ301080",
-      "name": "百普赛斯",
-      "death_date": "2026-09-23",
-      "peak_pct": 119.82,
-      "last_pct": 64.93,
-      "last_days": 12,
+      "ticker": "SH600641",
+      "name": "先导基电",
+      "death_date": "2026-09-24",
+      "peak_pct": 96.34,
+      "last_pct": 75.91,
+      "last_days": 13,
+      "appearances": 9,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SH688286",
+      "name": "敏芯股份",
+      "death_date": "2026-09-24",
+      "peak_pct": 89.57,
+      "last_pct": 29.02,
+      "last_days": 13,
+      "appearances": 9,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300473",
+      "name": "德尔股份",
+      "death_date": "2026-09-29",
+      "peak_pct": 89.37,
+      "last_pct": 89.37,
+      "last_days": 61,
+      "appearances": 5,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002119",
+      "name": "康强电子",
+      "death_date": "2026-09-24",
+      "peak_pct": 87.41,
+      "last_pct": 30.56,
+      "last_days": 13,
+      "appearances": 6,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "康强电子2026-09-24收盘价29.61元，涨幅9.99%",
+          "timestamp": 1790179200000,
+          "reason": "半导体板块受全球供应链紧张及国产替代逻辑驱动，康强电子作为封装材料龙头连续两日涨停",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-a92649d1-5169-4a06-aae9-900639a5d584&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ300192",
+      "name": "科德教育",
+      "death_date": "2026-09-24",
+      "peak_pct": 87.2,
+      "last_pct": 47.49,
+      "last_days": 9,
+      "appearances": 10,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "科德教育2026-09-23收盘价22.95元，涨幅16.97%",
+          "timestamp": 1790092800000,
+          "reason": "公司参与设立股权投资合伙企业，市场预期其将拓展投资业务",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-7f6e32ef-9a8c-4bde-bd6a-a31344e4dca8&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ002789",
+      "name": "*ST建艺",
+      "death_date": "2026-09-30",
+      "peak_pct": 85.02,
+      "last_pct": 85.02,
+      "last_days": 70,
       "appearances": 8,
       "pattern": "自然退潮",
       "events": []
+    },
+    {
+      "ticker": "SZ003006",
+      "name": "百亚股份",
+      "death_date": "2026-09-30",
+      "peak_pct": 73.18,
+      "last_pct": 73.18,
+      "last_days": 37,
+      "appearances": 13,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "百亚股份2026-09-16收盘价19.42元，涨幅6.82%",
+          "timestamp": 1789488000000,
+          "reason": "公司申请并获得一项名为“包装袋（有机纯棉）”的专利授权，市场解读为产品创新利好",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24341c1f-2428-49e7-8ff4-c2678399699a&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH688185",
+      "name": "康希诺",
+      "death_date": "2026-09-30",
+      "peak_pct": 72.81,
+      "last_pct": 59.43,
+      "last_days": 14,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "康希诺2026-09-30收盘价102.64元，涨幅20.00%",
+          "timestamp": 1790697600000,
+          "reason": "创新药板块整体活跃，市场对mRNA肿瘤疫苗产业前景预期升温，康希诺作为板块领涨标的受到资金追捧。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c0c1e729-0c3c-44b2-8e50-7c11520b46e3&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     }
   ],
   "peak_deaths": [
