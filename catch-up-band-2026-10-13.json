@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-13",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300107",
+      "name": "建新股份",
+      "pct": 20.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300984",
+      "name": "金沃股份",
+      "pct": 13.86,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688543",
+      "name": "国科军工",
+      "pct": 12.24,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ300589",
+      "name": "江龙船艇",
+      "pct": 10.09,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH600712",
+      "name": "南宁百货",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ001318",
+      "name": "阳光乳业",
+      "pct": 10.04,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SZ000558",
+      "name": "天府文旅",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002639",
+      "name": "雪人集团",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000833",
+      "name": "粤桂股份",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605136",
+      "name": "丽人丽妆",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000668",
+      "name": "荣丰控股",
+      "pct": 10.01,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002623",
+      "name": "亚玛顿",
+      "pct": 10.01,
+      "concepts": [
+        "光伏"
+      ]
+    },
+    {
+      "ticker": "SH600391",
+      "name": "航发科技",
+      "pct": 10.01,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603386",
+      "name": "骏亚科技",
+      "pct": 10.01,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SZ002917",
+      "name": "金奥博",
+      "pct": 10,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH600593",
+      "name": "大连圣亚",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603099",
+      "name": "长白山",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603980",
+      "name": "吉华集团",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600199",
+      "name": "金种子酒",
+      "pct": 9.99,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SZ000530",
+      "name": "冰山冷热",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002811",
+      "name": "郑中设计",
+      "pct": 9.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002878",
+      "name": "元隆雅图",
+      "pct": 9.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH600831",
+      "name": "广电网络",
+      "pct": 9.97,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603001",
+      "name": "奥康国际",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603466",
+      "name": "风语筑",
+      "pct": 9.97,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ000995",
+      "name": "皇台酒业",
+      "pct": 9.96,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SH600853",
+      "name": "龙建股份",
+      "pct": 9.94,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 46,
+      "active_days": 7,
+      "heat_score": 322,
+      "leaders": [
+        {
+          "ticker": "SZ000668",
+          "name": "荣丰控股",
+          "pct": 10.01,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002811",
+          "name": "郑中设计",
+          "pct": 9.98,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002878",
+          "name": "元隆雅图",
+          "pct": 9.98,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH600831",
+          "name": "广电网络",
+          "pct": 9.97,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603466",
+          "name": "风语筑",
+          "pct": 9.97,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 17,
+      "active_days": 5,
+      "heat_score": 85,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 8,
+      "active_days": 5,
+      "heat_score": 40,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SZ000668",
+          "name": "荣丰控股",
+          "pct": 10.01,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 6,
+      "active_days": 5,
+      "heat_score": 30,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SH603386",
+          "name": "骏亚科技",
+          "pct": 10.01,
+          "concepts": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": [
+        {
+          "ticker": "SH688543",
+          "name": "国科军工",
+          "pct": 12.24,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300589",
+          "name": "江龙船艇",
+          "pct": 10.09,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH600391",
+          "name": "航发科技",
+          "pct": 10.01,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ002917",
+          "name": "金奥博",
+          "pct": 10,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": [
+        {
+          "ticker": "SZ002623",
+          "name": "亚玛顿",
+          "pct": 10.01,
+          "concepts": [
+            "光伏"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": [
+        {
+          "ticker": "SZ001318",
+          "name": "阳光乳业",
+          "pct": 10.04,
+          "concepts": [
+            "白酒"
+          ]
+        },
+        {
+          "ticker": "SH600199",
+          "name": "金种子酒",
+          "pct": 9.99,
+          "concepts": [
+            "白酒"
+          ]
+        },
+        {
+          "ticker": "SZ000995",
+          "name": "皇台酒业",
+          "pct": 9.96,
+          "concepts": [
+            "白酒"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}

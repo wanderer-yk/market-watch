@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-10-12",
+  "date_range": "2026-06-16 ~ 2026-10-13",
   "total_deaths": 1453,
   "patterns": {
     "闪崩": 0,
@@ -76,28 +76,6 @@
       ]
     },
     {
-      "ticker": "SH600641",
-      "name": "先导基电",
-      "death_date": "2026-09-24",
-      "peak_pct": 96.34,
-      "last_pct": 75.91,
-      "last_days": 13,
-      "appearances": 9,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH688286",
-      "name": "敏芯股份",
-      "death_date": "2026-09-24",
-      "peak_pct": 89.57,
-      "last_pct": 29.02,
-      "last_days": 13,
-      "appearances": 9,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
       "ticker": "SZ300473",
       "name": "德尔股份",
       "death_date": "2026-09-29",
@@ -107,42 +85,6 @@
       "appearances": 5,
       "pattern": "自然退潮",
       "events": []
-    },
-    {
-      "ticker": "SZ002119",
-      "name": "康强电子",
-      "death_date": "2026-09-24",
-      "peak_pct": 87.41,
-      "last_pct": 30.56,
-      "last_days": 13,
-      "appearances": 6,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "康强电子2026-09-24收盘价29.61元，涨幅9.99%",
-          "timestamp": 1790179200000,
-          "reason": "半导体板块受全球供应链紧张及国产替代逻辑驱动，康强电子作为封装材料龙头连续两日涨停",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-a92649d1-5169-4a06-aae9-900639a5d584&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SZ300192",
-      "name": "科德教育",
-      "death_date": "2026-09-24",
-      "peak_pct": 87.2,
-      "last_pct": 47.49,
-      "last_days": 9,
-      "appearances": 10,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "科德教育2026-09-23收盘价22.95元，涨幅16.97%",
-          "timestamp": 1790092800000,
-          "reason": "公司参与设立股权投资合伙企业，市场预期其将拓展投资业务",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-7f6e32ef-9a8c-4bde-bd6a-a31344e4dca8&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
     },
     {
       "ticker": "SZ002789",
@@ -190,6 +132,63 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c0c1e729-0c3c-44b2-8e50-7c11520b46e3&navBarTransparent=1&navBarTheme=dark"
         }
       ]
+    },
+    {
+      "ticker": "SH603657",
+      "name": "春光科技",
+      "death_date": "2026-09-30",
+      "peak_pct": 66.11,
+      "last_pct": 66.11,
+      "last_days": 35,
+      "appearances": 15,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ300981",
+      "name": "中红医疗",
+      "death_date": "2026-09-30",
+      "peak_pct": 65.05,
+      "last_pct": 32.94,
+      "last_days": 14,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "中红医疗2026-09-18收盘价18.15元，涨幅14.01%",
+          "timestamp": 1789660800000,
+          "reason": "医疗器械板块受生物医药科技领域创新及合作消息带动，市场情绪积极",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-96e14b56-abdf-4b8f-a058-1747fce1a137&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "中红医疗2026-09-30收盘价20.30元，涨幅13.41%",
+          "timestamp": 1790697600000,
+          "reason": "医疗器械板块受行业政策利好催化，市场对创新药及器械出海预期增强。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d9969cd9-e7d2-41a2-829a-5d3a62408b64&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH688265",
+      "name": "南模生物",
+      "death_date": "2026-09-30",
+      "peak_pct": 63.47,
+      "last_pct": 63.47,
+      "last_days": 14,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002913",
+      "name": "奥士康",
+      "death_date": "2026-09-30",
+      "peak_pct": 62.59,
+      "last_pct": 62.59,
+      "last_days": 35,
+      "appearances": 12,
+      "pattern": "自然退潮",
+      "events": []
     }
   ],
   "peak_deaths": [
