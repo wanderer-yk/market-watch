@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-14",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300006",
+      "name": "莱美药业",
+      "pct": 20.06,
+      "concepts": [
+        "创新药"
+      ]
+    },
+    {
+      "ticker": "SZ301132",
+      "name": "满坤科技",
+      "pct": 18.32,
+      "concepts": [
+        "覆铜板",
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SH688018",
+      "name": "乐鑫科技",
+      "pct": 14,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605189",
+      "name": "富春染织",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603992",
+      "name": "松霖科技",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603598",
+      "name": "引力传媒",
+      "pct": 9.99,
+      "concepts": [
+        "AI"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 43,
+      "active_days": 7,
+      "heat_score": 301,
+      "leaders": [
+        {
+          "ticker": "SH603598",
+          "name": "引力传媒",
+          "pct": 9.99,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 17,
+      "active_days": 5,
+      "heat_score": 85,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SZ301132",
+          "name": "满坤科技",
+          "pct": 18.32,
+          "concepts": [
+            "覆铜板",
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SZ300006",
+          "name": "莱美药业",
+          "pct": 20.06,
+          "concepts": [
+            "创新药"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ301132",
+          "name": "满坤科技",
+          "pct": 18.32,
+          "concepts": [
+            "覆铜板",
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}

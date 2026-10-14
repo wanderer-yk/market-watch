@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-10-13",
+  "date_range": "2026-06-16 ~ 2026-10-14",
   "total_deaths": 1453,
   "patterns": {
     "闪崩": 0,
@@ -9,54 +9,6 @@
     "自然退潮": 1411
   },
   "recent_deaths": [
-    {
-      "ticker": "SH601579",
-      "name": "会稽山",
-      "death_date": "2026-09-28",
-      "peak_pct": 199.71,
-      "last_pct": 199.71,
-      "last_days": 66,
-      "appearances": 16,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "会稽山2026-08-14收盘价18.68元，涨幅7.05%",
-          "timestamp": 1786636800000,
-          "reason": "食品饮料板块盘中局部异动带动，市场传闻黄酒行业增长潜力受关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24f70007-21f7-4ea0-9b61-116cc1376cc1&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-08-24收盘价20.21元，涨幅8.31%",
-          "timestamp": 1787500800000,
-          "reason": "市场对公司2026年中报业绩及全国化、高端化战略突破反应积极",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-145235b4-faa0-427c-b386-e571b12767d2&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-01收盘价20.70元，涨幅6.98%",
-          "timestamp": 1788192000000,
-          "reason": "白酒板块整体表现活跃，叠加公司上半年业绩超越古越龙山成为行业第一及高端产品全国化布局加速的市场预期",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-f247c2e2-0ea1-4e6a-8f07-3b0e583228d1&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-04收盘价24.07元，涨幅10.01%",
-          "timestamp": 1788451200000,
-          "reason": "酿酒板块整体走强，黄酒子板块领涨，市场看好其高端化、年轻化战略带来的业绩增长预期。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-614ac121-70cb-4565-8e96-d27d0e3fa9b8&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-15收盘价25.75元，涨幅10.00%",
-          "timestamp": 1789401600000,
-          "reason": "市场传闻公司签约多家白酒大商推动高端产品全国化，引发市场对其成长空间的乐观预期。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-12f36ba8-a415-47c7-b9ad-5f199e3ed446&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "会稽山2026-09-21收盘价36.12元，涨幅9.99%",
-          "timestamp": 1789920000000,
-          "reason": "市场传闻白酒大商尝试代理黄酒全国化，叠加黄酒板块整体走强预期，推动股价上涨",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-45f338c5-f1a7-41e2-8f53-f7efc7ed6e3b&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
     {
       "ticker": "SH600825",
       "name": "新华传媒",
@@ -189,6 +141,30 @@
       "appearances": 12,
       "pattern": "自然退潮",
       "events": []
+    },
+    {
+      "ticker": "SH688244",
+      "name": "永信至诚",
+      "death_date": "2026-09-30",
+      "peak_pct": 55.02,
+      "last_pct": 55.02,
+      "last_days": 13,
+      "appearances": 5,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "永信至诚2026-09-18收盘价15.90元，涨幅9.35%",
+          "timestamp": 1789660800000,
+          "reason": "网络安全概念板块因多项标准实践指南发布而走强，带动公司股价上涨。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-4a912bf4-d3c0-4987-86b5-0c0547672b6f&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "永信至诚2026-09-28收盘价19.80元，涨幅20.00%",
+          "timestamp": 1790524800000,
+          "reason": "网络安全板块受OpenAI安全事件刺激活跃，公司作为AI安全与网络靶场核心企业受市场关注",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-bf2af931-ecaa-445a-9705-ed3ef3acc090&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
     }
   ],
   "peak_deaths": [
