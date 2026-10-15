@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-15",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300916",
+      "name": "朗特智能",
+      "pct": 13.31,
+      "concepts": [
+        "PCB",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ300410",
+      "name": "正业科技",
+      "pct": 12.24,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SH600668",
+      "name": "尖峰集团",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603690",
+      "name": "至纯科技",
+      "pct": 10,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 28,
+      "active_days": 6,
+      "heat_score": 168,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 18,
+      "active_days": 6,
+      "heat_score": 108,
+      "leaders": [
+        {
+          "ticker": "SZ300410",
+          "name": "正业科技",
+          "pct": 12.24,
+          "concepts": [
+            "固态电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SZ300916",
+          "name": "朗特智能",
+          "pct": 13.31,
+          "concepts": [
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SH603690",
+          "name": "至纯科技",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": [
+        {
+          "ticker": "SZ300916",
+          "name": "朗特智能",
+          "pct": 13.31,
+          "concepts": [
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 6,
+      "active_days": 2,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "覆铜板",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH603690",
+          "name": "至纯科技",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}

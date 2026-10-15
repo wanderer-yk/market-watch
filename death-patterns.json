@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-10-14",
+  "date_range": "2026-06-16 ~ 2026-10-15",
   "total_deaths": 1453,
   "patterns": {
     "闪崩": 0,
@@ -26,17 +26,6 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-1dede946-987c-498b-a683-b1fc990507bd&navBarTransparent=1&navBarTheme=dark"
         }
       ]
-    },
-    {
-      "ticker": "SZ300473",
-      "name": "德尔股份",
-      "death_date": "2026-09-29",
-      "peak_pct": 89.37,
-      "last_pct": 89.37,
-      "last_days": 61,
-      "appearances": 5,
-      "pattern": "自然退潮",
-      "events": []
     },
     {
       "ticker": "SZ002789",
@@ -163,6 +152,30 @@
           "timestamp": 1790524800000,
           "reason": "网络安全板块受OpenAI安全事件刺激活跃，公司作为AI安全与网络靶场核心企业受市场关注",
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-bf2af931-ecaa-445a-9705-ed3ef3acc090&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH605169",
+      "name": "洪通燃气",
+      "death_date": "2026-10-08",
+      "peak_pct": 52.08,
+      "last_pct": 52.08,
+      "last_days": 100,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "洪通燃气2026-08-18收盘价10.84元，涨幅6.07%",
+          "timestamp": 1786982400000,
+          "reason": "油气板块受国家《石油天然气发展“十五五”规划》政策利好提振，行业前景预期向好。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-8b737f61-4827-44a6-9f42-486743ce2d85&navBarTransparent=1&navBarTheme=dark"
+        },
+        {
+          "description": "洪通燃气2026-08-26收盘价12.41元，涨幅10.02%",
+          "timestamp": 1787673600000,
+          "reason": "公司发布2026年半年度报告，净利润同比增长35.77%，业绩超预期提振市场信心。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-bdba7069-4839-4cf6-a351-42be9cf48f37&navBarTransparent=1&navBarTheme=dark"
         }
       ]
     }

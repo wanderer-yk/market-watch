@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "lookback_days": 10,
   "anomalies": [
     {
       "type": "density_shift",
       "label": "异动密度",
       "today": 0,
-      "avg": 36,
+      "avg": 24,
       "deviation": -1,
       "severity": "high"
     }
