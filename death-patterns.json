@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-10-15",
+  "date_range": "2026-06-16 ~ 2026-10-16",
   "total_deaths": 1453,
   "patterns": {
     "闪崩": 0,
@@ -28,134 +28,6 @@
       ]
     },
     {
-      "ticker": "SZ002789",
-      "name": "*ST建艺",
-      "death_date": "2026-09-30",
-      "peak_pct": 85.02,
-      "last_pct": 85.02,
-      "last_days": 70,
-      "appearances": 8,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ003006",
-      "name": "百亚股份",
-      "death_date": "2026-09-30",
-      "peak_pct": 73.18,
-      "last_pct": 73.18,
-      "last_days": 37,
-      "appearances": 13,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "百亚股份2026-09-16收盘价19.42元，涨幅6.82%",
-          "timestamp": 1789488000000,
-          "reason": "公司申请并获得一项名为“包装袋（有机纯棉）”的专利授权，市场解读为产品创新利好",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-24341c1f-2428-49e7-8ff4-c2678399699a&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH688185",
-      "name": "康希诺",
-      "death_date": "2026-09-30",
-      "peak_pct": 72.81,
-      "last_pct": 59.43,
-      "last_days": 14,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "康希诺2026-09-30收盘价102.64元，涨幅20.00%",
-          "timestamp": 1790697600000,
-          "reason": "创新药板块整体活跃，市场对mRNA肿瘤疫苗产业前景预期升温，康希诺作为板块领涨标的受到资金追捧。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-c0c1e729-0c3c-44b2-8e50-7c11520b46e3&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH603657",
-      "name": "春光科技",
-      "death_date": "2026-09-30",
-      "peak_pct": 66.11,
-      "last_pct": 66.11,
-      "last_days": 35,
-      "appearances": 15,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ300981",
-      "name": "中红医疗",
-      "death_date": "2026-09-30",
-      "peak_pct": 65.05,
-      "last_pct": 32.94,
-      "last_days": 14,
-      "appearances": 4,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "中红医疗2026-09-18收盘价18.15元，涨幅14.01%",
-          "timestamp": 1789660800000,
-          "reason": "医疗器械板块受生物医药科技领域创新及合作消息带动，市场情绪积极",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-96e14b56-abdf-4b8f-a058-1747fce1a137&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "中红医疗2026-09-30收盘价20.30元，涨幅13.41%",
-          "timestamp": 1790697600000,
-          "reason": "医疗器械板块受行业政策利好催化，市场对创新药及器械出海预期增强。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-d9969cd9-e7d2-41a2-829a-5d3a62408b64&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
-      "ticker": "SH688265",
-      "name": "南模生物",
-      "death_date": "2026-09-30",
-      "peak_pct": 63.47,
-      "last_pct": 63.47,
-      "last_days": 14,
-      "appearances": 7,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SZ002913",
-      "name": "奥士康",
-      "death_date": "2026-09-30",
-      "peak_pct": 62.59,
-      "last_pct": 62.59,
-      "last_days": 35,
-      "appearances": 12,
-      "pattern": "自然退潮",
-      "events": []
-    },
-    {
-      "ticker": "SH688244",
-      "name": "永信至诚",
-      "death_date": "2026-09-30",
-      "peak_pct": 55.02,
-      "last_pct": 55.02,
-      "last_days": 13,
-      "appearances": 5,
-      "pattern": "自然退潮",
-      "events": [
-        {
-          "description": "永信至诚2026-09-18收盘价15.90元，涨幅9.35%",
-          "timestamp": 1789660800000,
-          "reason": "网络安全概念板块因多项标准实践指南发布而走强，带动公司股价上涨。",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-4a912bf4-d3c0-4987-86b5-0c0547672b6f&navBarTransparent=1&navBarTheme=dark"
-        },
-        {
-          "description": "永信至诚2026-09-28收盘价19.80元，涨幅20.00%",
-          "timestamp": 1790524800000,
-          "reason": "网络安全板块受OpenAI安全事件刺激活跃，公司作为AI安全与网络靶场核心企业受市场关注",
-          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-bf2af931-ecaa-445a-9705-ed3ef3acc090&navBarTransparent=1&navBarTheme=dark"
-        }
-      ]
-    },
-    {
       "ticker": "SH605169",
       "name": "洪通燃气",
       "death_date": "2026-10-08",
@@ -178,6 +50,129 @@
           "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-bdba7069-4839-4cf6-a351-42be9cf48f37&navBarTransparent=1&navBarTheme=dark"
         }
       ]
+    },
+    {
+      "ticker": "SH605366",
+      "name": "宏柏新材",
+      "death_date": "2026-10-08",
+      "peak_pct": 46.44,
+      "last_pct": 31.74,
+      "last_days": 21,
+      "appearances": 5,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "宏柏新材2026-09-28收盘价10.14元，涨幅9.98%",
+          "timestamp": 1790524800000,
+          "reason": "市场看好公司作为硅基新材料及光伏材料供应商的发展前景",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-f73a39ea-2810-43ac-8747-87fbb60037c6&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ002882",
+      "name": "金龙羽",
+      "death_date": "2026-10-08",
+      "peak_pct": 45.16,
+      "last_pct": 24.14,
+      "last_days": 14,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "金龙羽2026-09-29收盘价24.51元，涨幅10.01%",
+          "timestamp": 1790611200000,
+          "reason": "所属【电网设备】板块及【固态电池】概念受政策利好驱动走强",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-8cee572e-2276-4308-87f1-bdaa5d98a76a&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH600121",
+      "name": "郑州煤电",
+      "death_date": "2026-10-08",
+      "peak_pct": 43.32,
+      "last_pct": 17.46,
+      "last_days": 15,
+      "appearances": 4,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002058",
+      "name": "威尔泰",
+      "death_date": "2026-10-08",
+      "peak_pct": 33.13,
+      "last_pct": 33.13,
+      "last_days": 10,
+      "appearances": 2,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "紫竹高科2026-09-29收盘价18.36元，涨幅10.01%",
+          "timestamp": 1790611200000,
+          "reason": "所属固态电池板块受产业规划利好政策驱动，板块整体走强。",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-3a51effe-2cc6-4e98-911b-00a81c15d7c0&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SH603200",
+      "name": "上海洗霸",
+      "death_date": "2026-10-08",
+      "peak_pct": 33.11,
+      "last_pct": 33.11,
+      "last_days": 10,
+      "appearances": 6,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "上海洗霸2026-09-29收盘价40.67元，涨幅10.01%",
+          "timestamp": 1790611200000,
+          "reason": "所属固态电池板块因《新型电池产业发展“十五五”规划》发布而整体走强",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-b64b3f6c-f526-40b8-ae4e-1be8f7fbb354&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ002531",
+      "name": "天顺风能",
+      "death_date": "2026-10-08",
+      "peak_pct": 31.77,
+      "last_pct": 16.62,
+      "last_days": 15,
+      "appearances": 5,
+      "pattern": "自然退潮",
+      "events": []
+    },
+    {
+      "ticker": "SZ002487",
+      "name": "大金重工",
+      "death_date": "2026-10-08",
+      "peak_pct": 28.29,
+      "last_pct": 28.29,
+      "last_days": 15,
+      "appearances": 3,
+      "pattern": "自然退潮",
+      "events": [
+        {
+          "description": "大金重工2026-09-30收盘价46.29元，涨幅7.83%",
+          "timestamp": 1790697600000,
+          "reason": "风电设备板块受政策利好驱动整体活跃，叠加公司联手Ulstein布局新一代海上风电安装船的战略升级利好",
+          "url": "https://ai.xueqiu.com/ai/seekball/chat?shareId=s-86c096f1-677c-48a7-b429-81f23e37dab2&navBarTransparent=1&navBarTheme=dark"
+        }
+      ]
+    },
+    {
+      "ticker": "SZ301119",
+      "name": "正强股份",
+      "death_date": "2026-10-08",
+      "peak_pct": 28.17,
+      "last_pct": 20.75,
+      "last_days": 21,
+      "appearances": 7,
+      "pattern": "自然退潮",
+      "events": []
     }
   ],
   "peak_deaths": [

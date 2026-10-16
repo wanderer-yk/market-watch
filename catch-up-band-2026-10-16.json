@@ -1,0 +1,936 @@
+{
+  "date": "2026-10-16",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300045",
+      "name": "华力创通",
+      "pct": 20.04,
+      "concepts": [
+        "商业航天",
+        "军工",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ300411",
+      "name": "金盾股份",
+      "pct": 20,
+      "concepts": [
+        "低空经济",
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ300681",
+      "name": "英搏尔",
+      "pct": 19.98,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SH688385",
+      "name": "复旦微电",
+      "pct": 14.61,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ301230",
+      "name": "泓博医药",
+      "pct": 14.22,
+      "concepts": [
+        "医疗服务",
+        "港股医药"
+      ]
+    },
+    {
+      "ticker": "SZ301398",
+      "name": "星源卓镁",
+      "pct": 13.68,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300777",
+      "name": "中简科技",
+      "pct": 13.62,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ300900",
+      "name": "广联航空",
+      "pct": 13.43,
+      "concepts": [
+        "低空经济",
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ300810",
+      "name": "中科海讯",
+      "pct": 13.22,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH688070",
+      "name": "纵横股份",
+      "pct": 12.56,
+      "concepts": [
+        "低空经济",
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ301555",
+      "name": "惠柏新材",
+      "pct": 10.64,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300719",
+      "name": "安达维尔",
+      "pct": 10.62,
+      "concepts": [
+        "低空经济",
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ002076",
+      "name": "星光股份",
+      "pct": 10.15,
+      "concepts": [
+        "光学光电子",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH603668",
+      "name": "天马科技",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SH688631",
+      "name": "莱斯信息",
+      "pct": 10.05,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SZ000576",
+      "name": "甘化科工",
+      "pct": 10.04,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH600699",
+      "name": "均胜电子",
+      "pct": 10.03,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "新能源",
+        "机器人",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ000607",
+      "name": "华媒控股",
+      "pct": 10.02,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002917",
+      "name": "金奥博",
+      "pct": 10.01,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH600668",
+      "name": "尖峰集团",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600860",
+      "name": "京城股份",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603305",
+      "name": "旭升集团",
+      "pct": 10.01,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH605178",
+      "name": "时空科技",
+      "pct": 10.01,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SZ000887",
+      "name": "中鼎股份",
+      "pct": 9.99,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002085",
+      "name": "万丰奥威",
+      "pct": 9.99,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SZ002869",
+      "name": "金溢科技",
+      "pct": 9.99,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SZ002933",
+      "name": "新兴装备",
+      "pct": 9.99,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH601606",
+      "name": "长城军工",
+      "pct": 9.99,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603173",
+      "name": "福斯达",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603197",
+      "name": "保隆科技",
+      "pct": 9.99,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SH603278",
+      "name": "大业股份",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603636",
+      "name": "南威软件",
+      "pct": 9.99,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603955",
+      "name": "大千生态",
+      "pct": 9.99,
+      "concepts": [
+        "房地产"
+      ]
+    },
+    {
+      "ticker": "SZ001696",
+      "name": "宗申动力",
+      "pct": 9.98,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SH600178",
+      "name": "东安动力",
+      "pct": 9.98,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SH600501",
+      "name": "航天晨光",
+      "pct": 9.97,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603013",
+      "name": "亚普股份",
+      "pct": 9.97,
+      "concepts": [
+        "汽车零部件",
+        "汽车整车"
+      ]
+    },
+    {
+      "ticker": "SZ000678",
+      "name": "襄阳轴承",
+      "pct": 9.96,
+      "concepts": [
+        "汽车零部件",
+        "汽车整车"
+      ]
+    },
+    {
+      "ticker": "SZ002510",
+      "name": "天汽模",
+      "pct": 9.96,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "汽车整车",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH600843",
+      "name": "上工申贝",
+      "pct": 9.96,
+      "concepts": [
+        "低空经济"
+      ]
+    },
+    {
+      "ticker": "SZ002531",
+      "name": "天顺风能",
+      "pct": 9.94,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 30,
+      "active_days": 7,
+      "heat_score": 210,
+      "leaders": [
+        {
+          "ticker": "SZ000607",
+          "name": "华媒控股",
+          "pct": 10.02,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603636",
+          "name": "南威软件",
+          "pct": 9.99,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 18,
+      "active_days": 6,
+      "heat_score": 108,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 18,
+      "active_days": 3,
+      "heat_score": 54,
+      "leaders": [
+        {
+          "ticker": "SZ300045",
+          "name": "华力创通",
+          "pct": 20.04,
+          "concepts": [
+            "商业航天",
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ300411",
+          "name": "金盾股份",
+          "pct": 20,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300777",
+          "name": "中简科技",
+          "pct": 13.62,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300900",
+          "name": "广联航空",
+          "pct": 13.43,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300810",
+          "name": "中科海讯",
+          "pct": 13.22,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH688070",
+          "name": "纵横股份",
+          "pct": 12.56,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300719",
+          "name": "安达维尔",
+          "pct": 10.62,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ000576",
+          "name": "甘化科工",
+          "pct": 10.04,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ002917",
+          "name": "金奥博",
+          "pct": 10.01,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ002933",
+          "name": "新兴装备",
+          "pct": 9.99,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH601606",
+          "name": "长城军工",
+          "pct": 9.99,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH600501",
+          "name": "航天晨光",
+          "pct": 9.97,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 10,
+      "active_days": 5,
+      "heat_score": 50,
+      "leaders": [
+        {
+          "ticker": "SZ301398",
+          "name": "星源卓镁",
+          "pct": 13.68,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.03,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "新能源",
+            "机器人",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603305",
+          "name": "旭升集团",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ000887",
+          "name": "中鼎股份",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002510",
+          "name": "天汽模",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "汽车整车",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SZ301398",
+          "name": "星源卓镁",
+          "pct": 13.68,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.03,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "新能源",
+            "机器人",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603305",
+          "name": "旭升集团",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ000887",
+          "name": "中鼎股份",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002510",
+          "name": "天汽模",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "汽车整车",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 8,
+      "active_days": 3,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SH605178",
+          "name": "时空科技",
+          "pct": 10.01,
+          "concepts": [
+            "房地产"
+          ]
+        },
+        {
+          "ticker": "SH603955",
+          "name": "大千生态",
+          "pct": 9.99,
+          "concepts": [
+            "房地产"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": [
+        {
+          "ticker": "SZ300045",
+          "name": "华力创通",
+          "pct": 20.04,
+          "concepts": [
+            "商业航天",
+            "军工",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002076",
+          "name": "星光股份",
+          "pct": 10.15,
+          "concepts": [
+            "光学光电子",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.03,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "新能源",
+            "机器人",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH688385",
+          "name": "复旦微电",
+          "pct": 14.61,
+          "concepts": [
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "低空经济",
+      "leader_count": 12,
+      "active_days": 1,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ300411",
+          "name": "金盾股份",
+          "pct": 20,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300681",
+          "name": "英搏尔",
+          "pct": 19.98,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SZ300900",
+          "name": "广联航空",
+          "pct": 13.43,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH688070",
+          "name": "纵横股份",
+          "pct": 12.56,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ300719",
+          "name": "安达维尔",
+          "pct": 10.62,
+          "concepts": [
+            "低空经济",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH688631",
+          "name": "莱斯信息",
+          "pct": 10.05,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SZ002085",
+          "name": "万丰奥威",
+          "pct": 9.99,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SZ002869",
+          "name": "金溢科技",
+          "pct": 9.99,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SH603197",
+          "name": "保隆科技",
+          "pct": 9.99,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SZ001696",
+          "name": "宗申动力",
+          "pct": 9.98,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SH600178",
+          "name": "东安动力",
+          "pct": 9.98,
+          "concepts": [
+            "低空经济"
+          ]
+        },
+        {
+          "ticker": "SH600843",
+          "name": "上工申贝",
+          "pct": 9.96,
+          "concepts": [
+            "低空经济"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": [
+        {
+          "ticker": "SH600699",
+          "name": "均胜电子",
+          "pct": 10.03,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "新能源",
+            "机器人",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603013",
+          "name": "亚普股份",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "汽车整车"
+          ]
+        },
+        {
+          "ticker": "SZ000678",
+          "name": "襄阳轴承",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "汽车整车"
+          ]
+        },
+        {
+          "ticker": "SZ002510",
+          "name": "天汽模",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "汽车整车",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "医疗器械",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": [
+        {
+          "ticker": "SH603013",
+          "name": "亚普股份",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "汽车整车"
+          ]
+        },
+        {
+          "ticker": "SZ000678",
+          "name": "襄阳轴承",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "汽车整车"
+          ]
+        },
+        {
+          "ticker": "SZ002510",
+          "name": "天汽模",
+          "pct": 9.96,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "汽车整车",
+            "机器人"
+          ]
+        }
+      ]
+    }
+  ],
+  "catchup_candidates": []
+}
