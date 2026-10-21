@@ -4,7 +4,7 @@
 
 ## 数据来源
 
-数据由 [`trend-trading-agents`](https://github.com/kangjinghang/trend-trading-agents) 的 scan-all 流程采集（雪球全市场异动快照），经脱敏聚合后 push 到本仓库。
+数据由 [`trend-trading-agents`](https://github.com/wanderer-yk/trend-trading-agents) 的 scan-all 流程采集（雪球全市场异动快照），经脱敏聚合后 push 到本仓库。
 
 ## 内容
 
