@@ -10,9 +10,15 @@
 
 const $ = (sel) => document.querySelector(sel);
 
+/** HTML 转义：所有来自 JSON 数据的字段进 innerHTML/属性前必须过它（XSS 防线）。
+ *  浏览器解析属性/文本时会实体解码，dataset 读取和 JSON.parse 都能还原原始值。 */
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+})[c]);
+
 /** 问号 tooltip HTML */
 function tip(text) {
-  return `<span class="info-tip">?<span class="tooltip">${text}</span></span>`;
+  return `<span class="info-tip">?<span class="tooltip">${esc(text)}</span></span>`;
 }
 
 /** 类型标签：'daily' = 当日快照，'global' = 全周期统计 */
@@ -108,11 +114,11 @@ function renderDensity(density) {
       <h2>异动密度${badge('daily')}${tip('当日入选候选股占全市场比例。数值越高说明市场活跃度越强，异动股越多。')}</h2>
       <div class="density-main">
         <span class="density-pct">${ratioPct}%</span>
-        <span class="density-detail">${density.candidates} / ${density.universe} 只入选</span>
+        <span class="density-detail">${esc(density.candidates)} / ${esc(density.universe)} 只入选</span>
       </div>
       <svg class="sparkline" id="sparkline"></svg>
       <div class="density-detail" id="density-daily">
-        单日异动榜 ${density.daily_candidates} 只
+        单日异动榜 ${esc(density.daily_candidates)} 只
       </div>
     </section>`;
 }
@@ -173,9 +179,9 @@ function renderSectors(sectors) {
     const barWidth = (s.count / maxCount * 100).toFixed(0);
     return `
       <div class="sector-row">
-        <span class="sector-name">${s.name}</span>
+        <span class="sector-name">${esc(s.name)}</span>
         <div class="sector-bar-track"><div class="sector-bar" style="width:${barWidth}%"></div></div>
-        <span class="sector-meta">${s.count}只<br>${s.avg_pct > 0 ? "+" : ""}${s.avg_pct}%</span>
+        <span class="sector-meta">${esc(s.count)}只<br>${s.avg_pct > 0 ? "+" : ""}${esc(s.avg_pct)}%</span>
       </div>`;
   }).join("");
   return `<section><h2>板块温度（区间异动 Top 12）${badge('daily')}${tip('按申万一级行业聚合的区间异动股数排行。股数越多、均涨越高说明该板块趋势越强。')}</h2>${rows}</section>`;
@@ -188,19 +194,19 @@ function renderCandidates(candidates, title, isDown) {
     const tag = c.kind === "continued"
       ? '<span class="tag tag-continued">延续</span>'
       : '<span class="tag tag-new">新出</span>';
-    const pct = c.pct > 0 ? `+${c.pct}%` : `${c.pct}%`;
+    const pct = esc(c.pct > 0 ? `+${c.pct}%` : `${c.pct}%`);
     const pctClass = isDown ? "cand-pct-down" : "";
-    const meta = c.days != null ? `${c.days}天` : "";
-    const summary = c.summary ? `<div class="cand-summary">${c.summary}</div>` : "";
-    const reason = c.reason ? `<div class="cand-summary">${c.reason}</div>` : "";
+    const meta = c.days != null ? `${esc(c.days)}天` : "";
+    const summary = c.summary ? `<div class="cand-summary">${esc(c.summary)}</div>` : "";
+    const reason = c.reason ? `<div class="cand-summary">${esc(c.reason)}</div>` : "";
     const flags = (c.risk_flags && c.risk_flags.length > 0)
-      ? '<span class="risk-flags">' + c.risk_flags.map(f => `<span class="risk-tag">${f}</span>`).join("") + '</span>'
+      ? '<span class="risk-flags">' + c.risk_flags.map(f => `<span class="risk-tag">${esc(f)}</span>`).join("") + '</span>'
       : "";
     return `
       <div class="cand-row">
         <div>
-          <div><span class="cand-name">${c.name}</span>${tag}${flags}</div>
-          <div class="cand-ticker">${c.ticker}</div>
+          <div><span class="cand-name">${esc(c.name)}</span>${tag}${flags}</div>
+          <div class="cand-ticker">${esc(c.ticker)}</div>
         </div>
         <div>
           <div class="cand-pct ${pctClass}">${pct}</div>
@@ -221,14 +227,14 @@ function renderHistory(allDates, currentDate) {
 
   const options = allDates.map(d => {
     const selected = d === currentDate ? " selected" : "";
-    return `<option value="${d}"${selected}>${d}</option>`;
+    return `<option value="${esc(d)}"${selected}>${esc(d)}</option>`;
   }).join("");
 
   return `
     <div class="date-nav">
-      <a href="?date=${prev || currentDate}" class="date-arrow ${prev ? '' : 'date-arrow-disabled'}">‹</a>
+      <a href="?date=${esc(prev || currentDate)}" class="date-arrow ${prev ? '' : 'date-arrow-disabled'}">‹</a>
       <select class="date-select" onchange="location.href='?date='+this.value">${options}</select>
-      <a href="?date=${next || currentDate}" class="date-arrow ${next ? '' : 'date-arrow-disabled'}">›</a>
+      <a href="?date=${esc(next || currentDate)}" class="date-arrow ${next ? '' : 'date-arrow-disabled'}">›</a>
     </div>`;
 }
 
@@ -261,21 +267,21 @@ function renderDeathPatterns(data) {
   // Recent notable deaths
   const recent = (data.recent_deaths || []).slice(0, 5);
   const recentHtml = recent.map(d => {
-    const flag = d.pattern !== "自然退潮" ? `<span class="death-pattern-tag death-${d.pattern === "闪崩" ? "crash" : d.pattern.includes("利空") ? "negative" : "drop"}">${d.pattern}</span>` : "";
+    const flag = d.pattern !== "自然退潮" ? `<span class="death-pattern-tag death-${d.pattern === "闪崩" ? "crash" : d.pattern.includes("利空") ? "negative" : "drop"}">${esc(d.pattern)}</span>` : "";
     return `
       <div class="death-item">
-        <span class="death-name">${d.name}</span>
-        <span class="death-ticker">${d.ticker}</span>
+        <span class="death-name">${esc(d.name)}</span>
+        <span class="death-ticker">${esc(d.ticker)}</span>
         ${flag}
         <span class="death-pct">+${d.peak_pct.toFixed(1)}%</span>
-        <span class="death-date">${d.death_date.slice(5)}</span>
+        <span class="death-date">${esc(d.death_date.slice(5))}</span>
       </div>`;
   }).join("");
 
   return `
     <section>
       <h2>趋势死亡模式 · 全周期统计${badge('global')}${tip('分析趋势终止的原因分类：高位回落（涨幅过大后回调）、利空+下跌（负面事件驱动）、闪崩（短期暴跌）、自然退潮（热度消退）。此统计覆盖整个观测期（' + data.date_range + '），非当日快照。')}</h2>
-      <div class="death-summary">共 ${total} 次趋势终止（${data.date_range}）</div>
+      <div class="death-summary">共 ${total} 次趋势终止（${esc(data.date_range)}）</div>
       ${barHtml}
       ${recentHtml ? `<div class="death-recent-title">近期退场</div>${recentHtml}` : ""}
     </section>`;
@@ -290,28 +296,27 @@ function renderSilenceVolcano(data) {
     return `
       <div class="sv-row">
         <div class="sv-left">
-          <span class="sv-name">${c.name}</span>
-          <span class="sv-ticker">${c.ticker}</span>
-          <span class="sv-status ${statusClass}">${c.status}</span>
+          <span class="sv-name">${esc(c.name)}</span>
+          <span class="sv-ticker">${esc(c.ticker)}</span>
+          <span class="sv-status ${statusClass}">${esc(c.status)}</span>
         </div>
         <div class="sv-right">
           <div class="sv-stats">
             <span class="sv-stat">前波 <b>+${c.peak_pct.toFixed(0)}%</b></span>
-            <span class="sv-stat">沉默 ${c.silence_days}天</span>
+            <span class="sv-stat">沉默 ${esc(c.silence_days)}天</span>
             <span class="sv-stat">量比 ${c.volume_ratio.toFixed(2)}</span>
           </div>
           <div class="sv-price">
-            <span>现价 ${c.current_price}</span>
-            <span class="sv-fib">0.382=${c.fib_0382}</span>
+            <span>现价 ${esc(c.current_price)}</span>
+            <span class="sv-fib">0.382=${esc(c.fib_0382)}</span>
           </div>
         </div>
       </div>`;
   }).join("");
-
   return `
     <section>
       <h2>沉默 · 火山爆发${badge('global')}${tip('扫描前期有强势表现但近期沉默的股票，寻找即将再次爆发的机会。关注量比和斐波那契支撑位。')}</h2>
-      <div class="sv-summary">扫描 ${data.total_silent} 个沉默 ticker → ${data.total_candidates} 个通过全部筛选</div>
+      <div class="sv-summary">扫描 ${esc(data.total_silent)} 个沉默 ticker → ${esc(data.total_candidates)} 个通过全部筛选</div>
       ${rows}
     </section>`;
 }
@@ -347,13 +352,13 @@ function renderConceptCooccurrence(data) {
   for (let j = 0; j < nodeIds.length; j++) {
     const x = labelW + j * cellSize + cellSize / 2;
     const y = labelH - 4;
-    matrixHtml += `<text x="${x}" y="${y}" transform="rotate(-45 ${x} ${y})" class="cc-label-vert">${nodeIds[j]}</text>`;
+    matrixHtml += `<text x="${x}" y="${y}" transform="rotate(-45 ${x} ${y})" class="cc-label-vert">${esc(nodeIds[j])}</text>`;
   }
 
   // 行标签 + 格子
   for (let i = 0; i < nodeIds.length; i++) {
     const y = labelH + i * cellSize;
-    matrixHtml += `<text x="${labelW - 4}" y="${y + cellSize / 2 + 4}" class="cc-label-horiz">${nodeIds[i]}</text>`;
+    matrixHtml += `<text x="${labelW - 4}" y="${y + cellSize / 2 + 4}" class="cc-label-horiz">${esc(nodeIds[i])}</text>`;
     for (let j = 0; j < nodeIds.length; j++) {
       const x = labelW + j * cellSize;
       if (i === j) {
@@ -363,7 +368,7 @@ function renderConceptCooccurrence(data) {
         const w = edgeMap.get(`${nodeIds[i]}|${nodeIds[j]}`) ?? 0;
         if (w > 0) {
           const opacity = 0.15 + (w / maxWeight) * 0.85;
-          matrixHtml += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" class="cc-cell" fill-opacity="${opacity.toFixed(2)}" data-source="${nodeIds[i]}" data-target="${nodeIds[j]}" data-weight="${w}"><title>${nodeIds[i]} ↔ ${nodeIds[j]}: ${w}</title></rect>`;
+          matrixHtml += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" class="cc-cell" fill-opacity="${opacity.toFixed(2)}" data-source="${esc(nodeIds[i])}" data-target="${esc(nodeIds[j])}" data-weight="${w}"><title>${esc(nodeIds[i])} ↔ ${esc(nodeIds[j])}: ${w}</title></rect>`;
         } else {
           matrixHtml += `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" class="cc-cell-empty"/>`;
         }
@@ -399,7 +404,7 @@ function renderConceptCooccurrence(data) {
     if (!p1 || !p2) continue;
     const strokeWidth = 0.5 + (e.weight / maxWeight) * 4;
     const opacity = 0.1 + (e.weight / maxWeight) * 0.5;
-    graphHtml += `<line x1="${p1.x.toFixed(1)}" y1="${p1.y.toFixed(1)}" x2="${p2.x.toFixed(1)}" y2="${p2.y.toFixed(1)}" class="cc-edge" stroke-width="${strokeWidth.toFixed(1)}" opacity="${opacity.toFixed(2)}"><title>${e.source} ↔ ${e.target}: ${e.weight}</title></line>`;
+    graphHtml += `<line x1="${p1.x.toFixed(1)}" y1="${p1.y.toFixed(1)}" x2="${p2.x.toFixed(1)}" y2="${p2.y.toFixed(1)}" class="cc-edge" stroke-width="${strokeWidth.toFixed(1)}" opacity="${opacity.toFixed(2)}"><title>${esc(e.source)} ↔ ${esc(e.target)}: ${e.weight}</title></line>`;
   }
   // 画节点
   const maxNodeCount = topNodes[0]?.count ?? 1;
@@ -408,8 +413,8 @@ function renderConceptCooccurrence(data) {
     if (!pos) continue;
     const r = 4 + (n.count / maxNodeCount) * 10;
     const typeClass = n.type === "technology" ? "cc-node-tech" : n.type === "event" ? "cc-node-event" : "cc-node-sector";
-    graphHtml += `<circle cx="${pos.x.toFixed(1)}" cy="${pos.y.toFixed(1)}" r="${r.toFixed(1)}" class="cc-node ${typeClass}"><title>${n.id}: ${n.count}次</title></circle>`;
-    graphHtml += `<text x="${pos.x.toFixed(1)}" y="${(pos.y - r - 3).toFixed(1)}" class="cc-node-label">${n.id}</text>`;
+    graphHtml += `<circle cx="${pos.x.toFixed(1)}" cy="${pos.y.toFixed(1)}" r="${r.toFixed(1)}" class="cc-node ${typeClass}"><title>${esc(n.id)}: ${n.count}次</title></circle>`;
+    graphHtml += `<text x="${pos.x.toFixed(1)}" y="${(pos.y - r - 3).toFixed(1)}" class="cc-node-label">${esc(n.id)}</text>`;
   }
   graphHtml += `</svg>`;
 
@@ -423,8 +428,8 @@ function renderConceptCooccurrence(data) {
 
   return `
     <section>
-      <h2>概念共现网络 · ${data.date_range}${badge('global')}${tip('从归因文本中提取概念，分析概念间的共现关系。共现次数越多说明概念关联越强，可发现潜在的联动机会。')}</h2>
-      <div class="cc-summary">从 ${data.total_reasons} 条归因文本提取 ${data.total_concepts} 个概念，${data.total_pairs} 个共现对</div>
+      <h2>概念共现网络 · ${esc(data.date_range)}${badge('global')}${tip('从归因文本中提取概念，分析概念间的共现关系。共现次数越多说明概念关联越强，可发现潜在的联动机会。')}</h2>
+      <div class="cc-summary">从 ${esc(data.total_reasons)} 条归因文本提取 ${esc(data.total_concepts)} 个概念，${esc(data.total_pairs)} 个共现对</div>
       <div class="cc-tabs">
         <button class="cc-tab cc-tab-active" onclick="document.getElementById('cc-matrix').style.display='block';document.getElementById('cc-graph').style.display='none';this.classList.add('cc-tab-active');this.nextElementSibling.classList.remove('cc-tab-active')">热力矩阵</button>
         <button class="cc-tab" onclick="document.getElementById('cc-matrix').style.display='none';document.getElementById('cc-graph').style.display='block';this.classList.add('cc-tab-active');this.previousElementSibling.classList.remove('cc-tab-active')">关系图</button>
@@ -447,9 +452,9 @@ function renderCatchUpBand(data) {
     const barPct = (c.heat_score / maxHeat * 100).toFixed(0);
     return `
       <div class="cub-heat-row">
-        <span class="cub-heat-concept">${c.concept}</span>
-        <span class="cub-heat-count">${c.leader_count}只</span>
-        <span class="cub-heat-days">${c.active_days}天</span>
+        <span class="cub-heat-concept">${esc(c.concept)}</span>
+        <span class="cub-heat-count">${esc(c.leader_count)}只</span>
+        <span class="cub-heat-days">${esc(c.active_days)}天</span>
         <div class="cub-heat-bar-track"><div class="cub-heat-bar" style="width:${barPct}%"></div></div>
       </div>`;
   }).join("");
@@ -457,20 +462,20 @@ function renderCatchUpBand(data) {
   // 补涨候选
   const catchupRows = data.catchup_candidates.slice(0, 15).map(c => {
     const tags = c.shared_concepts.slice(0, 3).map(ct =>
-      `<span class="cub-catchup-tag">${ct}</span>`
+      `<span class="cub-catchup-tag">${esc(ct)}</span>`
     ).join("");
     const pct = c.trend_pct > 0 ? `+${c.trend_pct.toFixed(1)}%` : `${c.trend_pct.toFixed(1)}%`;
     return `
       <div class="cub-catchup-row">
         <div class="cub-catchup-left">
-          <span class="cub-catchup-name">${c.name}</span>
-          <span class="cub-catchup-ticker">${c.ticker}</span>
+          <span class="cub-catchup-name">${esc(c.name)}</span>
+          <span class="cub-catchup-ticker">${esc(c.ticker)}</span>
           <div class="cub-catchup-concepts">${tags}</div>
         </div>
         <div class="cub-catchup-right">
           <div class="cub-catchup-pct">${pct}</div>
-          <div class="cub-catchup-meta">${c.trend_days}天趋势</div>
-          <div class="cub-catchup-last">末次 ${c.last_seen.slice(5)}</div>
+          <div class="cub-catchup-meta">${esc(c.trend_days)}天趋势</div>
+          <div class="cub-catchup-last">末次 ${esc(c.last_seen.slice(5))}</div>
         </div>
       </div>`;
   }).join("");
@@ -478,8 +483,8 @@ function renderCatchUpBand(data) {
 
   return `
     <section>
-      <h2>排头兵 · 补涨梯队 · ${data.date}${badge('daily')}${tip('排头兵：近期涨停密度最高的概念。补涨梯队：同概念中涨幅较小但趋势向上的股票，可能有补涨机会。')}</h2>
-      <div class="cub-summary">近 ${data.lookback_days} 天 ${data.leaders.length} 个排头兵，${data.hot_concepts.length} 个热门概念</div>
+      <h2>排头兵 · 补涨梯队 · ${esc(data.date)}${badge('daily')}${tip('排头兵：近期涨停密度最高的概念。补涨梯队：同概念中涨幅较小但趋势向上的股票，可能有补涨机会。')}</h2>
+      <div class="cub-summary">近 ${esc(data.lookback_days)} 天 ${data.leaders.length} 个排头兵，${data.hot_concepts.length} 个热门概念</div>
       <div class="cub-section-title">热门概念（涨停密度 × 持续天数）</div>
       ${heatRows}
       <div class="cub-section-title">补涨梯队（同概念 + 趋势中 + 今日未涨停）</div>
@@ -497,26 +502,26 @@ function renderNarrativeWeekly(data) {
   const cards = recentWeeks.map(w => {
     // Top concepts
     const topTags = w.top_concepts.slice(0, 8).map(c =>
-      `<span class="nw-concept-tag">${c.concept}<span class="nw-concept-count">${c.count}</span></span>`
+      `<span class="nw-concept-tag">${esc(c.concept)}<span class="nw-concept-count">${esc(c.count)}</span></span>`
     ).join("");
 
     // Emerging
     const emergingTags = w.emerging.slice(0, 5).map(c =>
-      `<span class="nw-concept-tag nw-emerging-tag">${c.concept}<span class="nw-concept-count">${c.prev_count}→${c.count}</span></span>`
+      `<span class="nw-concept-tag nw-emerging-tag">${esc(c.concept)}<span class="nw-concept-count">${esc(c.prev_count)}→${esc(c.count)}</span></span>`
     ).join("");
 
     // Fading
     const fadingTags = w.fading.slice(0, 5).map(c =>
-      `<span class="nw-concept-tag nw-fading-tag">${c.concept}<span class="nw-concept-count nw-fading-count">${c.prev_count}→${c.count}</span></span>`
+      `<span class="nw-concept-tag nw-fading-tag">${esc(c.concept)}<span class="nw-concept-count nw-fading-count">${esc(c.prev_count)}→${esc(c.count)}</span></span>`
     ).join("");
 
     return `
       <div class="nw-card">
         <div class="nw-header">
-          <span class="nw-week">${w.week}</span>
-          <span class="nw-dates">${w.date_range}</span>
+          <span class="nw-week">${esc(w.week)}</span>
+          <span class="nw-dates">${esc(w.date_range)}</span>
         </div>
-        <div class="nw-reasons">${w.total_reasons} 条归因</div>
+        <div class="nw-reasons">${esc(w.total_reasons)} 条归因</div>
         <div class="nw-section-label">主线</div>
         <div class="nw-concepts">${topTags}</div>
         ${emergingTags ? `<div class="nw-section-label">新兴热点</div><div class="nw-concepts">${emergingTags}</div>` : ""}
@@ -621,17 +626,17 @@ function renderConceptLifecycle(data) {
     // 默认隐藏"高峰"以外的行，点击"全部"时显示
     const hidden = c.stage !== "高峰" ? " style='display:none'" : "";
     return `
-      <div class="cl-row" data-stage="${c.stage}"${hidden}>
-        <span class="cl-concept">${c.concept}</span>
+      <div class="cl-row" data-stage="${esc(c.stage)}"${hidden}>
+        <span class="cl-concept">${esc(c.concept)}</span>
         ${sparkline}
-        <span class="cl-stage ${stageClass}">${c.stage}</span>
-        <span class="cl-peak">峰值 ${c.peak_freq}</span>
+        <span class="cl-stage ${stageClass}">${esc(c.stage)}</span>
+        <span class="cl-peak">峰值 ${esc(c.peak_freq)}</span>
       </div>`;
   }).join("");
 
   return `
     <section>
-      <h2>概念热度生命周期 · ${data.date_range}${badge('global')}${tip('追踪概念热度阶段：高峰（当前最热）、升温（快速上升）、降温（热度下降）、退潮（已冷却）。帮助判断概念所处阶段。')}</h2>
+      <h2>概念热度生命周期 · ${esc(data.date_range)}${badge('global')}${tip('追踪概念热度阶段：高峰（当前最热）、升温（快速上升）、降温（热度下降）、退潮（已冷却）。帮助判断概念所处阶段。')}</h2>
       <div class="cl-tabs" id="cl-tabs">${tabsHtml}</div>
       <div id="cl-list">${rows}</div>
     </section>`;
@@ -648,12 +653,12 @@ function renderStreak(data) {
       <div class="streak-row">
         <span class="streak-rank">${i + 1}</span>
         <div class="streak-info">
-          <span class="streak-name">${e.name}</span>
-          <span class="streak-ticker">${e.ticker} · 末次 ${lastDate}</span>
+          <span class="streak-name">${esc(e.name)}</span>
+          <span class="streak-ticker">${esc(e.ticker)} · 末次 ${esc(lastDate)}</span>
         </div>
         <div class="streak-bar-wrap">
           <div class="streak-bar" style="width:${barW}%"></div>
-          <span class="streak-days">${e.streak}天</span>
+          <span class="streak-days">${esc(e.streak)}天</span>
         </div>
         <span class="streak-pct">${pct}</span>
       </div>`;
@@ -661,8 +666,8 @@ function renderStreak(data) {
   const listHtml = collapsibleList(rows);
   return `
     <section>
-      <h2>连续多日入选榜 · ${data.date}${badge('daily')}${tip('统计周期内连续多天入选区间异动榜的股票。"末次"是最后一次入选日期，可能早于当前日期。连续天数越长说明趋势越稳定。')}</h2>
-      <div class="streak-summary">连续 ≥${data.min_streak} 天入选区间异动榜</div>
+      <h2>连续多日入选榜 · ${esc(data.date)}${badge('daily')}${tip('统计周期内连续多天入选区间异动榜的股票。"末次"是最后一次入选日期，可能早于当前日期。连续天数越长说明趋势越稳定。')}</h2>
+      <div class="streak-summary">连续 ≥${esc(data.min_streak)} 天入选区间异动榜</div>
       ${listHtml}
     </section>`;
 }
@@ -678,10 +683,10 @@ function renderSectorFlow(data) {
   const chartH = h - pad.t - pad.b;
 
   const checkboxes = allSectors.map((s, i) =>
-    `<label class="sf-check"><input type="checkbox" value="${s}" ${i < 6 ? 'checked' : ''}><span class="sf-check-dot" style="background:${colors[i % colors.length]}"></span>${s}</label>`
+    `<label class="sf-check"><input type="checkbox" value="${esc(s)}" ${i < 6 ? 'checked' : ''}><span class="sf-check-dot" style="background:${colors[i % colors.length]}"></span>${esc(s)}</label>`
   ).join("");
 
-  let svg = `<svg class="sector-flow-chart" viewBox="0 0 ${w} ${h}" data-sectors='${JSON.stringify(allSectors)}' data-colors='${JSON.stringify(colors)}'>`;
+  let svg = `<svg class="sector-flow-chart" viewBox="0 0 ${w} ${h}" data-sectors='${esc(JSON.stringify(allSectors))}' data-colors='${esc(JSON.stringify(colors))}'>`;
   svg += `<g class="sf-grid"></g><g class="sf-lines"></g><g class="sf-axis-g"></g>`;
   svg += `</svg>`;
 
@@ -723,7 +728,7 @@ function drawSectorFlowChart() {
   }
   const li = Math.max(1, Math.floor(points.length / 6));
   for (let i = 0; i < points.length; i += li) {
-    axisG.innerHTML += `<text x="${(pad.l + i * stepX).toFixed(1)}" y="${h - 8}" text-anchor="middle" class="sf-axis">${points[i].date.slice(5)}</text>`;
+    axisG.innerHTML += `<text x="${(pad.l + i * stepX).toFixed(1)}" y="${h - 8}" text-anchor="middle" class="sf-axis">${esc(points[i].date.slice(5))}</text>`;
   }
 
   sectors.forEach((sector) => {
@@ -760,8 +765,8 @@ function renderEarlyBird(data) {
       <div class="eb-row">
         <span class="eb-rank">${i + 1}</span>
         <div class="eb-info">
-          <span class="eb-name">${e.name} <span class="eb-status ${st.cls}">${st.icon} ${st.label}</span></span>
-          <span class="eb-meta">${e.ticker} · 首日 ${e.first_date.slice(5)} · ${e.days_to_peak}天到峰值</span>
+          <span class="eb-name">${esc(e.name)} <span class="eb-status ${st.cls}">${st.icon} ${st.label}</span></span>
+          <span class="eb-meta">${esc(e.ticker)} · 首日 ${esc(e.first_date.slice(5))} · ${esc(e.days_to_peak)}天到峰值</span>
         </div>
         <div class="eb-pcts">
           <span class="eb-first">首日 ${firstPct}</span>
@@ -773,8 +778,8 @@ function renderEarlyBird(data) {
   }).join("");
   return `
     <section>
-      <h2>早鸟指数 · ${data.date}${badge('daily')}${tip('🟢新鲜入选=刚进入候选榜，最有未来空间。🔵趋势中=仍在上涨。⚪已到顶=当前在峰值。🔴已回落=从高点回落。参考空间=同类首日涨幅股票的历史平均峰值 - 首日涨幅。')}</h2>
-      <div class="eb-summary">${data.total_stocks} 只 · 首日均涨 ${data.avg_first_day_pct}% · 峰值均涨 ${data.avg_peak_pct}%</div>
+      <h2>早鸟指数 · ${esc(data.date)}${badge('daily')}${tip('🟢新鲜入选=刚进入候选榜，最有未来空间。🔵趋势中=仍在上涨。⚪已到顶=当前在峰值。🔴已回落=从高点回落。参考空间=同类首日涨幅股票的历史平均峰值 - 首日涨幅。')}</h2>
+      <div class="eb-summary">${esc(data.total_stocks)} 只 · 首日均涨 ${esc(data.avg_first_day_pct)}% · 峰值均涨 ${esc(data.avg_peak_pct)}%</div>
       ${rows}
     </section>`;
 }
@@ -789,15 +794,15 @@ function renderAnomaly(data) {
     return `
       <div class="anomaly-row">
         <span class="anomaly-type ${sevClass}">${typeLabel}</span>
-        <span class="anomaly-label">${a.label}</span>
-        <span class="anomaly-val">${a.today} <span class="anomaly-arrow">${icon}</span> 均值 ${a.avg}</span>
+        <span class="anomaly-label">${esc(a.label)}</span>
+        <span class="anomaly-val">${esc(a.today)} <span class="anomaly-arrow">${icon}</span> 均值 ${esc(a.avg)}</span>
         <span class="anomaly-dev">${a.deviation > 0 ? "+" : ""}${(a.deviation * 100).toFixed(0)}%</span>
       </div>`;
   }).join("");
   return `
     <section>
-      <h2>异常看板 · ${data.date}${badge('daily')}${tip('对比过去N天均值检测异常波动。偏离越大说明当日市场变化越剧烈，可能预示趋势转折。')}</h2>
-      <div class="anomaly-summary">对比过去 ${data.lookback_days} 天均值</div>
+      <h2>异常看板 · ${esc(data.date)}${badge('daily')}${tip('对比过去N天均值检测异常波动。偏离越大说明当日市场变化越剧烈，可能预示趋势转折。')}</h2>
+      <div class="anomaly-summary">对比过去 ${esc(data.lookback_days)} 天均值</div>
       ${rows}
     </section>`;
 }
@@ -815,24 +820,24 @@ function renderFitness(data) {
   ].filter(r => r.count > 0).map(r => `
     <div class="fit-row">
       <span class="fit-label">${r.label}</span>
-      <span class="fit-count">${r.count}只</span>
-      <span class="fit-stat">5日胜率 <b>${fmtPct(r.win_rate_5d)}</b> 均涨 ${fmtRet(r.avg_ret_5d)}</span>
-      <span class="fit-stat">20日胜率 <b>${fmtPct(r.win_rate_20d)}</b> 均涨 ${fmtRet(r.avg_ret_20d)}</span>
+      <span class="fit-count">${esc(r.count)}只</span>
+      <span class="fit-stat">5日胜率 <b>${esc(fmtPct(r.win_rate_5d))}</b> 均涨 ${esc(fmtRet(r.avg_ret_5d))}</span>
+      <span class="fit-stat">20日胜率 <b>${esc(fmtPct(r.win_rate_20d))}</b> 均涨 ${esc(fmtRet(r.avg_ret_20d))}</span>
     </div>`).join("");
 
   const dayRows = data.by_days_bucket.map(r => `
     <div class="fit-row">
-      <span class="fit-label">${r.bucket}</span>
-      <span class="fit-count">${r.count}只</span>
-      <span class="fit-stat">5日胜率 <b>${fmtPct(r.win_rate_5d)}</b> 均涨 ${fmtRet(r.avg_ret_5d)}</span>
-      <span class="fit-stat">20日胜率 <b>${fmtPct(r.win_rate_20d)}</b> 均涨 ${fmtRet(r.avg_ret_20d)}</span>
+      <span class="fit-label">${esc(r.bucket)}</span>
+      <span class="fit-count">${esc(r.count)}只</span>
+      <span class="fit-stat">5日胜率 <b>${esc(fmtPct(r.win_rate_5d))}</b> 均涨 ${esc(fmtRet(r.avg_ret_5d))}</span>
+      <span class="fit-stat">20日胜率 <b>${esc(fmtPct(r.win_rate_20d))}</b> 均涨 ${esc(fmtRet(r.avg_ret_20d))}</span>
     </div>`).join("");
 
   const comboHtml = renderComboAnalysis(data);
 
   return `
     <section>
-      <h2>选股验证 · ${data.total_entries} 条跟踪${badge('global')}${tip('跟踪候选股的实际表现：B1延续型（持续上涨）vs B2新成型（首次入选），5日/20日胜率反映选股准确度。')}</h2>
+      <h2>选股验证 · ${esc(data.total_entries)} 条跟踪${badge('global')}${tip('跟踪候选股的实际表现：B1延续型（持续上涨）vs B2新成型（首次入选），5日/20日胜率反映选股准确度。')}</h2>
       <div class="fit-section">B1延续 vs B2新出</div>
       ${kindRows}
       <div class="fit-section">区间天数分档</div>
@@ -848,20 +853,20 @@ function renderExcludedTracker(data) {
 
   const summary = `
     <div class="excl-summary">
-      排除 ${data.total_excluded} 只 · 有收益 ${data.total_with_return} 只 ·
-      5日胜率 <b>${data.win_rate_5d}%</b> 均涨 ${fmtRet(data.avg_ret_5d)} ·
-      20日胜率 <b>${data.win_rate_20d}%</b> 均涨 ${fmtRet(data.avg_ret_20d)}
+      排除 ${esc(data.total_excluded)} 只 · 有收益 ${esc(data.total_with_return)} 只 ·
+      5日胜率 <b>${esc(data.win_rate_5d)}%</b> 均涨 ${esc(fmtRet(data.avg_ret_5d))} ·
+      20日胜率 <b>${esc(data.win_rate_20d)}%</b> 均涨 ${esc(fmtRet(data.avg_ret_20d))}
     </div>`;
 
   // 按原因分类
   const reasonRows = data.by_reason.map(r => `
     <div class="excl-row">
-      <span class="excl-label">${r.pattern}</span>
-      <span class="excl-count">${r.count}只</span>
-      <span class="excl-stat">5日胜率 <b>${r.win_rate_5d}%</b></span>
-      <span class="excl-stat">均涨 ${fmtRet(r.avg_ret_5d)}</span>
-      <span class="excl-stat">20日胜率 <b>${r.win_rate_20d}%</b></span>
-      <span class="excl-stat">均涨 ${fmtRet(r.avg_ret_20d)}</span>
+      <span class="excl-label">${esc(r.pattern)}</span>
+      <span class="excl-count">${esc(r.count)}只</span>
+      <span class="excl-stat">5日胜率 <b>${esc(r.win_rate_5d)}%</b></span>
+      <span class="excl-stat">均涨 ${esc(fmtRet(r.avg_ret_5d))}</span>
+      <span class="excl-stat">20日胜率 <b>${esc(r.win_rate_20d)}%</b></span>
+      <span class="excl-stat">均涨 ${esc(fmtRet(r.avg_ret_20d))}</span>
     </div>`).join("");
 
   // 漏网之鱼（被排除但大涨）
@@ -871,17 +876,17 @@ function renderExcludedTracker(data) {
     const displayText = truncated ? e.reason.slice(0, 40) + '…' : e.reason;
     return `
     <div class="excl-row">
-      <span class="excl-name">${e.name}</span>
-      <span class="excl-ticker">${e.ticker}</span>
-      <span class="excl-reason ${truncated ? 'excl-expandable' : ''}" ${truncated ? `data-full="${e.reason.replace(/"/g, '&quot;')}" onclick="toggleExclReason(this)"` : ''}>${displayText}</span>
-      <span class="excl-ret excl-escapee">${fmtRet(e.ret_5d)}</span>
+      <span class="excl-name">${esc(e.name)}</span>
+      <span class="excl-ticker">${esc(e.ticker)}</span>
+      <span class="excl-reason ${truncated ? 'excl-expandable' : ''}" ${truncated ? `data-full="${esc(e.reason)}" onclick="toggleExclReason(this)"` : ''}>${esc(displayText)}</span>
+      <span class="excl-ret excl-escapee">${esc(fmtRet(e.ret_5d))}</span>
     </div>`;
   }).join("");
 
   return `
     <section>
       <h2>被排除股追踪 · 全周期统计${badge('global')}${tip('分析被排除股票的实际表现。"漏网之鱼"指被排除但后续大涨的股票，用于优化排除规则。此统计覆盖整个观测期（' + data.date_range + '），非当日快照。')}</h2>
-      <div class="excl-date-range" style="font-size:0.85em;color:var(--muted);margin-top:-8px;">${data.date_range}</div>
+      <div class="excl-date-range" style="font-size:0.85em;color:var(--muted);margin-top:-8px;">${esc(data.date_range)}</div>
       ${summary}
       <div class="excl-section">按排除原因</div>
       ${reasonRows}
@@ -906,8 +911,8 @@ function renderHerdDiffusion(data) {
     return `
       <div class="herd-card">
         <div class="herd-card-header">
-          <span class="herd-sector">${s.sector}</span>
-          <span class="herd-stage ${stageClass}">${stageIcon} ${s.stage}</span>
+          <span class="herd-sector">${esc(s.sector)}</span>
+          <span class="herd-stage ${stageClass}">${stageIcon} ${esc(s.stage)}</span>
         </div>
         <div class="herd-card-body">
           <svg class="herd-spark" viewBox="0 0 ${sparkW} ${sparkH}"><polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round"/></svg>
@@ -916,15 +921,15 @@ function renderHerdDiffusion(data) {
           </div>
         </div>
         <div class="herd-card-footer">
-          <span class="herd-peak">峰值 <b>${s.peak}</b></span>
-          <span class="herd-current">当前 <b>${s.current}</b></span>
-          <span class="herd-surge">最大单日+<b>${s.max_surge}</b></span>
+          <span class="herd-peak">峰值 <b>${esc(s.peak)}</b></span>
+          <span class="herd-current">当前 <b>${esc(s.current)}</b></span>
+          <span class="herd-surge">最大单日+<b>${esc(s.max_surge)}</b></span>
         </div>
       </div>`;
   }).join("");
   return `
     <section>
-      <h2>羊群扩散 · ${data.date_range}${badge('global')}${tip('追踪各板块异动股数的扩散速度。扩散越快（单日涌入越多），行情越接近末期。爆发→平台→退潮是完整周期。')}</h2>
+      <h2>羊群扩散 · ${esc(data.date_range)}${badge('global')}${tip('追踪各板块异动股数的扩散速度。扩散越快（单日涌入越多），行情越接近末期。爆发→平台→退潮是完整周期。')}</h2>
       <div class="herd-grid">${rows}</div>
     </section>`;
 }
@@ -969,10 +974,10 @@ function renderComboAnalysis(data) {
   const fmtRet = (n) => n > 0 ? `+${n}%` : `${n}%`;
   const rows = data.combo_analysis.map(c => `
     <div class="fit-row">
-      <span class="fit-label">${c.combo}</span>
-      <span class="fit-count">${c.count}只</span>
-      <span class="fit-stat">5日胜率 <b>${c.win_rate_5d}%</b> 均涨 ${fmtRet(c.avg_ret_5d)}</span>
-      <span class="fit-stat">20日胜率 <b>${c.win_rate_20d}%</b> 均涨 ${fmtRet(c.avg_ret_20d)}</span>
+      <span class="fit-label">${esc(c.combo)}</span>
+      <span class="fit-count">${esc(c.count)}只</span>
+      <span class="fit-stat">5日胜率 <b>${esc(c.win_rate_5d)}%</b> 均涨 ${esc(fmtRet(c.avg_ret_5d))}</span>
+      <span class="fit-stat">20日胜率 <b>${esc(c.win_rate_20d)}%</b> 均涨 ${esc(fmtRet(c.avg_ret_20d))}</span>
     </div>`).join("");
   return `<div class="fit-section">涨停+区间组合</div>${rows}`;
 }
@@ -996,9 +1001,9 @@ function renderHero(daily, anomaly, series) {
 
   const stats = [
     { value: `+${densityPct}%`, label: "异动密度", cls: "hero-val-up", extra: trendIcon },
-    { value: streakCount, label: "连续涨停", cls: "hero-val-up" },
-    { value: hotSector, label: "最热板块", cls: "hero-val-accent" },
-    { value: anomalyCount, label: "异常告警", cls: anomalyCount > 0 ? "hero-val-warn" : "hero-val-dim" },
+    { value: esc(streakCount), label: "连续涨停", cls: "hero-val-up" },
+    { value: esc(hotSector), label: "最热板块", cls: "hero-val-accent" },
+    { value: esc(anomalyCount), label: "异常告警", cls: anomalyCount > 0 ? "hero-val-warn" : "hero-val-dim" },
   ];
   const statsHtml = stats.map(s => `
     <div class="hero-stat">
