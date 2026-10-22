@@ -1,0 +1,328 @@
+{
+  "date": "2026-10-22",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ002307",
+      "name": "北新路桥",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600192",
+      "name": "长城电工",
+      "pct": 10.04,
+      "concepts": [
+        "电网设备"
+      ]
+    },
+    {
+      "ticker": "SZ002097",
+      "name": "山河智能",
+      "pct": 10,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH600698",
+      "name": "湖南天雁",
+      "pct": 10,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603350",
+      "name": "安乃达",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ000530",
+      "name": "冰山冷热",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002249",
+      "name": "大洋电机",
+      "pct": 9.97,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603089",
+      "name": "正裕工业",
+      "pct": 9.97,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603528",
+      "name": "多伦科技",
+      "pct": 9.96,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 66,
+      "active_days": 8,
+      "heat_score": 528,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 32,
+      "active_days": 5,
+      "heat_score": 160,
+      "leaders": [
+        {
+          "ticker": "SH603350",
+          "name": "安乃达",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 9.97,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603089",
+          "name": "正裕工业",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603528",
+          "name": "多伦科技",
+          "pct": 9.96,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 31,
+      "active_days": 5,
+      "heat_score": 155,
+      "leaders": [
+        {
+          "ticker": "SH603350",
+          "name": "安乃达",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 9.97,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603089",
+          "name": "正裕工业",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603528",
+          "name": "多伦科技",
+          "pct": 9.96,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 18,
+      "active_days": 3,
+      "heat_score": 54,
+      "leaders": [
+        {
+          "ticker": "SZ002097",
+          "name": "山河智能",
+          "pct": 10,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH600698",
+          "name": "湖南天雁",
+          "pct": 10,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "低空经济",
+      "leader_count": 21,
+      "active_days": 2,
+      "heat_score": 42,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 8,
+      "active_days": 3,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SH603089",
+          "name": "正裕工业",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 6,
+      "active_days": 1,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH600192",
+          "name": "长城电工",
+          "pct": 10.04,
+          "concepts": [
+            "电网设备"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
