@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-26",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300976",
+      "name": "达瑞电子",
+      "pct": 20,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300916",
+      "name": "朗特智能",
+      "pct": 19.99,
+      "concepts": [
+        "通信",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ301428",
+      "name": "世纪恒通",
+      "pct": 17.74,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300494",
+      "name": "盛天网络",
+      "pct": 14.62,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300473",
+      "name": "德尔股份",
+      "pct": 12.54,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SH688410",
+      "name": "山外山",
+      "pct": 12.49,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300860",
+      "name": "锋尚文化",
+      "pct": 11.39,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688277",
+      "name": "天智航",
+      "pct": 11.33,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301015",
+      "name": "百洋医药",
+      "pct": 10.62,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002178",
+      "name": "延华智能",
+      "pct": 10.1,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002093",
+      "name": "国脉科技",
+      "pct": 10.08,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000559",
+      "name": "万向钱潮",
+      "pct": 10.04,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ000995",
+      "name": "皇台酒业",
+      "pct": 10.04,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SH600826",
+      "name": "兰生股份",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605333",
+      "name": "沪光股份",
+      "pct": 10.03,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002095",
+      "name": "生 意 宝",
+      "pct": 10.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ001318",
+      "name": "阳光乳业",
+      "pct": 10,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SH603683",
+      "name": "晶华新材",
+      "pct": 10,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603716",
+      "name": "塞力医疗",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603955",
+      "name": "大千生态",
+      "pct": 10,
+      "concepts": [
+        "证券"
+      ]
+    },
+    {
+      "ticker": "SZ002869",
+      "name": "金溢科技",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600822",
+      "name": "上海物贸",
+      "pct": 9.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603719",
+      "name": "良品铺子",
+      "pct": 9.95,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 88,
+      "active_days": 9,
+      "heat_score": 792,
+      "leaders": [
+        {
+          "ticker": "SZ300916",
+          "name": "朗特智能",
+          "pct": 19.99,
+          "concepts": [
+            "通信",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ301428",
+          "name": "世纪恒通",
+          "pct": 17.74,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300860",
+          "name": "锋尚文化",
+          "pct": 11.39,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002178",
+          "name": "延华智能",
+          "pct": 10.1,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002095",
+          "name": "生 意 宝",
+          "pct": 10.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH600822",
+          "name": "上海物贸",
+          "pct": 9.98,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 57,
+      "active_days": 6,
+      "heat_score": 342,
+      "leaders": [
+        {
+          "ticker": "SH688277",
+          "name": "天智航",
+          "pct": 11.33,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ000559",
+          "name": "万向钱潮",
+          "pct": 10.04,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH605333",
+          "name": "沪光股份",
+          "pct": 10.03,
+          "concepts": [
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603683",
+          "name": "晶华新材",
+          "pct": 10,
+          "concepts": [
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 39,
+      "active_days": 6,
+      "heat_score": 234,
+      "leaders": [
+        {
+          "ticker": "SH688277",
+          "name": "天智航",
+          "pct": 11.33,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ000559",
+          "name": "万向钱潮",
+          "pct": 10.04,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 18,
+      "active_days": 3,
+      "heat_score": 54,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 9,
+      "active_days": 5,
+      "heat_score": 45,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 7,
+      "active_days": 6,
+      "heat_score": 42,
+      "leaders": [
+        {
+          "ticker": "SZ300916",
+          "name": "朗特智能",
+          "pct": 19.99,
+          "concepts": [
+            "通信",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "低空经济",
+      "leader_count": 21,
+      "active_days": 2,
+      "heat_score": 42,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 10,
+      "active_days": 4,
+      "heat_score": 40,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": [
+        {
+          "ticker": "SZ300916",
+          "name": "朗特智能",
+          "pct": 19.99,
+          "concepts": [
+            "通信",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": [
+        {
+          "ticker": "SZ000995",
+          "name": "皇台酒业",
+          "pct": 10.04,
+          "concepts": [
+            "白酒"
+          ]
+        },
+        {
+          "ticker": "SZ001318",
+          "name": "阳光乳业",
+          "pct": 10,
+          "concepts": [
+            "白酒"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SZ300473",
+          "name": "德尔股份",
+          "pct": 12.54,
+          "concepts": [
+            "固态电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH603955",
+          "name": "大千生态",
+          "pct": 10,
+          "concepts": [
+            "证券"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "专用设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
