@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-27",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300539",
+      "name": "横河精密",
+      "pct": 20,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301479",
+      "name": "弘景光电",
+      "pct": 20,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300877",
+      "name": "金春股份",
+      "pct": 12.89,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300961",
+      "name": "深水海纳",
+      "pct": 11.43,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300631",
+      "name": "久吾高科",
+      "pct": 11.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600828",
+      "name": "茂业商业",
+      "pct": 10.1,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000058",
+      "name": "深 赛 格",
+      "pct": 10.07,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603528",
+      "name": "多伦科技",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000888",
+      "name": "峨眉山Ａ",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002284",
+      "name": "亚太股份",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002820",
+      "name": "桂发祥",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603037",
+      "name": "凯众股份",
+      "pct": 10.01,
+      "concepts": [
+        "汽车零部件"
+      ]
+    },
+    {
+      "ticker": "SZ002249",
+      "name": "大洋电机",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH600715",
+      "name": "文投控股",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605333",
+      "name": "沪光股份",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH600826",
+      "name": "兰生股份",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603565",
+      "name": "中谷物流",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002011",
+      "name": "盾安环境",
+      "pct": 9.96,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 85,
+      "active_days": 8,
+      "heat_score": 680,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 61,
+      "active_days": 7,
+      "heat_score": 427,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301479",
+          "name": "弘景光电",
+          "pct": 20,
+          "concepts": [
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH605333",
+          "name": "沪光股份",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 42,
+      "active_days": 7,
+      "heat_score": 294,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH605333",
+          "name": "沪光股份",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 11,
+      "active_days": 5,
+      "heat_score": 55,
+      "leaders": [
+        {
+          "ticker": "SH603037",
+          "name": "凯众股份",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 18,
+      "active_days": 3,
+      "heat_score": 54,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 9,
+      "active_days": 5,
+      "heat_score": 45,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 7,
+      "active_days": 6,
+      "heat_score": 42,
+      "leaders": []
+    },
+    {
+      "concept": "低空经济",
+      "leader_count": 21,
+      "active_days": 2,
+      "heat_score": 42,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 5,
+      "active_days": 5,
+      "heat_score": 25,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 5,
+      "active_days": 1,
+      "heat_score": 5,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "专用设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "汽车整车",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "房地产",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
