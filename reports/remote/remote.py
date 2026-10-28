@@ -31,6 +31,10 @@ market-watch 远程操作工具集 —— 所有 quant-server 操作的唯一入
 import subprocess, argparse, os, datetime, tempfile, textwrap, sys
 
 SSH_HOST = "quant-server"
+# 防挂死：BatchMode 禁掉密码/host-key 等一切交互提示（本工具只走密钥，提示只会带来
+# 无限等待）；无控制台的 subprocess 里 ssh/scp 失败时可能挂住输出管道（Windows OpenSSH
+# 句柄继承问题），run(timeout=) 杀掉子进程后读线程仍等不到 EOF，故必须让它快速失败。
+SSH_OPTS = ["-o", "BatchMode=yes", "-o", "ConnectTimeout=5"]
 REMOTE_WORK = r"C:\workspace"
 REMOTE_MAIN = r"C:\workspace\trend-trading-agents"
 REMOTE_SITE = r"C:\workspace\market-watch"
@@ -43,8 +47,9 @@ XUEQIU_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 
 
 def _ssh_run(cmd, timeout=30, capture=True):
     """执行 ssh 命令，返回 (rc, stdout, stderr)。"""
-    r = subprocess.run(['ssh', SSH_HOST, cmd],
-                       capture_output=capture, timeout=timeout)
+    r = subprocess.run(['ssh', *SSH_OPTS, SSH_HOST, cmd],
+                       capture_output=capture, timeout=timeout,
+                       stdin=subprocess.DEVNULL)
     return r.returncode, r.stdout.decode('utf-8', errors='replace'), r.stderr.decode('utf-8', errors='replace')
 
 
@@ -59,13 +64,13 @@ def _scp_run_ps(ps_script, timeout=30):
         local = f.name
     try:
         remote_ps1 = REMOTE_WORK + r'\_remote_tmp.ps1'
-        r = subprocess.run(['scp', local, f'{SSH_HOST}:{remote_ps1}'],
-                           capture_output=True, timeout=15)
+        r = subprocess.run(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_ps1}'],
+                           capture_output=True, timeout=15, stdin=subprocess.DEVNULL)
         if r.returncode != 0:
             return f"[scp failed] {r.stderr.decode('utf-8', errors='replace').strip()}"
         # 远程执行
-        r = subprocess.run(['ssh', SSH_HOST, 'powershell', '-NoProfile', '-File', remote_ps1],
-                           capture_output=True, timeout=timeout)
+        r = subprocess.run(['ssh', *SSH_OPTS, SSH_HOST, 'powershell', '-NoProfile', '-File', remote_ps1],
+                           capture_output=True, timeout=timeout, stdin=subprocess.DEVNULL)
         out = r.stdout.decode('utf-8', errors='replace')
         # 过滤 PS 版权头
         lines = [l for l in out.split('\n')
@@ -472,8 +477,8 @@ def cmd_build(args):
         local = f.name
     try:
         remote_cmd = REMOTE_WORK + r'\_build.cmd'
-        subprocess.run(['scp', local, f'{SSH_HOST}:{remote_cmd}'],
-                       capture_output=True, timeout=15)
+        subprocess.run(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_cmd}'],
+                       capture_output=True, timeout=15, stdin=subprocess.DEVNULL)
     finally:
         os.unlink(local)
     # 后台启动
