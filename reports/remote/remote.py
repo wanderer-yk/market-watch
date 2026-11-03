@@ -42,15 +42,56 @@ REMOTE_CMD = r"C:\workspace\market-watch\reports\remote\run_market_watch.cmd"
 REMOTE_SNAPSHOT = r"C:\workspace\trend-trading-agents\skills\watchlist\scripts\snapshot.py"
 REMOTE_VENV_PY = r"C:\workspace\trend-trading-agents\.venv\Scripts\python.exe"
 REMOTE_NODE = r"C:\Program Files\nodejs\node.exe"
+# snapshot.py 在服务器上用的解释器（curl_cffi 0.15.0 装在这里），probe 对齐它
+REMOTE_PYENV_PY = r"C:\Users\Administrator\.pyenv\pyenv-win\versions\3.11.9\python.exe"
 XUEQIU_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
 
 
+def _kill_tree(pid):
+    """尽力杀掉整棵进程树（Windows: taskkill /T；POSIX: 进程组 SIGKILL）。"""
+    try:
+        if os.name == 'nt':
+            subprocess.run(['taskkill', '/F', '/T', '/PID', str(pid)],
+                           capture_output=True, timeout=5, stdin=subprocess.DEVNULL)
+        else:
+            os.killpg(os.getpgid(pid), 9)
+    except Exception:
+        pass
+
+
+def _run_guarded(argv, timeout):
+    """Popen 版带超时执行：超时后杀整棵进程树再收管道，永不抛异常。
+
+    为什么不用 subprocess.run(timeout=)：Windows OpenSSH 的 scp.exe 内部会再派生
+    ssh.exe（继承管道写句柄），run() 超时只杀直接子进程，孙进程攥着管道 →
+    读线程永远等不到 EOF → 调用方永挂（2026-10-27 服务器上四棵僵尸树的根因，
+    见 3d9b493 注释）。杀树后管道关闭、EOF 立即到达；极端情况下兜底关闭管道。
+    超时返回 rc=None。
+    """
+    p = subprocess.Popen(argv, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                         stdin=subprocess.DEVNULL,
+                         start_new_session=(os.name != 'nt'))
+    try:
+        out, err = p.communicate(timeout=timeout)
+        return p.returncode, out.decode('utf-8', errors='replace'), err.decode('utf-8', errors='replace')
+    except subprocess.TimeoutExpired:
+        _kill_tree(p.pid)
+        try:
+            out, err = p.communicate(timeout=5)
+            rc = p.returncode
+        except Exception:
+            for f in (p.stdout, p.stderr):
+                try:
+                    f.close()
+                except Exception:
+                    pass
+            out, err, rc = b'', b'', None
+        return rc, out.decode('utf-8', errors='replace'), err.decode('utf-8', errors='replace')
+
+
 def _ssh_run(cmd, timeout=30, capture=True):
-    """执行 ssh 命令，返回 (rc, stdout, stderr)。"""
-    r = subprocess.run(['ssh', *SSH_OPTS, SSH_HOST, cmd],
-                       capture_output=capture, timeout=timeout,
-                       stdin=subprocess.DEVNULL)
-    return r.returncode, r.stdout.decode('utf-8', errors='replace'), r.stderr.decode('utf-8', errors='replace')
+    """执行 ssh 命令，返回 (rc, stdout, stderr)；超时 rc=None。"""
+    return _run_guarded(['ssh', *SSH_OPTS, SSH_HOST, cmd], timeout)
 
 
 def _scp_run_ps(ps_script, timeout=30):
@@ -64,20 +105,18 @@ def _scp_run_ps(ps_script, timeout=30):
         local = f.name
     try:
         remote_ps1 = REMOTE_WORK + r'\_remote_tmp.ps1'
-        r = subprocess.run(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_ps1}'],
-                           capture_output=True, timeout=15, stdin=subprocess.DEVNULL)
-        if r.returncode != 0:
-            return f"[scp failed] {r.stderr.decode('utf-8', errors='replace').strip()}"
+        rc, _, err = _run_guarded(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_ps1}'], 15)
+        if rc != 0:
+            return f"[scp failed] {err.strip()}"
         # 远程执行
-        r = subprocess.run(['ssh', *SSH_OPTS, SSH_HOST, 'powershell', '-NoProfile', '-File', remote_ps1],
-                           capture_output=True, timeout=timeout, stdin=subprocess.DEVNULL)
-        out = r.stdout.decode('utf-8', errors='replace')
+        rc, out, err = _run_guarded(['ssh', *SSH_OPTS, SSH_HOST,
+                                     'powershell', '-NoProfile', '-File', remote_ps1], timeout)
+        if rc is None:
+            return "[ERROR] SSH 超时"
         # 过滤 PS 版权头
         lines = [l for l in out.split('\n')
                  if 'Windows PowerShell' not in l and 'go.microsoft.com' not in l]
         return '\n'.join(lines).rstrip()
-    except subprocess.TimeoutExpired:
-        return "[ERROR] SSH 超时"
     finally:
         os.unlink(local)
 
@@ -187,11 +226,24 @@ PS_PROBE = r"""
 chcp 65001 > $null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $ProgressPreference = 'SilentlyContinue'
-$token = '__TOKEN__'
-$ua = '__UA__'
-$code = "const https=require('https');const t='" + $token + "';https.get('https://www.xueqiu.com/rainbow/ai/abnormal/reasons.json',{headers:{'Cookie':'xq_a_token='+t,'User-Agent':'" + $ua + "','Host':'www.xueqiu.com'}},r=>{let d='';r.on('data',c=>d+=c);r.on('end',()=>{console.log('STATUS='+r.statusCode);console.log('BODY='+d.substring(0,300));process.exit(0)})}).on('error',e=>{console.log('ERR='+e.message);process.exit(1)})"
-Set-Content -Path C:\workspace\_probe.js -Value $code -Encoding UTF8
-& '__NODE__' C:\workspace\_probe.js
+Remove-Item C:\workspace\_probe.js -ErrorAction SilentlyContinue
+$code = @'
+import sys, time
+from curl_cffi import requests as rq
+url = "https://www.xueqiu.com/rainbow/ai/abnormal/reasons.json"
+end = int(time.time() * 1000); begin = end - 90*24*3600*1000
+try:
+    resp = rq.get(url, params={"symbol": "SH600519", "begin": str(begin), "end": str(end)},
+                  cookies={"xq_a_token": "__TOKEN__"},
+                  headers={"User-Agent": "__UA__"},
+                  impersonate="chrome", timeout=(8, 15))
+    print("STATUS=" + str(resp.status_code))
+    print("BODY=" + resp.text[:300])
+except Exception as e:
+    print("ERR=" + type(e).__name__ + ":" + str(e)); sys.exit(1)
+'@
+Set-Content -Path C:\workspace\_probe.py -Value $code -Encoding UTF8
+& '__PY__' C:\workspace\_probe.py
 """
 
 
@@ -203,8 +255,12 @@ def cmd_probe(args):
         rc, out, err = _ssh_run(
             f'powershell -NoProfile -Command "(Get-Content \'{REMOTE_SITE}\\.env\' | Where-Object {{ $_ -match \'^\\s*XUEQIU_TOKEN\\s*=\' }}).Trim()"',
             timeout=15)
-        print("当前 .env 里的 token 行：")
-        print(out.strip())
+        print("当前 .env 里的 token 行（已遮蔽）：")
+        for _l in out.strip().splitlines():
+            if 'XUEQIU_TOKEN' in _l and '=' in _l:
+                print(_l[:20] + '****' + _l[-4:])
+            else:
+                print(_l)
         for line in out.split('\n'):
             s = line.strip()
             if 'XUEQIU_TOKEN' in s and '=' in s:
@@ -218,8 +274,8 @@ def cmd_probe(args):
     script = (PS_PROBE
               .replace("__TOKEN__", token)
               .replace("__UA__", XUEQIU_UA)
-              .replace("__NODE__", REMOTE_NODE))
-    print(_scp_run_ps(script, timeout=20))
+              .replace("__PY__", REMOTE_PYENV_PY))
+    print(_scp_run_ps(script, timeout=30))
 
 
 # ============================================================
@@ -477,8 +533,7 @@ def cmd_build(args):
         local = f.name
     try:
         remote_cmd = REMOTE_WORK + r'\_build.cmd'
-        subprocess.run(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_cmd}'],
-                       capture_output=True, timeout=15, stdin=subprocess.DEVNULL)
+        _run_guarded(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_cmd}'], 15)
     finally:
         os.unlink(local)
     # 后台启动
