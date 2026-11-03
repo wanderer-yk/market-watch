@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-03",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300739",
+      "name": "明阳电路",
+      "pct": 12.46,
+      "concepts": [
+        "PCB",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688556",
+      "name": "高测股份",
+      "pct": 11.61,
+      "concepts": [
+        "光伏"
+      ]
+    },
+    {
+      "ticker": "SH600358",
+      "name": "国旅联合",
+      "pct": 10.08,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SZ002805",
+      "name": "丰元股份",
+      "pct": 10.04,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SH605388",
+      "name": "均瑶健康",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002580",
+      "name": "圣阳股份",
+      "pct": 10.02,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SZ000995",
+      "name": "皇台酒业",
+      "pct": 10,
+      "concepts": [
+        "白酒"
+      ]
+    },
+    {
+      "ticker": "SH603906",
+      "name": "龙蟠科技",
+      "pct": 9.99,
+      "concepts": [
+        "固态电池"
+      ]
+    },
+    {
+      "ticker": "SH600630",
+      "name": "龙头股份",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000679",
+      "name": "大连友谊",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000608",
+      "name": "阳光股份",
+      "pct": 9.93,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 128,
+      "active_days": 8,
+      "heat_score": 1024,
+      "leaders": [
+        {
+          "ticker": "SZ300739",
+          "name": "明阳电路",
+          "pct": 12.46,
+          "concepts": [
+            "PCB",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 60,
+      "active_days": 8,
+      "heat_score": 480,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 38,
+      "active_days": 7,
+      "heat_score": 266,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 13,
+      "active_days": 5,
+      "heat_score": 65,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 13,
+      "active_days": 4,
+      "heat_score": 52,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 8,
+      "active_days": 5,
+      "heat_score": 40,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 8,
+      "active_days": 5,
+      "heat_score": 40,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SH600358",
+          "name": "国旅联合",
+          "pct": 10.08,
+          "concepts": [
+            "白酒"
+          ]
+        },
+        {
+          "ticker": "SZ000995",
+          "name": "皇台酒业",
+          "pct": 10,
+          "concepts": [
+            "白酒"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 6,
+      "active_days": 5,
+      "heat_score": 30,
+      "leaders": [
+        {
+          "ticker": "SZ300739",
+          "name": "明阳电路",
+          "pct": 12.46,
+          "concepts": [
+            "PCB",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 11,
+      "active_days": 2,
+      "heat_score": 22,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": [
+        {
+          "ticker": "SZ002805",
+          "name": "丰元股份",
+          "pct": 10.04,
+          "concepts": [
+            "固态电池"
+          ]
+        },
+        {
+          "ticker": "SZ002580",
+          "name": "圣阳股份",
+          "pct": 10.02,
+          "concepts": [
+            "固态电池"
+          ]
+        },
+        {
+          "ticker": "SH603906",
+          "name": "龙蟠科技",
+          "pct": 9.99,
+          "concepts": [
+            "固态电池"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 9,
+      "active_days": 2,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 7,
+      "active_days": 2,
+      "heat_score": 14,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SH688556",
+          "name": "高测股份",
+          "pct": 11.61,
+          "concepts": [
+            "光伏"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "银行",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
