@@ -321,6 +321,9 @@ def cmd_set_token(args):
     # 兼容两种输入：纯 token（XqTest... 或 首页 guest 40位hex）或带前缀 xq_a_token=xxx
     if token.startswith('xq_a_token='):
         token = token[len('xq_a_token='):]
+    if not token:
+        print("[ERROR] token 为空，已拒绝（避免把空值写进服务器 .env）。")
+        return
     # 注入防护（硬阻断）：token 会被替进 PS 单引号串（PS_SET_TOKEN 的 '__TOKEN__'），
     # 出现引号/反引号/$/空白等字符即可在服务器上执行任意 PS。token 只可能是
     # 字母数字加少量安全符号，白名单外的输入一律拒绝，不做"格式不常见仍继续"。
