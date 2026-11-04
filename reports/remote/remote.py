@@ -28,7 +28,7 @@ market-watch 远程操作工具集 —— 所有 quant-server 操作的唯一入
   - scan 补跑用 python -u 让进度实时 flush（snapshot 进度在 stderr，默认被缓冲）
 """
 
-import subprocess, argparse, os, datetime, tempfile, textwrap, sys
+import re, subprocess, argparse, os, datetime, tempfile, textwrap, sys
 
 SSH_HOST = "quant-server"
 # 防挂死：BatchMode 禁掉密码/host-key 等一切交互提示（本工具只走密钥，提示只会带来
@@ -244,6 +244,7 @@ except Exception as e:
 '@
 Set-Content -Path C:\workspace\_probe.py -Value $code -Encoding UTF8
 & '__PY__' C:\workspace\_probe.py
+Remove-Item C:\workspace\_probe.py -ErrorAction SilentlyContinue
 """
 
 
@@ -320,6 +321,13 @@ def cmd_set_token(args):
     # 兼容两种输入：纯 token（XqTest... 或 首页 guest 40位hex）或带前缀 xq_a_token=xxx
     if token.startswith('xq_a_token='):
         token = token[len('xq_a_token='):]
+    # 注入防护（硬阻断）：token 会被替进 PS 单引号串（PS_SET_TOKEN 的 '__TOKEN__'），
+    # 出现引号/反引号/$/空白等字符即可在服务器上执行任意 PS。token 只可能是
+    # 字母数字加少量安全符号，白名单外的输入一律拒绝，不做"格式不常见仍继续"。
+    if re.search(r"[^A-Za-z0-9_\-=.@]", token):
+        print("[ERROR] token 含非法字符（只允许字母数字与 _-=.@），已拒绝。"
+              "请确认复制的是完整 xq_a_token 后重试。")
+        return
     # 两种合法 token：登录态 XqTest... 或 首页 guest（40位hex）。其余仅提示，不阻断。
     _hex40 = len(token) == 40 and all(c in '0123456789abcdef' for c in token)
     if not (token.startswith('XqTest') or _hex40):
@@ -533,9 +541,17 @@ def cmd_build(args):
         local = f.name
     try:
         remote_cmd = REMOTE_WORK + r'\_build.cmd'
-        _run_guarded(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_cmd}'], 15)
+        rc = _run_guarded(['scp', *SSH_OPTS, local, f'{SSH_HOST}:{remote_cmd}'], 15)
     finally:
         os.unlink(local)
+    # 上传失败必须中止：C:\workspace\_build.cmd 是持久文件，留着的是上一次构建的
+    # 旧日期副本（BUILD_CMD_TEMPLATE 里 set TODAY=__DATE__ 已烤死），且 build-only
+    # 模板没有 already_done 幂等门，照旧启动会拿旧日期真跑 diff/build/push。
+    if rc != 0:
+        print(f"[ERROR] scp 上传 _build.cmd 失败 (rc={rc})，已中止构建。"
+              "请检查网络后重试 remote.py build <日期>；"
+              "也可手动核对服务器 C:\\workspace\\_build.cmd 内容后再启动。")
+        return
     # 后台启动
     script = (PS_BUILD
               .replace("__WORK__", REMOTE_WORK)
@@ -547,6 +563,22 @@ def cmd_build(args):
 # ============================================================
 # 入口
 # ============================================================
+def _date_arg(s):
+    """argparse type=：日期必须是合法 YYYY-MM-DD。
+
+    date 会被替进 PS 字符串 / Win32_Process 命令行 / batch 的 set TODAY=，
+    不校验时含 & | ' 等字符可在服务器上注入；LLM SOP 生成的日期也可能幻觉出
+    2026-13-45 这类垃圾值。argparse 阶段就拒绝，什么都不会发到服务器。
+    """
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", s or ""):
+        raise argparse.ArgumentTypeError(f"日期必须是 YYYY-MM-DD，收到: {s!r}")
+    try:
+        datetime.date.fromisoformat(s)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"不是合法日期: {s}")
+    return s
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="market-watch 远程操作工具集",
@@ -564,7 +596,7 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
 
     p_status = sub.add_parser('status', help='查 pipeline 状态')
-    p_status.add_argument('--date', default=None, help='日期 YYYY-MM-DD')
+    p_status.add_argument('--date', default=None, type=_date_arg, help='日期 YYYY-MM-DD')
     p_status.set_defaults(func=cmd_status)
 
     p_probe = sub.add_parser('probe', help='测雪球 token 是否有效')
@@ -583,12 +615,12 @@ def main():
     p_kill.set_defaults(func=cmd_kill_scan)
 
     p_run = sub.add_parser('run', help='后台跑 run_market_watch.cmd 全链路（补跑/重跑统一入口）')
-    p_run.add_argument('date', nargs='?', default=None, help='日期 YYYY-MM-DD（默认今天）')
+    p_run.add_argument('date', nargs='?', default=None, type=_date_arg, help='日期 YYYY-MM-DD（默认今天）')
     p_run.add_argument('--sleep', type=float, default=0.8, help='请求间隔秒数（默认 0.8）')
     p_run.set_defaults(func=cmd_run)
 
     p_build = sub.add_parser('build', help='raw 已存在，只跑 build:report + git push')
-    p_build.add_argument('date', help='日期 YYYY-MM-DD')
+    p_build.add_argument('date', type=_date_arg, help='日期 YYYY-MM-DD')
     p_build.set_defaults(func=cmd_build)
 
     args = parser.parse_args()
