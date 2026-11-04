@@ -44,6 +44,8 @@ echo [!TS!] git sync (stash -u recoverable + pull)>> "%LOG%"
 :: 旧写法 checkout -- . + clean -fdq 会不可逆抹掉未提交/未跟踪文件；stash -u 效果
 :: 相同（pull 干净落地）但可 git stash pop 找回。误删事故防线。
 git stash push -u -q -m "nightly auto-stash !TODAY!" >nul 2>&1
+:: 留痕：stash 真吞了东西时日志可见（恢复入口 = git stash pop），空仓时此行无输出
+git stash list -n 1 >> "%LOG%" 2>&1
 git pull --rebase --quiet >> "%LOG%" 2>&1
 if !errorlevel! neq 0 goto :git_pull_fail
 :: 再校验 snapshot.py 可编译（防编码/语法损坏白跑 30 分钟）
