@@ -9,6 +9,10 @@ set WATCHLIST_DIR=%MAIN_REPO%\data\watchlist
 set LOG=C:\workspace\market-watch.log
 set PATH=C:\Program Files\nodejs;%APPDATA%\npm;%USERPROFILE%\.pyenv\pyenv-win\versions\3.11.9;%PATH%
 set TRADING_PYTHON=%MAIN_REPO%\.venv\Scripts\python.exe
+:: ⚠️ 唯一真源：生产调度全链路只有这一份 run_market_watch.cmd（服务器夜跑的就是它，
+:: tta 仓库 scripts/ 下的旧孪生已于 2026-11-04 删除，勿再复制回来）。
+:: 改动调度契约（成功判定=产物文件存在）须同步 tta scripts/verify_pipeline.sh。
+:: npm 的 errorlevel 在 cmd 下不可靠，一律以「产物文件是否存在」判定成败。
 
 :: ============================================================
 :: ???????????????????????
@@ -36,9 +40,10 @@ for /f "delims=" %%a in ('dir /b /o-n "%MAIN_REPO%\data\watchlist\raw\*.json" 2^
 if "!DATA_DATE!"=="!TODAY!" goto :already_done
 
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
-echo [!TS!] git sync (checkout + clean + pull)>> "%LOG%"
-git checkout -- . 2>nul
-git clean -fdq 2>nul
+echo [!TS!] git sync (stash -u recoverable + pull)>> "%LOG%"
+:: 旧写法 checkout -- . + clean -fdq 会不可逆抹掉未提交/未跟踪文件；stash -u 效果
+:: 相同（pull 干净落地）但可 git stash pop 找回。误删事故防线。
+git stash push -u -q -m "nightly auto-stash !TODAY!" >nul 2>&1
 git pull --rebase --quiet >> "%LOG%" 2>&1
 if !errorlevel! neq 0 goto :git_pull_fail
 :: 再校验 snapshot.py 可编译（防编码/语法损坏白跑 30 分钟）

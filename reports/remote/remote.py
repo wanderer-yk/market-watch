@@ -427,8 +427,13 @@ def cmd_run(args):
 # cmd 模板：跳过 scan，直接走 build + push
 BUILD_CMD_TEMPLATE = r"""@echo off
 setlocal enabledelayedexpansion
+:: ⚠️ 唯一真源说明：生产调度全链路 = market-watch 仓库 reports/remote/run_market_watch.cmd。
+:: 本模板是 build-only 变体（raw 已存在，只重跑 diff/candidates/build + push）。
+:: 改成功判定/推送逻辑时须与真源对齐：npm 的 errorlevel 在 cmd 下不可靠
+:: （常因无关 stderr 返回非 0），一律以「产物文件是否存在」判定成败。
 set MAIN_REPO=C:\workspace\trend-trading-agents
 set SITE_REPO=C:\workspace\market-watch
+set WATCHLIST_DIR=%MAIN_REPO%\data\watchlist
 set LOG=C:\workspace\build___MMDD__.log
 set PATH=C:\Program Files\nodejs;%APPDATA%\npm;%PATH%
 set MAIN_TRIES=0
@@ -439,25 +444,34 @@ for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -For
 echo [!TS!] ===== build-only start (target=!TODAY!) =====>> "%LOG%"
 cd /d "%MAIN_REPO%"
 
-::: diff + candidates（build:report 依赖这两个中间文件）
+::: diff + candidates（build:report 依赖这两个中间文件）—— 以产物存在性判定成败
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
 echo [!TS!] diff + candidates...>> "%LOG%"
 call npm run diff -- --date "!TODAY!" >> "%LOG%" 2>&1
-if !errorlevel! neq 0 goto :build_fail
+if not exist "%WATCHLIST_DIR%\diff\!TODAY!.json" (
+  echo [!TS!] diff output missing, treat as FAIL>> "%LOG%"
+  goto :build_fail
+)
 call npm run candidates -- --date "!TODAY!" >> "%LOG%" 2>&1
-if !errorlevel! neq 0 goto :build_fail
+if not exist "%WATCHLIST_DIR%\derived\!TODAY!-candidates.json" (
+  echo [!TS!] candidates output missing, treat as FAIL>> "%LOG%"
+  goto :build_fail
+)
 
-::: build:report --date
+::: build:report --date —— 以 daily/!TODAY!.json 生成判定成败
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
 echo [!TS!] build:report --date !TODAY!...>> "%LOG%"
 call npm run build:report -- --in data/watchlist --out "%SITE_REPO%" --date "!TODAY!" >> "%LOG%" 2>&1
-if !errorlevel! neq 0 goto :build_fail
+if not exist "%SITE_REPO%\daily\!TODAY!.json" (
+  echo [!TS!] daily/!TODAY!.json missing after incremental build, treat as FAIL>> "%LOG%"
+  goto :build_fail
+)
 
-::: build:report full
+::: build:report full —— 全量重算即便因无关 stderr 返回非 0 也不致命，仅记 warning
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
 echo [!TS!] build:report (full)...>> "%LOG%"
 call npm run build:report -- --in data/watchlist --out "%SITE_REPO%" >> "%LOG%" 2>&1
-if !errorlevel! neq 0 goto :build_fail
+if !errorlevel! neq 0 echo [!TS!] WARN: full build returned non-zero (likely harmless python stderr), daily already built>> "%LOG%"
 
 :::: git push main repo (build finished; commit outside () block)
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a

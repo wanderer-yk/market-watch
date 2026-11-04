@@ -21,9 +21,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # actions 用 commit SHA 固定（tag 可移动，SHA 不可变，防供应链投毒）
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       # 只发布站点真正 fetch 的静态资源；reports/（运维脚本/SOP，含内网主机名路径）、
       # 死 data/ 目录等仓库工作文件不再进公开 Pages（防内部信息泄露）。
       - name: Assemble site assets
@@ -34,9 +35,9 @@ jobs:
           cp -r daily series _site/
           echo "--- published files: $(find _site -type f | wc -l) ---"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
           path: "_site"
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5

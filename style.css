@@ -30,7 +30,7 @@
   --tag-continued: #38bdf8;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+/* 字体经 index.html 的 <link> 加载（含 900 权重），此处不再 @import 重复请求 */
 
 html { font-size: 16px; }
 body {
