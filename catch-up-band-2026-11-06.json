@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-06",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ000525",
+      "name": "红太阳",
+      "pct": 10.09,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002310",
+      "name": "东方新能",
+      "pct": 9.95,
+      "concepts": [
+        "新能源",
+        "算力"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 116,
+      "active_days": 8,
+      "heat_score": 928,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 54,
+      "active_days": 8,
+      "heat_score": 432,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 33,
+      "active_days": 7,
+      "heat_score": 231,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 42,
+      "active_days": 4,
+      "heat_score": 168,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 20,
+      "active_days": 5,
+      "heat_score": 100,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 16,
+      "active_days": 6,
+      "heat_score": 96,
+      "leaders": [
+        {
+          "ticker": "SZ002310",
+          "name": "东方新能",
+          "pct": 9.95,
+          "concepts": [
+            "新能源",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 14,
+      "active_days": 5,
+      "heat_score": 70,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 8,
+      "active_days": 5,
+      "heat_score": 40,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 12,
+      "active_days": 3,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 6,
+      "active_days": 5,
+      "heat_score": 30,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 28,
+      "active_days": 1,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 9,
+      "active_days": 3,
+      "heat_score": 27,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 11,
+      "active_days": 2,
+      "heat_score": 22,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SZ002310",
+          "name": "东方新能",
+          "pct": 9.95,
+          "concepts": [
+            "新能源",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 7,
+      "active_days": 2,
+      "heat_score": 14,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "电子布",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "大金融",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "银行",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
