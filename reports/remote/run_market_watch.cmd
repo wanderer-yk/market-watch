@@ -47,7 +47,9 @@ git stash push -u -q -m "nightly auto-stash !TODAY!" >nul 2>&1
 :: 留痕：stash 真吞了东西时日志可见（恢复入口 = git stash pop），空仓时此行无输出
 git stash list -n 1 >> "%LOG%" 2>&1
 git pull --rebase --quiet >> "%LOG%" 2>&1
-if !errorlevel! neq 0 goto :git_pull_fail
+:: 立即存 rc：下面的 TS for-loop 会重置 errorlevel，:git_pull_fail 里读 !errorlevel! 恒为 0（误导排障）
+set PULL_RC=!errorlevel!
+if !PULL_RC! neq 0 goto :git_pull_fail
 :: 再校验 snapshot.py 可编译（防编码/语法损坏白跑 30 分钟）
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
 echo [!TS!] syntax check snapshot.py>> "%LOG%"
@@ -198,7 +200,7 @@ exit /b 0
 
 :git_pull_fail
 for /f "usebackq delims=" %%a in (`powershell -NoProfile -Command "Get-Date -Format 'yyyy-MM-dd HH:mm:ss'"`) do set TS=%%a
-echo [!TS!] git pull FAILED (rc=!errorlevel!), abort to avoid scanning stale code>> "%LOG%"
+echo [!TS!] git pull FAILED (rc=!PULL_RC!), abort to avoid scanning stale code>> "%LOG%"
 exit /b 1
 
 :syntax_fail
