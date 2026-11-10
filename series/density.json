@@ -622,6 +622,13 @@
       "daily_candidates": 38,
       "universe": 5208,
       "ratio": 0
+    },
+    {
+      "date": "2026-11-10",
+      "candidates": 0,
+      "daily_candidates": 77,
+      "universe": 5208,
+      "ratio": 0
     }
   ]
 }

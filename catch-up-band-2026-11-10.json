@@ -1,0 +1,1401 @@
+{
+  "date": "2026-11-10",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300556",
+      "name": "丝路视觉",
+      "pct": 20.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300613",
+      "name": "富瀚微",
+      "pct": 20.01,
+      "concepts": [
+        "半导体",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300052",
+      "name": "中青宝",
+      "pct": 20,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ300885",
+      "name": "海昌新材",
+      "pct": 17.12,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300133",
+      "name": "华策影视",
+      "pct": 16.39,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301428",
+      "name": "世纪恒通",
+      "pct": 15.4,
+      "concepts": [
+        "通信",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ301536",
+      "name": "星宸科技",
+      "pct": 14.74,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300825",
+      "name": "阿尔特",
+      "pct": 12.4,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300752",
+      "name": "隆利科技",
+      "pct": 12.04,
+      "concepts": [
+        "光学光电子",
+        "PCB",
+        "CPO",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH688698",
+      "name": "伟创电气",
+      "pct": 10.67,
+      "concepts": [
+        "自动化设备",
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301510",
+      "name": "固高科技",
+      "pct": 10.45,
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "CPO",
+        "光模块"
+      ]
+    },
+    {
+      "ticker": "SZ300458",
+      "name": "全志科技",
+      "pct": 10.42,
+      "concepts": [
+        "消费电子",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300695",
+      "name": "兆丰股份",
+      "pct": 10.28,
+      "concepts": [
+        "汽车零部件"
+      ]
+    },
+    {
+      "ticker": "SZ002310",
+      "name": "东方新能",
+      "pct": 10.2,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ300534",
+      "name": "陇神戎发",
+      "pct": 10.18,
+      "concepts": [
+        "中药"
+      ]
+    },
+    {
+      "ticker": "SZ002425",
+      "name": "凯撒文化",
+      "pct": 10.13,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688332",
+      "name": "中科蓝讯",
+      "pct": 10.11,
+      "concepts": [
+        "CPO",
+        "光模块",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ002036",
+      "name": "联创电子",
+      "pct": 10.08,
+      "concepts": [
+        "光学光电子",
+        "CPO",
+        "通信",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ301488",
+      "name": "豪恩汽电",
+      "pct": 10.07,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002045",
+      "name": "国光电器",
+      "pct": 10.03,
+      "concepts": [
+        "消费电子",
+        "机器人",
+        "电子",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH603037",
+      "name": "凯众股份",
+      "pct": 10.03,
+      "concepts": [
+        "汽车零部件"
+      ]
+    },
+    {
+      "ticker": "SH600778",
+      "name": "友好集团",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600829",
+      "name": "人民同泰",
+      "pct": 10.02,
+      "concepts": [
+        "中药"
+      ]
+    },
+    {
+      "ticker": "SH603602",
+      "name": "纵横通信",
+      "pct": 10.02,
+      "concepts": [
+        "通信",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603809",
+      "name": "豪能股份",
+      "pct": 10.02,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ001314",
+      "name": "亿道信息",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002009",
+      "name": "天奇股份",
+      "pct": 10.01,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002623",
+      "name": "亚玛顿",
+      "pct": 10.01,
+      "concepts": [
+        "光伏"
+      ]
+    },
+    {
+      "ticker": "SZ002865",
+      "name": "钧达股份",
+      "pct": 10.01,
+      "concepts": [
+        "光伏",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002905",
+      "name": "金逸影视",
+      "pct": 10.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002313",
+      "name": "日海智能",
+      "pct": 10,
+      "concepts": [
+        "CPO",
+        "通信",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002981",
+      "name": "朝阳科技",
+      "pct": 10,
+      "concepts": [
+        "消费电子",
+        "PCB",
+        "CPO",
+        "电子",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002995",
+      "name": "天地在线",
+      "pct": 10,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603955",
+      "name": "大千生态",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH605398",
+      "name": "新炬网络",
+      "pct": 10,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ001339",
+      "name": "智微智能",
+      "pct": 9.99,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002664",
+      "name": "信质集团",
+      "pct": 9.99,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002209",
+      "name": "达 意 隆",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002324",
+      "name": "普利特",
+      "pct": 9.95,
+      "concepts": [
+        "PCB",
+        "CPO",
+        "算力"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 107,
+      "active_days": 8,
+      "heat_score": 856,
+      "leaders": [
+        {
+          "ticker": "SZ300556",
+          "name": "丝路视觉",
+          "pct": 20.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300613",
+          "name": "富瀚微",
+          "pct": 20.01,
+          "concepts": [
+            "半导体",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300052",
+          "name": "中青宝",
+          "pct": 20,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ300885",
+          "name": "海昌新材",
+          "pct": 17.12,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300133",
+          "name": "华策影视",
+          "pct": 16.39,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301536",
+          "name": "星宸科技",
+          "pct": 14.74,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 10.67,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300458",
+          "name": "全志科技",
+          "pct": 10.42,
+          "concepts": [
+            "消费电子",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002425",
+          "name": "凯撒文化",
+          "pct": 10.13,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002045",
+          "name": "国光电器",
+          "pct": 10.03,
+          "concepts": [
+            "消费电子",
+            "机器人",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603602",
+          "name": "纵横通信",
+          "pct": 10.02,
+          "concepts": [
+            "通信",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002905",
+          "name": "金逸影视",
+          "pct": 10.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002313",
+          "name": "日海智能",
+          "pct": 10,
+          "concepts": [
+            "CPO",
+            "通信",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002995",
+          "name": "天地在线",
+          "pct": 10,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603955",
+          "name": "大千生态",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH605398",
+          "name": "新炬网络",
+          "pct": 10,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ001339",
+          "name": "智微智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 46,
+      "active_days": 8,
+      "heat_score": 368,
+      "leaders": [
+        {
+          "ticker": "SZ300613",
+          "name": "富瀚微",
+          "pct": 20.01,
+          "concepts": [
+            "半导体",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300885",
+          "name": "海昌新材",
+          "pct": 17.12,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 10.67,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002045",
+          "name": "国光电器",
+          "pct": 10.03,
+          "concepts": [
+            "消费电子",
+            "机器人",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603809",
+          "name": "豪能股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002009",
+          "name": "天奇股份",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603955",
+          "name": "大千生态",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ001339",
+          "name": "智微智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002664",
+          "name": "信质集团",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 40,
+      "active_days": 7,
+      "heat_score": 280,
+      "leaders": [
+        {
+          "ticker": "SZ300885",
+          "name": "海昌新材",
+          "pct": 17.12,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 10.67,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603809",
+          "name": "豪能股份",
+          "pct": 10.02,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002009",
+          "name": "天奇股份",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603955",
+          "name": "大千生态",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ001339",
+          "name": "智微智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002664",
+          "name": "信质集团",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 43,
+      "active_days": 4,
+      "heat_score": 172,
+      "leaders": [
+        {
+          "ticker": "SZ300613",
+          "name": "富瀚微",
+          "pct": 20.01,
+          "concepts": [
+            "半导体",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301510",
+          "name": "固高科技",
+          "pct": 10.45,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "CPO",
+            "光模块"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 23,
+      "active_days": 6,
+      "heat_score": 138,
+      "leaders": [
+        {
+          "ticker": "SZ300752",
+          "name": "隆利科技",
+          "pct": 12.04,
+          "concepts": [
+            "光学光电子",
+            "PCB",
+            "CPO",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ300458",
+          "name": "全志科技",
+          "pct": 10.42,
+          "concepts": [
+            "消费电子",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.08,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002045",
+          "name": "国光电器",
+          "pct": 10.03,
+          "concepts": [
+            "消费电子",
+            "机器人",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002981",
+          "name": "朝阳科技",
+          "pct": 10,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "CPO",
+            "电子",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 24,
+      "active_days": 5,
+      "heat_score": 120,
+      "leaders": [
+        {
+          "ticker": "SZ300052",
+          "name": "中青宝",
+          "pct": 20,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ301428",
+          "name": "世纪恒通",
+          "pct": 15.4,
+          "concepts": [
+            "通信",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002310",
+          "name": "东方新能",
+          "pct": 10.2,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002045",
+          "name": "国光电器",
+          "pct": 10.03,
+          "concepts": [
+            "消费电子",
+            "机器人",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002865",
+          "name": "钧达股份",
+          "pct": 10.01,
+          "concepts": [
+            "光伏",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002313",
+          "name": "日海智能",
+          "pct": 10,
+          "concepts": [
+            "CPO",
+            "通信",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002981",
+          "name": "朝阳科技",
+          "pct": 10,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "CPO",
+            "电子",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH605398",
+          "name": "新炬网络",
+          "pct": 10,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ001339",
+          "name": "智微智能",
+          "pct": 9.99,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002324",
+          "name": "普利特",
+          "pct": 9.95,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 16,
+      "active_days": 6,
+      "heat_score": 96,
+      "leaders": [
+        {
+          "ticker": "SZ002623",
+          "name": "亚玛顿",
+          "pct": 10.01,
+          "concepts": [
+            "光伏"
+          ]
+        },
+        {
+          "ticker": "SZ002865",
+          "name": "钧达股份",
+          "pct": 10.01,
+          "concepts": [
+            "光伏",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 11,
+      "active_days": 7,
+      "heat_score": 77,
+      "leaders": [
+        {
+          "ticker": "SZ300752",
+          "name": "隆利科技",
+          "pct": 12.04,
+          "concepts": [
+            "光学光电子",
+            "PCB",
+            "CPO",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002981",
+          "name": "朝阳科技",
+          "pct": 10,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "CPO",
+            "电子",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002324",
+          "name": "普利特",
+          "pct": 9.95,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 16,
+      "active_days": 4,
+      "heat_score": 64,
+      "leaders": [
+        {
+          "ticker": "SZ300752",
+          "name": "隆利科技",
+          "pct": 12.04,
+          "concepts": [
+            "光学光电子",
+            "PCB",
+            "CPO",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ301510",
+          "name": "固高科技",
+          "pct": 10.45,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "CPO",
+            "光模块"
+          ]
+        },
+        {
+          "ticker": "SH688332",
+          "name": "中科蓝讯",
+          "pct": 10.11,
+          "concepts": [
+            "CPO",
+            "光模块",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.08,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002313",
+          "name": "日海智能",
+          "pct": 10,
+          "concepts": [
+            "CPO",
+            "通信",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002981",
+          "name": "朝阳科技",
+          "pct": 10,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "CPO",
+            "电子",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002324",
+          "name": "普利特",
+          "pct": 9.95,
+          "concepts": [
+            "PCB",
+            "CPO",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 29,
+      "active_days": 2,
+      "heat_score": 58,
+      "leaders": [
+        {
+          "ticker": "SZ301510",
+          "name": "固高科技",
+          "pct": 10.45,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "CPO",
+            "光模块"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 10,
+      "active_days": 5,
+      "heat_score": 50,
+      "leaders": [
+        {
+          "ticker": "SZ301428",
+          "name": "世纪恒通",
+          "pct": 15.4,
+          "concepts": [
+            "通信",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688332",
+          "name": "中科蓝讯",
+          "pct": 10.11,
+          "concepts": [
+            "CPO",
+            "光模块",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.08,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603602",
+          "name": "纵横通信",
+          "pct": 10.02,
+          "concepts": [
+            "通信",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002313",
+          "name": "日海智能",
+          "pct": 10,
+          "concepts": [
+            "CPO",
+            "通信",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 9,
+      "active_days": 5,
+      "heat_score": 45,
+      "leaders": [
+        {
+          "ticker": "SZ300695",
+          "name": "兆丰股份",
+          "pct": 10.28,
+          "concepts": [
+            "汽车零部件"
+          ]
+        },
+        {
+          "ticker": "SH603037",
+          "name": "凯众股份",
+          "pct": 10.03,
+          "concepts": [
+            "汽车零部件"
+          ]
+        },
+        {
+          "ticker": "SZ002664",
+          "name": "信质集团",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 7,
+      "active_days": 5,
+      "heat_score": 35,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 7,
+      "active_days": 3,
+      "heat_score": 21,
+      "leaders": [
+        {
+          "ticker": "SZ301510",
+          "name": "固高科技",
+          "pct": 10.45,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "CPO",
+            "光模块"
+          ]
+        },
+        {
+          "ticker": "SH688332",
+          "name": "中科蓝讯",
+          "pct": 10.11,
+          "concepts": [
+            "CPO",
+            "光模块",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 10,
+      "active_days": 2,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": [
+        {
+          "ticker": "SZ300458",
+          "name": "全志科技",
+          "pct": 10.42,
+          "concepts": [
+            "消费电子",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002045",
+          "name": "国光电器",
+          "pct": 10.03,
+          "concepts": [
+            "消费电子",
+            "机器人",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002981",
+          "name": "朝阳科技",
+          "pct": 10,
+          "concepts": [
+            "消费电子",
+            "PCB",
+            "CPO",
+            "电子",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ300752",
+          "name": "隆利科技",
+          "pct": 12.04,
+          "concepts": [
+            "光学光电子",
+            "PCB",
+            "CPO",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.08,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "证券",
+      "leader_count": 10,
+      "active_days": 1,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 10.67,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "银行",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": [
+        {
+          "ticker": "SZ300534",
+          "name": "陇神戎发",
+          "pct": 10.18,
+          "concepts": [
+            "中药"
+          ]
+        },
+        {
+          "ticker": "SH600829",
+          "name": "人民同泰",
+          "pct": 10.02,
+          "concepts": [
+            "中药"
+          ]
+        }
+      ]
+    }
+  ],
+  "catchup_candidates": []
+}
