@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-12",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ301357",
+      "name": "北方长龙",
+      "pct": 11.45,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH688702",
+      "name": "盛科通信",
+      "pct": 11.34,
+      "concepts": [
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SH688552",
+      "name": "航天南湖",
+      "pct": 10.23,
+      "concepts": [
+        "商业航天",
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603725",
+      "name": "天安新材",
+      "pct": 10.03,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ002205",
+      "name": "国统股份",
+      "pct": 10.02,
+      "concepts": []
+    },
+    {
+      "ticker": "SH601606",
+      "name": "长城军工",
+      "pct": 10.02,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH605169",
+      "name": "洪通燃气",
+      "pct": 9.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600857",
+      "name": "宁波中百",
+      "pct": 9.97,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002693",
+      "name": "双成药业",
+      "pct": 9.95,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 110,
+      "active_days": 8,
+      "heat_score": 880,
+      "leaders": []
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 35,
+      "active_days": 8,
+      "heat_score": 280,
+      "leaders": [
+        {
+          "ticker": "SH603725",
+          "name": "天安新材",
+          "pct": 10.03,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 39,
+      "active_days": 6,
+      "heat_score": 234,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 31,
+      "active_days": 7,
+      "heat_score": 217,
+      "leaders": [
+        {
+          "ticker": "SH603725",
+          "name": "天安新材",
+          "pct": 10.03,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 43,
+      "active_days": 4,
+      "heat_score": 172,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 23,
+      "active_days": 6,
+      "heat_score": 138,
+      "leaders": [
+        {
+          "ticker": "SH688702",
+          "name": "盛科通信",
+          "pct": 11.34,
+          "concepts": [
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SH603725",
+          "name": "天安新材",
+          "pct": 10.03,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 21,
+      "active_days": 6,
+      "heat_score": 126,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 17,
+      "active_days": 7,
+      "heat_score": 119,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 16,
+      "active_days": 7,
+      "heat_score": 112,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 26,
+      "active_days": 4,
+      "heat_score": 104,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 29,
+      "active_days": 2,
+      "heat_score": 58,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 4,
+      "active_days": 4,
+      "heat_score": 16,
+      "leaders": [
+        {
+          "ticker": "SH688552",
+          "name": "航天南湖",
+          "pct": 10.23,
+          "concepts": [
+            "商业航天",
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 10,
+      "active_days": 1,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "银行",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": [
+        {
+          "ticker": "SZ301357",
+          "name": "北方长龙",
+          "pct": 11.45,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH688552",
+          "name": "航天南湖",
+          "pct": 10.23,
+          "concepts": [
+            "商业航天",
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SH601606",
+          "name": "长城军工",
+          "pct": 10.02,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
