@@ -1,0 +1,539 @@
+{
+  "date": "2026-11-13",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300528",
+      "name": "幸福蓝海",
+      "pct": 20.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300324",
+      "name": "旋极信息",
+      "pct": 17.58,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ300539",
+      "name": "横河精密",
+      "pct": 11.14,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ000665",
+      "name": "湖北广电",
+      "pct": 10.1,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002548",
+      "name": "金新农",
+      "pct": 10.06,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000819",
+      "name": "岳阳兴长",
+      "pct": 10.04,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002042",
+      "name": "华孚时尚",
+      "pct": 10.03,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH603103",
+      "name": "横店影视",
+      "pct": 10.03,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002124",
+      "name": "天邦食品",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002520",
+      "name": "日发精机",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH600410",
+      "name": "华胜天成",
+      "pct": 10,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH600977",
+      "name": "中国电影",
+      "pct": 10,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002819",
+      "name": "东方中科",
+      "pct": 9.98,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH603767",
+      "name": "中马传动",
+      "pct": 9.98,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002739",
+      "name": "儒意电影",
+      "pct": 9.96,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002685",
+      "name": "华东重机",
+      "pct": 9.92,
+      "concepts": [
+        "算力"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 117,
+      "active_days": 8,
+      "heat_score": 936,
+      "leaders": [
+        {
+          "ticker": "SZ300528",
+          "name": "幸福蓝海",
+          "pct": 20.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300324",
+          "name": "旋极信息",
+          "pct": 17.58,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ000665",
+          "name": "湖北广电",
+          "pct": 10.1,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ000819",
+          "name": "岳阳兴长",
+          "pct": 10.04,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603103",
+          "name": "横店影视",
+          "pct": 10.03,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH600410",
+          "name": "华胜天成",
+          "pct": 10,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH600977",
+          "name": "中国电影",
+          "pct": 10,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002739",
+          "name": "儒意电影",
+          "pct": 9.96,
+          "concepts": [
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 45,
+      "active_days": 7,
+      "heat_score": 315,
+      "leaders": [
+        {
+          "ticker": "SZ300324",
+          "name": "旋极信息",
+          "pct": 17.58,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ000819",
+          "name": "岳阳兴长",
+          "pct": 10.04,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002042",
+          "name": "华孚时尚",
+          "pct": 10.03,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH600410",
+          "name": "华胜天成",
+          "pct": 10,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002819",
+          "name": "东方中科",
+          "pct": 9.98,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 9.92,
+          "concepts": [
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 37,
+      "active_days": 8,
+      "heat_score": 296,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 11.14,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002520",
+          "name": "日发精机",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603767",
+          "name": "中马传动",
+          "pct": 9.98,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 33,
+      "active_days": 7,
+      "heat_score": 231,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 11.14,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002520",
+          "name": "日发精机",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603767",
+          "name": "中马传动",
+          "pct": 9.98,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 43,
+      "active_days": 4,
+      "heat_score": 172,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 23,
+      "active_days": 6,
+      "heat_score": 138,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 21,
+      "active_days": 6,
+      "heat_score": 126,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 16,
+      "active_days": 7,
+      "heat_score": 112,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 26,
+      "active_days": 4,
+      "heat_score": 104,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 16,
+      "active_days": 6,
+      "heat_score": 96,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 29,
+      "active_days": 2,
+      "heat_score": 58,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 5,
+      "active_days": 4,
+      "heat_score": 20,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "证券",
+      "leader_count": 10,
+      "active_days": 1,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": []
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "银行",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "锂电池",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
