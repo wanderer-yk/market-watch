@@ -1,0 +1,613 @@
+{
+  "date": "2026-11-17",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688372",
+      "name": "伟测科技",
+      "pct": 14.35,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688775",
+      "name": "影石创新",
+      "pct": 14.09,
+      "concepts": [
+        "消费电子",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH688244",
+      "name": "永信至诚",
+      "pct": 14.02,
+      "concepts": [
+        "银行"
+      ]
+    },
+    {
+      "ticker": "SZ301421",
+      "name": "波长光电",
+      "pct": 13.42,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ301392",
+      "name": "汇成真空",
+      "pct": 11.77,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688629",
+      "name": "华丰科技",
+      "pct": 11.59,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH688347",
+      "name": "华虹宏力",
+      "pct": 10.39,
+      "concepts": [
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688502",
+      "name": "茂莱光学",
+      "pct": 10.34,
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ002584",
+      "name": "西陇科学",
+      "pct": 10.01,
+      "concepts": [
+        "半导体设备",
+        "电子化学品",
+        "半导体",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ002959",
+      "name": "小熊电器",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SH600206",
+      "name": "有研新材",
+      "pct": 10.01,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ002771",
+      "name": "真视通",
+      "pct": 10,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH603078",
+      "name": "江化微",
+      "pct": 10,
+      "concepts": [
+        "半导体设备",
+        "电子化学品",
+        "半导体",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH600619",
+      "name": "海立股份",
+      "pct": 9.99,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH600770",
+      "name": "综艺股份",
+      "pct": 9.94,
+      "concepts": [
+        "半导体设备",
+        "半导体"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 78,
+      "active_days": 9,
+      "heat_score": 702,
+      "leaders": [
+        {
+          "ticker": "SH688502",
+          "name": "茂莱光学",
+          "pct": 10.34,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 46,
+      "active_days": 8,
+      "heat_score": 368,
+      "leaders": [
+        {
+          "ticker": "SH688629",
+          "name": "华丰科技",
+          "pct": 11.59,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002771",
+          "name": "真视通",
+          "pct": 10,
+          "concepts": [
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 36,
+      "active_days": 7,
+      "heat_score": 252,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 33,
+      "active_days": 7,
+      "heat_score": 231,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 49,
+      "active_days": 4,
+      "heat_score": 196,
+      "leaders": [
+        {
+          "ticker": "SH688372",
+          "name": "伟测科技",
+          "pct": 14.35,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 13.42,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ301392",
+          "name": "汇成真空",
+          "pct": 11.77,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688347",
+          "name": "华虹宏力",
+          "pct": 10.39,
+          "concepts": [
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688502",
+          "name": "茂莱光学",
+          "pct": 10.34,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH600206",
+          "name": "有研新材",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH603078",
+          "name": "江化微",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH600619",
+          "name": "海立股份",
+          "pct": 9.99,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH600770",
+          "name": "综艺股份",
+          "pct": 9.94,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 38,
+      "active_days": 3,
+      "heat_score": 114,
+      "leaders": [
+        {
+          "ticker": "SH688372",
+          "name": "伟测科技",
+          "pct": 14.35,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 13.42,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ301392",
+          "name": "汇成真空",
+          "pct": 11.77,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688502",
+          "name": "茂莱光学",
+          "pct": 10.34,
+          "concepts": [
+            "半导体设备",
+            "半导体",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH600206",
+          "name": "有研新材",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH603078",
+          "name": "江化微",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH600619",
+          "name": "海立股份",
+          "pct": 9.99,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH600770",
+          "name": "综艺股份",
+          "pct": 9.94,
+          "concepts": [
+            "半导体设备",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 19,
+      "active_days": 6,
+      "heat_score": 114,
+      "leaders": [
+        {
+          "ticker": "SH688775",
+          "name": "影石创新",
+          "pct": 14.09,
+          "concepts": [
+            "消费电子",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603078",
+          "name": "江化微",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 22,
+      "active_days": 5,
+      "heat_score": 110,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 25,
+      "active_days": 3,
+      "heat_score": 75,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 14,
+      "active_days": 5,
+      "heat_score": 70,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 13,
+      "active_days": 5,
+      "heat_score": 65,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 7,
+      "active_days": 4,
+      "heat_score": 28,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": [
+        {
+          "ticker": "SH688775",
+          "name": "影石创新",
+          "pct": 14.09,
+          "concepts": [
+            "消费电子",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 5,
+      "active_days": 2,
+      "heat_score": 10,
+      "leaders": [
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 10.01,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SH603078",
+          "name": "江化微",
+          "pct": 10,
+          "concepts": [
+            "半导体设备",
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "创新药",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "半导体材料",
+      "leader_count": 4,
+      "active_days": 1,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "存储芯片",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "白酒",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
