@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-19",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SH688691",
+      "name": "灿芯股份",
+      "pct": 15.3,
+      "concepts": [
+        "先进封装",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688630",
+      "name": "芯碁微装",
+      "pct": 10.62,
+      "concepts": [
+        "先进封装"
+      ]
+    },
+    {
+      "ticker": "SH688249",
+      "name": "晶合集成",
+      "pct": 10.26,
+      "concepts": [
+        "先进封装",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ002418",
+      "name": "康盛股份",
+      "pct": 10.14,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002579",
+      "name": "中京电子",
+      "pct": 10.04,
+      "concepts": [
+        "PCB",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SH600619",
+      "name": "海立股份",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SH605178",
+      "name": "时空科技",
+      "pct": 10,
+      "concepts": [
+        "算力"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 79,
+      "active_days": 8,
+      "heat_score": 632,
+      "leaders": []
+    },
+    {
+      "concept": "算力",
+      "leader_count": 59,
+      "active_days": 9,
+      "heat_score": 531,
+      "leaders": [
+        {
+          "ticker": "SH605178",
+          "name": "时空科技",
+          "pct": 10,
+          "concepts": [
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 33,
+      "active_days": 7,
+      "heat_score": 231,
+      "leaders": []
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 29,
+      "active_days": 6,
+      "heat_score": 174,
+      "leaders": []
+    },
+    {
+      "concept": "通信",
+      "leader_count": 24,
+      "active_days": 6,
+      "heat_score": 144,
+      "leaders": []
+    },
+    {
+      "concept": "电子",
+      "leader_count": 14,
+      "active_days": 7,
+      "heat_score": 98,
+      "leaders": [
+        {
+          "ticker": "SZ002579",
+          "name": "中京电子",
+          "pct": 10.04,
+          "concepts": [
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 18,
+      "active_days": 5,
+      "heat_score": 90,
+      "leaders": [
+        {
+          "ticker": "SH688691",
+          "name": "灿芯股份",
+          "pct": 15.3,
+          "concepts": [
+            "先进封装",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688249",
+          "name": "晶合集成",
+          "pct": 10.26,
+          "concepts": [
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 14,
+      "active_days": 5,
+      "heat_score": 70,
+      "leaders": [
+        {
+          "ticker": "SZ002579",
+          "name": "中京电子",
+          "pct": 10.04,
+          "concepts": [
+            "PCB",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 21,
+      "active_days": 2,
+      "heat_score": 42,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 11,
+      "active_days": 3,
+      "heat_score": 33,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 11,
+      "active_days": 3,
+      "heat_score": 33,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "军工",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": [
+        {
+          "ticker": "SH688691",
+          "name": "灿芯股份",
+          "pct": 15.3,
+          "concepts": [
+            "先进封装",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688630",
+          "name": "芯碁微装",
+          "pct": 10.62,
+          "concepts": [
+            "先进封装"
+          ]
+        },
+        {
+          "ticker": "SH688249",
+          "name": "晶合集成",
+          "pct": 10.26,
+          "concepts": [
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
