@@ -1,0 +1,1930 @@
+{
+  "date": "2026-11-23",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ301318",
+      "name": "维海德",
+      "pct": 20.01,
+      "concepts": [
+        "计算机",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301052",
+      "name": "果麦文化",
+      "pct": 20,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301261",
+      "name": "恒工精密",
+      "pct": 20,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301413",
+      "name": "安培龙",
+      "pct": 20,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301529",
+      "name": "福赛科技",
+      "pct": 20,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688585",
+      "name": "上纬新材",
+      "pct": 20,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688787",
+      "name": "海天瑞声",
+      "pct": 20,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688322",
+      "name": "奥比中光",
+      "pct": 19.81,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH688507",
+      "name": "索辰科技",
+      "pct": 18.63,
+      "concepts": [
+        "CAE",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301550",
+      "name": "斯菱智驱",
+      "pct": 16.1,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300945",
+      "name": "曼卡龙",
+      "pct": 16.09,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300654",
+      "name": "世纪天鸿",
+      "pct": 15.98,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301176",
+      "name": "逸豪新材",
+      "pct": 15.27,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SZ300421",
+      "name": "力星股份",
+      "pct": 14.68,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301193",
+      "name": "家联科技",
+      "pct": 14.53,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300473",
+      "name": "德尔股份",
+      "pct": 13.42,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH688195",
+      "name": "腾景科技",
+      "pct": 13.26,
+      "concepts": [
+        "CPO",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SH688698",
+      "name": "伟创电气",
+      "pct": 13.17,
+      "concepts": [
+        "自动化设备",
+        "人形机器人",
+        "机器人",
+        "AI",
+        "液冷"
+      ]
+    },
+    {
+      "ticker": "SZ300100",
+      "name": "双林股份",
+      "pct": 12.62,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300354",
+      "name": "东华测试",
+      "pct": 12.45,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH688648",
+      "name": "中邮科技",
+      "pct": 12.42,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH688596",
+      "name": "正帆科技",
+      "pct": 11.59,
+      "concepts": [
+        "专用设备",
+        "AI",
+        "液冷"
+      ]
+    },
+    {
+      "ticker": "SZ300580",
+      "name": "贝斯特",
+      "pct": 11.57,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300528",
+      "name": "幸福蓝海",
+      "pct": 11.51,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300522",
+      "name": "世名科技",
+      "pct": 11.49,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ300652",
+      "name": "雷迪克",
+      "pct": 10.75,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300293",
+      "name": "蓝英装备",
+      "pct": 10.73,
+      "concepts": [
+        "人形机器人",
+        "专用设备",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ300885",
+      "name": "海昌新材",
+      "pct": 10.6,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300115",
+      "name": "长盈精密",
+      "pct": 10.59,
+      "concepts": [
+        "人形机器人",
+        "消费电子",
+        "机器人",
+        "PCB",
+        "CPO",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SZ301538",
+      "name": "骏鼎达",
+      "pct": 10.29,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ301421",
+      "name": "波长光电",
+      "pct": 10.12,
+      "concepts": [
+        "光学光电子",
+        "CPO",
+        "通信",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ002122",
+      "name": "ST汇洲",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002248",
+      "name": "华东数控",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002414",
+      "name": "高德红外",
+      "pct": 10.04,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH603037",
+      "name": "凯众股份",
+      "pct": 10.04,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002009",
+      "name": "天奇股份",
+      "pct": 10.03,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002289",
+      "name": "宇顺电子",
+      "pct": 10.02,
+      "concepts": [
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ000026",
+      "name": "飞亚达",
+      "pct": 10.01,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002896",
+      "name": "中大力德",
+      "pct": 10.01,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH601177",
+      "name": "杭齿前进",
+      "pct": 10.01,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603040",
+      "name": "新坐标",
+      "pct": 10.01,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603103",
+      "name": "横店影视",
+      "pct": 10.01,
+      "concepts": [
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603236",
+      "name": "移远通信",
+      "pct": 10.01,
+      "concepts": [
+        "新能源",
+        "通信"
+      ]
+    },
+    {
+      "ticker": "SZ001331",
+      "name": "胜通能源",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ001360",
+      "name": "南矿集团",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002685",
+      "name": "华东重机",
+      "pct": 10,
+      "concepts": [
+        "机器人",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ003021",
+      "name": "兆威机电",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603009",
+      "name": "北特科技",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603119",
+      "name": "浙江荣泰",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603337",
+      "name": "杰克科技",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603662",
+      "name": "柯力传感",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603667",
+      "name": "五洲新春",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603728",
+      "name": "鸣志电器",
+      "pct": 10,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603920",
+      "name": "世运电路",
+      "pct": 10,
+      "concepts": [
+        "PCB"
+      ]
+    },
+    {
+      "ticker": "SH603283",
+      "name": "赛腾股份",
+      "pct": 9.99,
+      "concepts": [
+        "自动化设备",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603131",
+      "name": "上海沪工",
+      "pct": 9.97,
+      "concepts": [
+        "人形机器人",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603166",
+      "name": "福达股份",
+      "pct": 9.97,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603305",
+      "name": "旭升集团",
+      "pct": 9.97,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002584",
+      "name": "西陇科学",
+      "pct": 9.96,
+      "concepts": [
+        "电子化学品",
+        "半导体",
+        "电子"
+      ]
+    },
+    {
+      "ticker": "SZ002249",
+      "name": "大洋电机",
+      "pct": 9.93,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 84,
+      "active_days": 8,
+      "heat_score": 672,
+      "leaders": [
+        {
+          "ticker": "SZ301318",
+          "name": "维海德",
+          "pct": 20.01,
+          "concepts": [
+            "计算机",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301052",
+          "name": "果麦文化",
+          "pct": 20,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301529",
+          "name": "福赛科技",
+          "pct": 20,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688585",
+          "name": "上纬新材",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688787",
+          "name": "海天瑞声",
+          "pct": 20,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688507",
+          "name": "索辰科技",
+          "pct": 18.63,
+          "concepts": [
+            "CAE",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300654",
+          "name": "世纪天鸿",
+          "pct": 15.98,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 13.17,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SZ300354",
+          "name": "东华测试",
+          "pct": 12.45,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688596",
+          "name": "正帆科技",
+          "pct": 11.59,
+          "concepts": [
+            "专用设备",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SZ300580",
+          "name": "贝斯特",
+          "pct": 11.57,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300528",
+          "name": "幸福蓝海",
+          "pct": 11.51,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300293",
+          "name": "蓝英装备",
+          "pct": 10.73,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603103",
+          "name": "横店影视",
+          "pct": 10.01,
+          "concepts": [
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 10,
+          "concepts": [
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603662",
+          "name": "柯力传感",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603131",
+          "name": "上海沪工",
+          "pct": 9.97,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 64,
+      "active_days": 7,
+      "heat_score": 448,
+      "leaders": [
+        {
+          "ticker": "SZ301261",
+          "name": "恒工精密",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301413",
+          "name": "安培龙",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301529",
+          "name": "福赛科技",
+          "pct": 20,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688585",
+          "name": "上纬新材",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688322",
+          "name": "奥比中光",
+          "pct": 19.81,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301550",
+          "name": "斯菱智驱",
+          "pct": 16.1,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300421",
+          "name": "力星股份",
+          "pct": 14.68,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300473",
+          "name": "德尔股份",
+          "pct": 13.42,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 13.17,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SZ300100",
+          "name": "双林股份",
+          "pct": 12.62,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300354",
+          "name": "东华测试",
+          "pct": 12.45,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688648",
+          "name": "中邮科技",
+          "pct": 12.42,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300580",
+          "name": "贝斯特",
+          "pct": 11.57,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300652",
+          "name": "雷迪克",
+          "pct": 10.75,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300293",
+          "name": "蓝英装备",
+          "pct": 10.73,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300885",
+          "name": "海昌新材",
+          "pct": 10.6,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301538",
+          "name": "骏鼎达",
+          "pct": 10.29,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603037",
+          "name": "凯众股份",
+          "pct": 10.04,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002009",
+          "name": "天奇股份",
+          "pct": 10.03,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002896",
+          "name": "中大力德",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH601177",
+          "name": "杭齿前进",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603040",
+          "name": "新坐标",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 10,
+          "concepts": [
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ003021",
+          "name": "兆威机电",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603009",
+          "name": "北特科技",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603119",
+          "name": "浙江荣泰",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603337",
+          "name": "杰克科技",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603662",
+          "name": "柯力传感",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603667",
+          "name": "五洲新春",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603728",
+          "name": "鸣志电器",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603283",
+          "name": "赛腾股份",
+          "pct": 9.99,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603131",
+          "name": "上海沪工",
+          "pct": 9.97,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603166",
+          "name": "福达股份",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603305",
+          "name": "旭升集团",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 9.93,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 53,
+      "active_days": 8,
+      "heat_score": 424,
+      "leaders": [
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 10,
+          "concepts": [
+            "机器人",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 59,
+      "active_days": 6,
+      "heat_score": 354,
+      "leaders": [
+        {
+          "ticker": "SZ301261",
+          "name": "恒工精密",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301413",
+          "name": "安培龙",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301529",
+          "name": "福赛科技",
+          "pct": 20,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688585",
+          "name": "上纬新材",
+          "pct": 20,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688322",
+          "name": "奥比中光",
+          "pct": 19.81,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301550",
+          "name": "斯菱智驱",
+          "pct": 16.1,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300421",
+          "name": "力星股份",
+          "pct": 14.68,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300473",
+          "name": "德尔股份",
+          "pct": 13.42,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 13.17,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SZ300100",
+          "name": "双林股份",
+          "pct": 12.62,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300354",
+          "name": "东华测试",
+          "pct": 12.45,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH688648",
+          "name": "中邮科技",
+          "pct": 12.42,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300580",
+          "name": "贝斯特",
+          "pct": 11.57,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300652",
+          "name": "雷迪克",
+          "pct": 10.75,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300293",
+          "name": "蓝英装备",
+          "pct": 10.73,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300885",
+          "name": "海昌新材",
+          "pct": 10.6,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301538",
+          "name": "骏鼎达",
+          "pct": 10.29,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603037",
+          "name": "凯众股份",
+          "pct": 10.04,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002009",
+          "name": "天奇股份",
+          "pct": 10.03,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002896",
+          "name": "中大力德",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH601177",
+          "name": "杭齿前进",
+          "pct": 10.01,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603040",
+          "name": "新坐标",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ003021",
+          "name": "兆威机电",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603009",
+          "name": "北特科技",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603119",
+          "name": "浙江荣泰",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603337",
+          "name": "杰克科技",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603662",
+          "name": "柯力传感",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603667",
+          "name": "五洲新春",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603728",
+          "name": "鸣志电器",
+          "pct": 10,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603283",
+          "name": "赛腾股份",
+          "pct": 9.99,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603131",
+          "name": "上海沪工",
+          "pct": 9.97,
+          "concepts": [
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603166",
+          "name": "福达股份",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603305",
+          "name": "旭升集团",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002249",
+          "name": "大洋电机",
+          "pct": 9.93,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 26,
+      "active_days": 6,
+      "heat_score": 156,
+      "leaders": [
+        {
+          "ticker": "SH688195",
+          "name": "腾景科技",
+          "pct": 13.26,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 10.12,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002289",
+          "name": "宇顺电子",
+          "pct": 10.02,
+          "concepts": [
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SH603236",
+          "name": "移远通信",
+          "pct": 10.01,
+          "concepts": [
+            "新能源",
+            "通信"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 19,
+      "active_days": 8,
+      "heat_score": 152,
+      "leaders": [
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 10.12,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        },
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 9.96,
+          "concepts": [
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 20,
+      "active_days": 7,
+      "heat_score": 140,
+      "leaders": [
+        {
+          "ticker": "SZ301176",
+          "name": "逸豪新材",
+          "pct": 15.27,
+          "concepts": [
+            "PCB"
+          ]
+        },
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603920",
+          "name": "世运电路",
+          "pct": 10,
+          "concepts": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 19,
+      "active_days": 6,
+      "heat_score": 114,
+      "leaders": [
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 9.96,
+          "concepts": [
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 24,
+      "active_days": 3,
+      "heat_score": 72,
+      "leaders": [
+        {
+          "ticker": "SH688195",
+          "name": "腾景科技",
+          "pct": 13.26,
+          "concepts": [
+            "CPO",
+            "通信"
+          ]
+        },
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 10.12,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 11,
+      "active_days": 3,
+      "heat_score": 33,
+      "leaders": []
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 10,
+      "active_days": 3,
+      "heat_score": 30,
+      "leaders": [
+        {
+          "ticker": "SZ301529",
+          "name": "福赛科技",
+          "pct": 20,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ300100",
+          "name": "双林股份",
+          "pct": 12.62,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603037",
+          "name": "凯众股份",
+          "pct": 10.04,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603040",
+          "name": "新坐标",
+          "pct": 10.01,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603166",
+          "name": "福达股份",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603305",
+          "name": "旭升集团",
+          "pct": 9.97,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": [
+        {
+          "ticker": "SZ300115",
+          "name": "长盈精密",
+          "pct": 10.59,
+          "concepts": [
+            "人形机器人",
+            "消费电子",
+            "机器人",
+            "PCB",
+            "CPO",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ301421",
+          "name": "波长光电",
+          "pct": 10.12,
+          "concepts": [
+            "光学光电子",
+            "CPO",
+            "通信",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": [
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 13.17,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SH688596",
+          "name": "正帆科技",
+          "pct": 11.59,
+          "concepts": [
+            "专用设备",
+            "AI",
+            "液冷"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": [
+        {
+          "ticker": "SZ002414",
+          "name": "高德红外",
+          "pct": 10.04,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SH688698",
+          "name": "伟创电气",
+          "pct": 13.17,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SH603283",
+          "name": "赛腾股份",
+          "pct": 9.99,
+          "concepts": [
+            "自动化设备",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "专用设备",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SH688596",
+          "name": "正帆科技",
+          "pct": 11.59,
+          "concepts": [
+            "专用设备",
+            "AI",
+            "液冷"
+          ]
+        },
+        {
+          "ticker": "SZ300293",
+          "name": "蓝英装备",
+          "pct": 10.73,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": [
+        {
+          "ticker": "SZ002584",
+          "name": "西陇科学",
+          "pct": 9.96,
+          "concepts": [
+            "电子化学品",
+            "半导体",
+            "电子"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "商业航天",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "固态电池",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "电网设备",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
