@@ -1,0 +1,622 @@
+{
+  "date": "2026-11-24",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300539",
+      "name": "横河精密",
+      "pct": 19.98,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300703",
+      "name": "创源股份",
+      "pct": 19.98,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ301219",
+      "name": "腾远钴业",
+      "pct": 14.23,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ301398",
+      "name": "星源卓镁",
+      "pct": 13.43,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300221",
+      "name": "银禧科技",
+      "pct": 13.31,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ300593",
+      "name": "新雷能",
+      "pct": 11.12,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SH688230",
+      "name": "芯导科技",
+      "pct": 10.74,
+      "concepts": [
+        "存储芯片",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SH688347",
+      "name": "华虹宏力",
+      "pct": 10.36,
+      "concepts": [
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ002122",
+      "name": "ST汇洲",
+      "pct": 10.14,
+      "concepts": [
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002036",
+      "name": "联创电子",
+      "pct": 10.06,
+      "concepts": [
+        "光学光电子",
+        "半导体",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH600189",
+      "name": "泉阳泉",
+      "pct": 10.05,
+      "concepts": []
+    },
+    {
+      "ticker": "SH603001",
+      "name": "奥康国际",
+      "pct": 10.05,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002611",
+      "name": "东方精工",
+      "pct": 10.04,
+      "concepts": [
+        "人形机器人",
+        "专用设备",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002387",
+      "name": "维信诺",
+      "pct": 10.02,
+      "concepts": [
+        "光学光电子",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603266",
+      "name": "天龙股份",
+      "pct": 9.99,
+      "concepts": [
+        "汽车零部件",
+        "人形机器人",
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH603360",
+      "name": "百傲化学",
+      "pct": 9.97,
+      "concepts": [
+        "半导体设备",
+        "先进封装",
+        "半导体"
+      ]
+    },
+    {
+      "ticker": "SZ002651",
+      "name": "利君股份",
+      "pct": 9.95,
+      "concepts": [
+        "军工"
+      ]
+    },
+    {
+      "ticker": "SZ002685",
+      "name": "华东重机",
+      "pct": 9.95,
+      "concepts": [
+        "AI",
+        "算力"
+      ]
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "AI",
+      "leader_count": 77,
+      "active_days": 8,
+      "heat_score": 616,
+      "leaders": [
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.06,
+          "concepts": [
+            "光学光电子",
+            "半导体",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002387",
+          "name": "维信诺",
+          "pct": 10.02,
+          "concepts": [
+            "光学光电子",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 9.95,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "算力",
+      "leader_count": 54,
+      "active_days": 9,
+      "heat_score": 486,
+      "leaders": [
+        {
+          "ticker": "SZ002685",
+          "name": "华东重机",
+          "pct": 9.95,
+          "concepts": [
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 61,
+      "active_days": 7,
+      "heat_score": 427,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 19.98,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301398",
+          "name": "星源卓镁",
+          "pct": 13.43,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300221",
+          "name": "银禧科技",
+          "pct": 13.31,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002122",
+          "name": "ST汇洲",
+          "pct": 10.14,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002611",
+          "name": "东方精工",
+          "pct": 10.04,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603266",
+          "name": "天龙股份",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 56,
+      "active_days": 6,
+      "heat_score": 336,
+      "leaders": [
+        {
+          "ticker": "SZ300539",
+          "name": "横河精密",
+          "pct": 19.98,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ301398",
+          "name": "星源卓镁",
+          "pct": 13.43,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ300221",
+          "name": "银禧科技",
+          "pct": 13.31,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002122",
+          "name": "ST汇洲",
+          "pct": 10.14,
+          "concepts": [
+            "人形机器人",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002611",
+          "name": "东方精工",
+          "pct": 10.04,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SH603266",
+          "name": "天龙股份",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 23,
+      "active_days": 7,
+      "heat_score": 161,
+      "leaders": [
+        {
+          "ticker": "SH688230",
+          "name": "芯导科技",
+          "pct": 10.74,
+          "concepts": [
+            "存储芯片",
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SH688347",
+          "name": "华虹宏力",
+          "pct": 10.36,
+          "concepts": [
+            "半导体"
+          ]
+        },
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.06,
+          "concepts": [
+            "光学光电子",
+            "半导体",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603360",
+          "name": "百傲化学",
+          "pct": 9.97,
+          "concepts": [
+            "半导体设备",
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 20,
+      "active_days": 8,
+      "heat_score": 160,
+      "leaders": [
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.06,
+          "concepts": [
+            "光学光电子",
+            "半导体",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002387",
+          "name": "维信诺",
+          "pct": 10.02,
+          "concepts": [
+            "光学光电子",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 25,
+      "active_days": 5,
+      "heat_score": 125,
+      "leaders": []
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 19,
+      "active_days": 6,
+      "heat_score": 114,
+      "leaders": []
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 24,
+      "active_days": 3,
+      "heat_score": 72,
+      "leaders": []
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 12,
+      "active_days": 4,
+      "heat_score": 48,
+      "leaders": [
+        {
+          "ticker": "SH603360",
+          "name": "百傲化学",
+          "pct": 9.97,
+          "concepts": [
+            "半导体设备",
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 11,
+      "active_days": 4,
+      "heat_score": 44,
+      "leaders": [
+        {
+          "ticker": "SH603266",
+          "name": "天龙股份",
+          "pct": 9.99,
+          "concepts": [
+            "汽车零部件",
+            "人形机器人",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 6,
+      "active_days": 4,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SZ002036",
+          "name": "联创电子",
+          "pct": 10.06,
+          "concepts": [
+            "光学光电子",
+            "半导体",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002387",
+          "name": "维信诺",
+          "pct": 10.02,
+          "concepts": [
+            "光学光电子",
+            "电子",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": [
+        {
+          "ticker": "SZ300593",
+          "name": "新雷能",
+          "pct": 11.12,
+          "concepts": [
+            "军工"
+          ]
+        },
+        {
+          "ticker": "SZ002651",
+          "name": "利君股份",
+          "pct": 9.95,
+          "concepts": [
+            "军工"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 5,
+      "active_days": 3,
+      "heat_score": 15,
+      "leaders": [
+        {
+          "ticker": "SH603360",
+          "name": "百傲化学",
+          "pct": 9.97,
+          "concepts": [
+            "半导体设备",
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "专用设备",
+      "leader_count": 4,
+      "active_days": 3,
+      "heat_score": 12,
+      "leaders": [
+        {
+          "ticker": "SZ002611",
+          "name": "东方精工",
+          "pct": 10.04,
+          "concepts": [
+            "人形机器人",
+            "专用设备",
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 4,
+      "active_days": 2,
+      "heat_score": 8,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光模块",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光伏",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "中药",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
