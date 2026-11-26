@@ -1,0 +1,707 @@
+{
+  "date": "2026-11-26",
+  "lookback_days": 10,
+  "leaders": [
+    {
+      "ticker": "SZ300324",
+      "name": "旋极信息",
+      "pct": 20,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ301119",
+      "name": "正强股份",
+      "pct": 14.31,
+      "concepts": [
+        "汽车零部件",
+        "新能源"
+      ]
+    },
+    {
+      "ticker": "SZ301316",
+      "name": "慧博云通",
+      "pct": 13.42,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SH688629",
+      "name": "华丰科技",
+      "pct": 11.37,
+      "concepts": [
+        "HBM",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ300252",
+      "name": "金信诺",
+      "pct": 10.55,
+      "concepts": [
+        "PCB",
+        "电子",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH600185",
+      "name": "珠免集团",
+      "pct": 10.05,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002199",
+      "name": "东晶电子",
+      "pct": 10.04,
+      "concepts": [
+        "先进封装",
+        "半导体",
+        "PCB",
+        "电子",
+        "元件",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002226",
+      "name": "江南化工",
+      "pct": 10.04,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ003040",
+      "name": "楚天龙",
+      "pct": 10.04,
+      "concepts": [
+        "PCB",
+        "通信",
+        "AI"
+      ]
+    },
+    {
+      "ticker": "SH603118",
+      "name": "共进股份",
+      "pct": 10.04,
+      "concepts": [
+        "先进封装",
+        "PCB",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002148",
+      "name": "北纬科技",
+      "pct": 10.03,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SZ002261",
+      "name": "拓维信息",
+      "pct": 10.03,
+      "concepts": [
+        "HBM",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002639",
+      "name": "雪人集团",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002843",
+      "name": "泰嘉股份",
+      "pct": 10.03,
+      "concepts": [
+        "机器人"
+      ]
+    },
+    {
+      "ticker": "SH600499",
+      "name": "科达制造",
+      "pct": 10.03,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ000603",
+      "name": "盛达资源",
+      "pct": 10,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002246",
+      "name": "北化股份",
+      "pct": 9.99,
+      "concepts": []
+    },
+    {
+      "ticker": "SZ002713",
+      "name": "东易日盛",
+      "pct": 9.99,
+      "concepts": [
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ000158",
+      "name": "常山北明",
+      "pct": 9.98,
+      "concepts": [
+        "HBM",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002197",
+      "name": "证通电子",
+      "pct": 9.98,
+      "concepts": [
+        "先进封装",
+        "PCB",
+        "HBM",
+        "电子",
+        "AI",
+        "算力"
+      ]
+    },
+    {
+      "ticker": "SZ002298",
+      "name": "中电鑫龙",
+      "pct": 9.98,
+      "concepts": []
+    }
+  ],
+  "hot_concepts": [
+    {
+      "concept": "算力",
+      "leader_count": 39,
+      "active_days": 9,
+      "heat_score": 351,
+      "leaders": [
+        {
+          "ticker": "SZ300324",
+          "name": "旋极信息",
+          "pct": 20,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ301316",
+          "name": "慧博云通",
+          "pct": 13.42,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH688629",
+          "name": "华丰科技",
+          "pct": 11.37,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603118",
+          "name": "共进股份",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002261",
+          "name": "拓维信息",
+          "pct": 10.03,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002713",
+          "name": "东易日盛",
+          "pct": 9.99,
+          "concepts": [
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ000158",
+          "name": "常山北明",
+          "pct": 9.98,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "AI",
+      "leader_count": 47,
+      "active_days": 7,
+      "heat_score": 329,
+      "leaders": [
+        {
+          "ticker": "SZ300252",
+          "name": "金信诺",
+          "pct": 10.55,
+          "concepts": [
+            "PCB",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ003040",
+          "name": "楚天龙",
+          "pct": 10.04,
+          "concepts": [
+            "PCB",
+            "通信",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "机器人",
+      "leader_count": 49,
+      "active_days": 6,
+      "heat_score": 294,
+      "leaders": [
+        {
+          "ticker": "SZ002148",
+          "name": "北纬科技",
+          "pct": 10.03,
+          "concepts": [
+            "机器人"
+          ]
+        },
+        {
+          "ticker": "SZ002843",
+          "name": "泰嘉股份",
+          "pct": 10.03,
+          "concepts": [
+            "机器人"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "leader_count": 45,
+      "active_days": 4,
+      "heat_score": 180,
+      "leaders": []
+    },
+    {
+      "concept": "半导体",
+      "leader_count": 19,
+      "active_days": 6,
+      "heat_score": 114,
+      "leaders": [
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子",
+      "leader_count": 16,
+      "active_days": 7,
+      "heat_score": 112,
+      "leaders": [
+        {
+          "ticker": "SZ300252",
+          "name": "金信诺",
+          "pct": 10.55,
+          "concepts": [
+            "PCB",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "PCB",
+      "leader_count": 15,
+      "active_days": 5,
+      "heat_score": 75,
+      "leaders": [
+        {
+          "ticker": "SZ300252",
+          "name": "金信诺",
+          "pct": 10.55,
+          "concepts": [
+            "PCB",
+            "电子",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ003040",
+          "name": "楚天龙",
+          "pct": 10.04,
+          "concepts": [
+            "PCB",
+            "通信",
+            "AI"
+          ]
+        },
+        {
+          "ticker": "SH603118",
+          "name": "共进股份",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "通信",
+      "leader_count": 9,
+      "active_days": 4,
+      "heat_score": 36,
+      "leaders": [
+        {
+          "ticker": "SZ003040",
+          "name": "楚天龙",
+          "pct": 10.04,
+          "concepts": [
+            "PCB",
+            "通信",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "半导体设备",
+      "leader_count": 11,
+      "active_days": 3,
+      "heat_score": 33,
+      "leaders": []
+    },
+    {
+      "concept": "先进封装",
+      "leader_count": 8,
+      "active_days": 4,
+      "heat_score": 32,
+      "leaders": [
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SH603118",
+          "name": "共进股份",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "leader_count": 8,
+      "active_days": 3,
+      "heat_score": 24,
+      "leaders": [
+        {
+          "ticker": "SZ301119",
+          "name": "正强股份",
+          "pct": 14.31,
+          "concepts": [
+            "汽车零部件",
+            "新能源"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "军工",
+      "leader_count": 6,
+      "active_days": 3,
+      "heat_score": 18,
+      "leaders": []
+    },
+    {
+      "concept": "元件",
+      "leader_count": 3,
+      "active_days": 3,
+      "heat_score": 9,
+      "leaders": [
+        {
+          "ticker": "SZ002199",
+          "name": "东晶电子",
+          "pct": 10.04,
+          "concepts": [
+            "先进封装",
+            "半导体",
+            "PCB",
+            "电子",
+            "元件",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "电子化学品",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "专用设备",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "光学光电子",
+      "leader_count": 3,
+      "active_days": 2,
+      "heat_score": 6,
+      "leaders": []
+    },
+    {
+      "concept": "消费电子",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": []
+    },
+    {
+      "concept": "新能源",
+      "leader_count": 2,
+      "active_days": 2,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SZ301119",
+          "name": "正强股份",
+          "pct": 14.31,
+          "concepts": [
+            "汽车零部件",
+            "新能源"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "HBM",
+      "leader_count": 4,
+      "active_days": 1,
+      "heat_score": 4,
+      "leaders": [
+        {
+          "ticker": "SH688629",
+          "name": "华丰科技",
+          "pct": 11.37,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002261",
+          "name": "拓维信息",
+          "pct": 10.03,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ000158",
+          "name": "常山北明",
+          "pct": 9.98,
+          "concepts": [
+            "HBM",
+            "算力"
+          ]
+        },
+        {
+          "ticker": "SZ002197",
+          "name": "证通电子",
+          "pct": 9.98,
+          "concepts": [
+            "先进封装",
+            "PCB",
+            "HBM",
+            "电子",
+            "AI",
+            "算力"
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "CPO",
+      "leader_count": 3,
+      "active_days": 1,
+      "heat_score": 3,
+      "leaders": []
+    },
+    {
+      "concept": "自动化设备",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    },
+    {
+      "concept": "液冷",
+      "leader_count": 2,
+      "active_days": 1,
+      "heat_score": 2,
+      "leaders": []
+    }
+  ],
+  "catchup_candidates": []
+}
