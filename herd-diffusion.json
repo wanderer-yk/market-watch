@@ -1,5 +1,5 @@
 {
-  "date_range": "2026-06-16 ~ 2026-11-26-daily",
+  "date_range": "2026-06-16 ~ 2026-11-27-daily",
   "sectors": [
     {
       "sector": "医药生物",
@@ -207,10 +207,12 @@
         0,
         12,
         0,
-        0
+        0,
+        0,
+        33
       ],
       "max_surge": 157,
-      "current": 0,
+      "current": 33,
       "peak": 172,
       "stage": "退潮"
     },
@@ -420,10 +422,12 @@
         0,
         0,
         0,
-        1
+        1,
+        0,
+        47
       ],
       "max_surge": 93,
-      "current": 1,
+      "current": 47,
       "peak": 96,
       "stage": "退潮"
     },
@@ -633,10 +637,12 @@
         0,
         1,
         0,
-        6
+        6,
+        0,
+        34
       ],
       "max_surge": 70,
-      "current": 6,
+      "current": 34,
       "peak": 70,
       "stage": "退潮"
     },
@@ -845,10 +851,12 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        2
       ],
       "max_surge": 55,
-      "current": 0,
+      "current": 2,
       "peak": 55,
       "stage": "退潮"
     },
@@ -1058,10 +1066,12 @@
         0,
         0,
         0,
-        4
+        4,
+        0,
+        20
       ],
       "max_surge": 47,
-      "current": 4,
+      "current": 20,
       "peak": 47,
       "stage": "退潮"
     },
@@ -1271,10 +1281,12 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        9
       ],
       "max_surge": 42,
-      "current": 0,
+      "current": 9,
       "peak": 42,
       "stage": "退潮"
     },
@@ -1484,10 +1496,12 @@
         0,
         0,
         0,
-        1
+        1,
+        0,
+        7
       ],
       "max_surge": 40,
-      "current": 1,
+      "current": 7,
       "peak": 40,
       "stage": "退潮"
     },
@@ -1697,10 +1711,12 @@
         0,
         0,
         0,
-        1
+        1,
+        0,
+        6
       ],
       "max_surge": 25,
-      "current": 1,
+      "current": 6,
       "peak": 38,
       "stage": "退潮"
     },
@@ -1910,10 +1926,12 @@
         0,
         0,
         0,
-        1
+        1,
+        0,
+        9
       ],
       "max_surge": 25,
-      "current": 1,
+      "current": 9,
       "peak": 27,
       "stage": "退潮"
     },
@@ -2123,10 +2141,12 @@
         0,
         1,
         0,
-        4
+        4,
+        0,
+        13
       ],
       "max_surge": 24,
-      "current": 4,
+      "current": 13,
       "peak": 36,
       "stage": "退潮"
     },
@@ -2336,10 +2356,12 @@
         0,
         0,
         0,
-        2
+        2,
+        0,
+        5
       ],
       "max_surge": 22,
-      "current": 2,
+      "current": 5,
       "peak": 26,
       "stage": "退潮"
     },
@@ -2542,10 +2564,12 @@
         0,
         1,
         0,
-        0
+        0,
+        0,
+        3
       ],
       "max_surge": 22,
-      "current": 0,
+      "current": 3,
       "peak": 23,
       "stage": "退潮"
     },
@@ -2755,10 +2779,12 @@
         0,
         0,
         0,
-        3
+        3,
+        0,
+        9
       ],
       "max_surge": 18,
-      "current": 3,
+      "current": 9,
       "peak": 18,
       "stage": "退潮"
     },
@@ -2968,10 +2994,12 @@
         0,
         1,
         0,
-        0
+        0,
+        0,
+        2
       ],
       "max_surge": 14,
-      "current": 0,
+      "current": 2,
       "peak": 14,
       "stage": "退潮"
     },
@@ -3181,10 +3209,12 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        3
       ],
       "max_surge": 13,
-      "current": 0,
+      "current": 3,
       "peak": 14,
       "stage": "退潮"
     }
